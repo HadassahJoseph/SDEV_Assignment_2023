@@ -1,0 +1,1620 @@
+# Translations template for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-05-02 06:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: templates/korea/base.html:39 templates/norway/base.html:35
+#: templates/norway/base.html:80
+msgid "Home"
+msgstr ""
+
+#: templates/korea/base.html:40 templates/norway/base.html:35
+msgid "Accomodation"
+msgstr ""
+
+#: templates/korea/base.html:41 templates/norway/base.html:35
+msgid "Things To Do"
+msgstr ""
+
+#: templates/korea/base.html:42 templates/norway/base.html:35
+#: templates/norway/guides.html:35
+msgid "Guides"
+msgstr ""
+
+#: templates/korea/base.html:46 templates/norway/base.html:47
+msgid "Norway"
+msgstr ""
+
+#: templates/korea/base.html:46 templates/norway/base.html:47
+msgid "Korea"
+msgstr ""
+
+#: templates/korea/base.html:51 templates/norway/base.html:55
+msgid "Search...."
+msgstr ""
+
+#: templates/korea/base.html:62 templates/korea/base.html:100
+msgid "About"
+msgstr ""
+
+#: templates/korea/base.html:71
+msgid "Enter email address"
+msgstr ""
+
+#: templates/korea/base.html:71
+msgid "Submit"
+msgstr ""
+
+#: templates/korea/base.html:75
+msgid "Latest News"
+msgstr ""
+
+#: templates/korea/base.html:78 templates/korea/base.html:88
+msgid "Even the all-powerful Pointing has no control about"
+msgstr ""
+
+#: templates/korea/base.html:98
+msgid "Information"
+msgstr ""
+
+#: templates/korea/base.html:101
+msgid "Products"
+msgstr ""
+
+#: templates/korea/base.html:102
+msgid "Blog"
+msgstr ""
+
+#: templates/korea/base.html:103
+msgid "Contact"
+msgstr ""
+
+#: templates/korea/base.html:104
+msgid "Help &amp; Support"
+msgstr ""
+
+#: templates/korea/base.html:108
+msgid "Instagram"
+msgstr ""
+
+#: templates/korea/base.html:123
+msgid "Copyright"
+msgstr ""
+
+#: templates/korea/base.html:123
+msgid "All rights reserved."
+msgstr ""
+
+#: templates/korea/bookings.html:28 templates/korea/bookings.html:40
+#: templates/korea/bookings.html:52
+msgid "Where to stay"
+msgstr ""
+
+#: templates/korea/bookings.html:29
+msgid ""
+"Find great places to stay across Ireland with Discover Ireland, all "
+"assessed by Fáilte Ireland for quality assurance. Book your perfect short"
+" break stay"
+msgstr ""
+
+#: templates/korea/bookings.html:41 templates/korea/bookings.html:53
+msgid ""
+"Find great places to stay across Ireland with Discover Ireland, all "
+"assessed by Fáilte Ireland for quality assurance. Book your perfect short"
+" break stay."
+msgstr ""
+
+#: templates/korea/bookings.html:71 templates/norway/bookings.html:40
+msgid "Popular Destinations"
+msgstr ""
+
+#: templates/korea/bookings.html:72
+msgid "Visit some of the most famous places in Ireland."
+msgstr ""
+
+#: templates/korea/bookings.html:81 templates/norway/bookings.html:43
+msgid "Dublin"
+msgstr ""
+
+#: templates/korea/bookings.html:82
+msgid ""
+"Dublin is a warm and welcoming city, known for the friendliness of its "
+"people and famous for its"
+msgstr ""
+
+#: templates/korea/bookings.html:82
+msgid "craic"
+msgstr ""
+
+#: templates/korea/bookings.html:82
+msgid "It has faded grandeur."
+msgstr ""
+
+#: templates/korea/bookings.html:90 templates/norway/bookings.html:47
+msgid "Galway"
+msgstr ""
+
+#: templates/korea/bookings.html:91
+msgid ""
+"Epic coastlines, magnificent beaches and lofty mountain peaks, marvel at "
+"the epic scenery in County Galway.&nbsp;Visit the City of the Tribes, "
+"Discover History."
+msgstr ""
+
+#: templates/korea/bookings.html:98 templates/norway/bookings.html:45
+msgid "Cork"
+msgstr ""
+
+#: templates/korea/bookings.html:99
+msgid ""
+"Visit Cork and you’ll find a true blend of old and new. Contemporary art "
+"in historic buildings, chic cocktails in the Victorian Quarter."
+msgstr ""
+
+#: templates/korea/bookings.html:109 templates/norway/bookings.html:46
+msgid "Limerick"
+msgstr ""
+
+#: templates/korea/bookings.html:110 templates/norway/bookings.html:46
+msgid ""
+"Travel to Limerick and stroll along the historic streets on the edge of "
+"the River Shannon. Visit King John’s Castle, and discover its Norman "
+"heritage."
+msgstr ""
+
+#: templates/korea/bookings.html:118 templates/norway/bookings.html:57
+msgid "ACCOMMODATION"
+msgstr ""
+
+#: templates/korea/bookings.html:119
+msgid "Guesthouse"
+msgstr ""
+
+#: templates/korea/bookings.html:119 templates/norway/bookings.html:58
+msgid "Hotels"
+msgstr ""
+
+#: templates/korea/bookings.html:119
+msgid "hostels"
+msgstr ""
+
+#: templates/korea/bookings.html:127
+msgid ""
+"The River House Hotel is located in Temple Bar, Dublin City Centre, "
+"County Dublin and is in walking distance of O'Connell Street."
+msgstr ""
+
+#: templates/korea/bookings.html:130
+msgid "Temple Bar, Dublin City"
+msgstr ""
+
+#: templates/korea/bookings.html:135 templates/korea/bookings.html:152
+#: templates/korea/bookings.html:169 templates/korea/bookings.html:186
+#: templates/korea/bookings.html:200 templates/korea/bookings.html:217
+#: templates/korea/bookings.html:234 templates/korea/bookings.html:251
+#: templates/korea/bookings.html:268 templates/norway/bookings.html:74
+#: templates/norway/bookings.html:91 templates/norway/bookings.html:108
+#: templates/norway/bookings.html:125 templates/norway/bookings.html:142
+#: templates/norway/bookings.html:159 templates/norway/bookings.html:176
+#: templates/norway/bookings.html:193 templates/norway/bookings.html:210
+msgid "Visit Website"
+msgstr ""
+
+#: templates/korea/bookings.html:144
+msgid ""
+"Happy Hostel is a small, friendly independent hostel in the city of "
+"Galway offering great value, a great vibe and great times. Looking "
+"forward to seeing you."
+msgstr ""
+
+#: templates/korea/bookings.html:147 templates/norway/bookings.html:69
+msgid "Galway City, Galway"
+msgstr ""
+
+#: templates/korea/bookings.html:161
+msgid ""
+"The Camden Street Hotel is located on trendy Camden Street and just a 10 "
+"minute walk from both Grafton Street and Temple Bar. Surrounded by great "
+"restaurants and bars we also have one of Dublin’s best bars and "
+"nightclubs."
+msgstr ""
+
+#: templates/korea/bookings.html:164
+msgid "Camden Street, Dublin City"
+msgstr ""
+
+#: templates/korea/bookings.html:178
+msgid ""
+"Whether you travel solo or with family and friends, for business or just "
+"to have some fun exploring Galway, The Nest Boutique is a place for you, "
+"as they offer a range of private rooms with ensuite or dorm rooms to "
+"share with fellow travellers."
+msgstr ""
+
+#: templates/korea/bookings.html:181
+msgid "Salthill, Galway"
+msgstr ""
+
+#: templates/korea/bookings.html:195
+msgid ""
+"Rosquil House is a four-star Fáilte Ireland approved guesthouse perfectly"
+" located for exploring the medieval city of Kilkenny. Enjoy the ambience "
+"of a hotel, with the best traditions of Irish hospitality and within easy"
+" walking distance of the city."
+msgstr ""
+
+#: templates/korea/bookings.html:198 templates/norway/bookings.html:103
+msgid "Kilkenny City, Kilkenny"
+msgstr ""
+
+#: templates/korea/bookings.html:209
+msgid ""
+"Poised in the centre of Kinsale, County Cork, overlooking the marina and "
+"the colourful streets with their forests of hanging baskets and window "
+"boxes,Perryville Guesthouse combines the grandeur of the past with the "
+"luxuries and convenience of today"
+msgstr ""
+
+#: templates/korea/bookings.html:212
+msgid "Kinsale, Cork"
+msgstr ""
+
+#: templates/korea/bookings.html:226
+msgid ""
+"Jacob’s Inn is a modern hostel situated in the heart of Dublin City "
+"centre. It is within walking distance of Temple Bar, Croke Park, The "
+"3Arena and O’Connell Street, making it the perfect base for exploring all"
+" Dublin has to offer."
+msgstr ""
+
+#: templates/korea/bookings.html:229
+msgid "Dublin City, Dublin"
+msgstr ""
+
+#: templates/korea/bookings.html:243
+msgid ""
+"The Grafton Hotel with its 128 luxurious rooms is a buzzing home in the "
+"heart of Dublin, a stone’s throw from Trinity College, Grafton Street, "
+"the main shopping street and The Guinness Storehouse which are all in "
+"easy walking distance from the hotel"
+msgstr ""
+
+#: templates/korea/bookings.html:246
+msgid "Grafton Street"
+msgstr ""
+
+#: templates/korea/bookings.html:260
+msgid ""
+"Ben View House is a charming guesthouse in Clifden, County Galway. Built "
+"in the mid 19th century, this guesthouse has plenty of character and has "
+"been managed by the same family since 1926."
+msgstr ""
+
+#: templates/korea/bookings.html:263
+msgid "Clifden, Galway"
+msgstr ""
+
+#: templates/korea/bookings.html:276
+msgid "Personalised Experiences"
+msgstr ""
+
+#: templates/korea/bookings.html:277
+msgid "Want something more specific? Look no further."
+msgstr ""
+
+#: templates/korea/bookings.html:282 templates/korea/bookings.html:291
+#: templates/korea/bookings.html:300 templates/norway/bookings.html:227
+#: templates/norway/bookings.html:238
+msgid "Article"
+msgstr ""
+
+#: templates/korea/bookings.html:283
+msgid "Perfect Airbnbs for families"
+msgstr ""
+
+#: templates/korea/bookings.html:284
+msgid ""
+"Find the perfect house for your family. Spacious, safe and secure we have"
+" everything you need to make your family trip the best time ever."
+msgstr ""
+
+#: templates/korea/bookings.html:286 templates/korea/bookings.html:295
+#: templates/korea/bookings.html:304 templates/norway/bookings.html:230
+#: templates/norway/bookings.html:241 templates/norway/bookings.html:252
+msgid "Continue Reading"
+msgstr ""
+
+#: templates/korea/bookings.html:292
+msgid "Cheap Hostels for group trips"
+msgstr ""
+
+#: templates/korea/bookings.html:293
+msgid ""
+"Travelling as a group can be hard, but a affordable and clean hostel can "
+"make it easier. Whether you're travelling with your friends or want to "
+"meet new people we have the perfect choices for you."
+msgstr ""
+
+#: templates/korea/bookings.html:301
+msgid "Romantic Couple Getaways"
+msgstr ""
+
+#: templates/korea/bookings.html:302
+msgid "Perfect locations for a trip for you and your partner"
+msgstr ""
+
+#: templates/korea/guides.html:11
+msgid "Experience the Beauty of Ireland Cliffs of Moher"
+msgstr ""
+
+#: templates/korea/guides.html:12
+msgid ""
+"Experience the awe-inspiring beauty of Ireland's Cliffs of Moher, where "
+"the rugged coastline meets the Atlantic Ocean."
+msgstr ""
+
+#: templates/korea/guides.html:23
+msgid "Family Fun on Two Wheels"
+msgstr ""
+
+#: templates/korea/guides.html:24
+msgid ""
+"Create unforgettable memories with your family as you cycle through "
+"Ireland's stunning countryside."
+msgstr ""
+
+#: templates/korea/guides.html:35
+msgid "Sailing the Serene Waters of the River Shannon"
+msgstr ""
+
+#: templates/korea/guides.html:36
+msgid ""
+"Unwind and explore the beauty of Ireland on a leisurely sail along the "
+"tranquil River Shannon."
+msgstr ""
+
+#: templates/korea/guides.html:47
+msgid "Ireland's Mystical Island Monastery"
+msgstr ""
+
+#: templates/korea/guides.html:48
+msgid ""
+"Uncover the mystical allure of Skellig Michael, an ancient island "
+"monastery off the coast of Ireland."
+msgstr ""
+
+#: templates/korea/guides.html:66
+msgid "Explore Our Guides Below"
+msgstr ""
+
+#: templates/korea/guides.html:67
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam "
+"urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+msgstr ""
+
+#: templates/korea/guides.html:70
+msgid "Top Tourist Attractions In Ireland"
+msgstr ""
+
+#: templates/korea/guides.html:70
+msgid ""
+"Discover the magic of Ireland's must-see destinations and create memories"
+" that will last a lifetime."
+msgstr ""
+
+#: templates/korea/guides.html:71
+msgid "Most Popular Hiking Trails in Ireland"
+msgstr ""
+
+#: templates/korea/guides.html:71
+msgid ""
+"Explore the stunning natural beauty of Ireland on our most popular hiking"
+" trails, and discover hidden gems along the way."
+msgstr ""
+
+#: templates/korea/guides.html:72
+msgid "Amazing Walking Trails in Ireland"
+msgstr ""
+
+#: templates/korea/guides.html:72
+msgid ""
+"Step into Ireland's breath-taking landscapes with our guide to the best "
+"walking trails, from rugged mountains to coastal cliffs."
+msgstr ""
+
+#: templates/korea/guides.html:73
+msgid "8 Best Cycling Routes in Ireland"
+msgstr ""
+
+#: templates/korea/guides.html:73
+msgid ""
+"Pedal through Ireland's breath-taking landscapes on the country's top "
+"cycling routes, carefully selected and curated for you"
+msgstr ""
+
+#: templates/korea/guides.html:74
+msgid "Water Activities In Ireland&nbsp;"
+msgstr ""
+
+#: templates/korea/guides.html:74
+msgid ""
+"Dive into adventure with our guide to the best water activities in "
+"Ireland, from surfing to kayaking and beyond."
+msgstr ""
+
+#: templates/korea/guides.html:75
+msgid "Family Friendly Activities"
+msgstr ""
+
+#: templates/korea/guides.html:75
+msgid ""
+"Create lifelong memories with our handpicked selection of family-friendly"
+" activities in Ireland."
+msgstr ""
+
+#: templates/korea/guides.html:76
+msgid "Top Food and Drink Experiences in Dublin"
+msgstr ""
+
+#: templates/korea/guides.html:76
+msgid "Taste the flavours of Dublin with our guide to the city's top culinary "
+msgstr ""
+
+#: templates/korea/guides.html:77
+msgid "Best Activities For Children In Ireland"
+msgstr ""
+
+#: templates/korea/guides.html:77
+msgid ""
+"Make family memories that will last a lifetime with our handpicked "
+"selection of the best activities for children in Ireland"
+msgstr ""
+
+#: templates/korea/guides.html:78
+msgid "Group Activities for Solo Travellers"
+msgstr ""
+
+#: templates/korea/guides.html:78
+msgid ""
+"Connect with like-minded adventurers and experience the best of Ireland "
+"with our curated group activities for solo travellers."
+msgstr ""
+
+#: templates/korea/guides.html:84
+msgid "Curated Guides&nbsp;"
+msgstr ""
+
+#: templates/korea/guides.html:85
+msgid ""
+"Discover Ireland's best-kept secrets with our personalised guides, "
+"crafted just for you."
+msgstr ""
+
+#: templates/korea/guides.html:93
+msgid "Solo Travellers Guide To Ireland"
+msgstr ""
+
+#: templates/korea/guides.html:94
+msgid "As a solo traveller, Ireland can be a great destination for your next"
+msgstr ""
+
+#: templates/korea/guides.html:94
+msgid "adventure. With its friendly locals, stunning landscapes, and rich"
+msgstr ""
+
+#: templates/korea/guides.html:105
+msgid "Family Fun in Ireland: Tips for a Memorable Trip with Kids"
+msgstr ""
+
+#: templates/korea/guides.html:106
+msgid "Taking a trip to Ireland with kids can be an exciting and enriching"
+msgstr ""
+
+#: templates/korea/guides.html:106
+msgid "experience for the whole family. To ensure a smooth and enjoyable"
+msgstr ""
+
+#: templates/korea/guides.html:106
+msgid "journey, there are a few things to keep in mind."
+msgstr ""
+
+#: templates/korea/guides.html:117
+msgid "Your guide to Irish film and TV locations"
+msgstr ""
+
+#: templates/korea/guides.html:118
+msgid ""
+"Although Ireland has a long history of success on the silver screen, the "
+"21st century has seen the rise of a fantastic selection of homegrown TV "
+"and movies."
+msgstr ""
+
+#: templates/korea/guides.html:118
+msgid ""
+"From idealised islands to inner city hidden gems, here are some locations"
+" from Irish film and television that you can step away from the screen "
+"and explore"
+msgstr ""
+
+#: templates/korea/index.html:32
+msgid "FIND SOMETHING TO DO"
+msgstr ""
+
+#: templates/korea/index.html:37 templates/norway/index.html:34
+msgid "WHAT"
+msgstr ""
+
+#: templates/korea/index.html:37
+msgid "ex: food, service, bar, hotel"
+msgstr ""
+
+#: templates/korea/index.html:40 templates/norway/index.html:37
+msgid "WHERE"
+msgstr ""
+
+#: templates/korea/index.html:42 templates/norway/index.html:39
+msgid "1 adult"
+msgstr ""
+
+#: templates/korea/index.html:43 templates/norway/index.html:40
+msgid "2 adults"
+msgstr ""
+
+#: templates/korea/index.html:44 templates/norway/index.html:41
+msgid "3 adults"
+msgstr ""
+
+#: templates/korea/index.html:45 templates/norway/index.html:42
+msgid "4 adults"
+msgstr ""
+
+#: templates/korea/index.html:48 templates/norway/index.html:45
+msgid "SEARCH"
+msgstr ""
+
+#: templates/korea/index.html:60 templates/norway/index.html:57
+msgid "WELCOME TO ÉIRE"
+msgstr ""
+
+#: templates/korea/index.html:63 templates/norway/index.html:60
+msgid "WHAT HOT RIGHT NOW !"
+msgstr ""
+
+#: templates/korea/index.html:64 templates/norway/index.html:61
+msgid "From our wonderful mountains to our lovely riversides enjoy all of Ireland"
+msgstr ""
+
+#: templates/korea/index.html:72
+msgid "Cycle down by the docks"
+msgstr ""
+
+#: templates/korea/index.html:72
+msgid ""
+"while you cycle look out unto the beautiful horizons of the oceans and "
+"enjoy your cycle with friends family or a new buddy."
+msgstr ""
+
+#: templates/korea/index.html:73
+msgid "Enjoy the sunsets"
+msgstr ""
+
+#: templates/korea/index.html:73
+msgid ""
+"In the heart of Galway explore the waves and the sand at the beach. Rest "
+"and relax where the sun beats and shines all day."
+msgstr ""
+
+#: templates/korea/index.html:74
+msgid "Camping in the Woods"
+msgstr ""
+
+#: templates/korea/index.html:74
+msgid ""
+"Have a camping trip with the group and enjoy all that the wild has to "
+"offer. Set up a tent and enjoy your time with a friend."
+msgstr ""
+
+#: templates/korea/index.html:75
+msgid "Eat Good Food"
+msgstr ""
+
+#: templates/korea/index.html:75
+msgid ""
+"From our melting pot of a country enjoy all our food that shares the rich"
+" history of our country. From O'normans to Yammaori we have a wide range "
+"of treat that best to share ."
+msgstr ""
+
+#: templates/korea/index.html:76
+msgid "Swimming Lesson"
+msgstr ""
+
+#: templates/korea/index.html:76
+msgid ""
+"If you are learning or simply want to enjoy swimming come and get taught "
+"by our certified teachers. Swimming Suffering Boating we got it all ."
+msgstr ""
+
+#: templates/korea/index.html:77
+msgid "Enjoy Group Outings"
+msgstr ""
+
+#: templates/korea/index.html:77
+msgid ""
+"Wether is singing songs by a camp fire or having a nice chat come and "
+"experience it here in Ireland and enjoy new company and old company."
+msgstr ""
+
+#: templates/korea/index.html:78
+msgid "Fishing"
+msgstr ""
+
+#: templates/korea/index.html:78
+msgid ""
+"If your having a drink you might as well fish will your at it, enjoy our "
+"vast seas and try catch your own fish who know you might a great catch."
+msgstr ""
+
+#: templates/korea/index.html:79
+msgid "Social /Night life"
+msgstr ""
+
+#: templates/korea/index.html:79
+msgid ""
+"In the beating heart of our country enjoy night life with a few drinks "
+"with friends or family. Explore the city where the lights never see to "
+"fade and have fun doing it."
+msgstr ""
+
+#: templates/korea/index.html:80
+msgid "Relax"
+msgstr ""
+
+#: templates/korea/index.html:80
+msgid ""
+"Sometimes all we want it to relax with a cup of tea or coffee so why not "
+"get tea in the county that does it best. Relax in our greenery."
+msgstr ""
+
+#: templates/korea/index.html:85
+msgid "OUR ACTIVITES"
+msgstr ""
+
+#: templates/korea/index.html:95
+msgid "MUSEUM"
+msgstr ""
+
+#: templates/korea/index.html:96
+msgid "Here the stories of Ireland new and old."
+msgstr ""
+
+#: templates/korea/index.html:101 templates/norway/index.html:127
+msgid "HIKING"
+msgstr ""
+
+#: templates/korea/index.html:102
+msgid "Hike up the beautiful mountains and trails."
+msgstr ""
+
+#: templates/korea/index.html:108 templates/norway/index.html:134
+msgid "FOOD STALLS"
+msgstr ""
+
+#: templates/korea/index.html:109
+msgid ""
+"Eat locally source and grown food and enjoy all the rich flavours and "
+"blends."
+msgstr ""
+
+#: templates/korea/index.html:119 templates/norway/index.html:145
+msgid "TOURS"
+msgstr ""
+
+#: templates/korea/index.html:120
+msgid ""
+"Enjoy a tour of Ireland and take pictures to remember your time her with "
+"friends(new and old) or family. "
+msgstr ""
+
+#: templates/korea/index.html:125 templates/norway/index.html:151
+msgid "DAY OUT"
+msgstr ""
+
+#: templates/korea/index.html:126
+msgid "Have a relaxing day out by the beach or in the libaray."
+msgstr ""
+
+#: templates/korea/index.html:132 templates/norway/index.html:158
+msgid "PUBS"
+msgstr ""
+
+#: templates/korea/index.html:133
+msgid "Why not have a pint while where at it ?"
+msgstr ""
+
+#: templates/korea/index.html:143 templates/norway/index.html:169
+msgid "COOKING CLASS"
+msgstr ""
+
+#: templates/korea/index.html:144
+msgid "Learn a new culture the best way, through food."
+msgstr ""
+
+#: templates/korea/index.html:150 templates/norway/index.html:175
+msgid "BOATING"
+msgstr ""
+
+#: templates/korea/index.html:151
+msgid "Have a lovely day by the sea. "
+msgstr ""
+
+#: templates/korea/index.html:157 templates/norway/index.html:182
+msgid "CYCLING"
+msgstr ""
+
+#: templates/korea/index.html:158
+msgid "cycle and let all the worries go away especially in a group."
+msgstr ""
+
+#: templates/korea/index.html:182
+msgid "GUIDES"
+msgstr ""
+
+#: templates/korea/index.html:183
+msgid ""
+"Have a peak at what your itinerary could be like , group hike to the "
+"mountains , tour of Ireland through food or a fun family out"
+msgstr ""
+
+#: templates/korea/index.html:190
+msgid "Top 10 places to Visit"
+msgstr ""
+
+#: templates/korea/index.html:191
+msgid ""
+"Weather it is our castle, our artefacts or our ruins there is not a dull "
+"place in Ireland to visit. Come enjoy all that Ireland has to show and "
+"offer."
+msgstr ""
+
+#: templates/korea/index.html:198
+msgid "Top 10 places to Eat"
+msgstr ""
+
+#: templates/korea/index.html:199
+msgid ""
+"We are a melting pot of cultures and backgrounds and so is our food from "
+"Irish to Chinese to Korean to Norwegian we got all the hots spots "
+"covered. Come get full and get ready to eat"
+msgstr ""
+
+#: templates/korea/index.html:206
+msgid "Hidden Gems of Ireland"
+msgstr ""
+
+#: templates/korea/index.html:207
+msgid ""
+"The land of scholars and saints has more to offer that meets the eye. "
+"There is a whole country to tour why not tour it with those who know "
+"best."
+msgstr ""
+
+#: templates/korea/index.html:216
+msgid "FIND OUT THE TOP 10 OF IRELAND.."
+msgstr ""
+
+#: templates/korea/index.html:226 templates/norway/index.html:213
+msgid "Top 10 places To see in Ireland"
+msgstr ""
+
+#: templates/korea/index.html:227
+msgid "In our beating heart"
+msgstr ""
+
+#: templates/korea/index.html:228 templates/norway/index.html:215
+msgid ""
+"Come and enjoy all the beautiful sights of Dublin. And explore our rich "
+"History and culture."
+msgstr ""
+
+#: templates/korea/index.html:230 templates/korea/index.html:247
+#: templates/korea/index.html:263 templates/korea/index.html:285
+#: templates/korea/index.html:292 templates/korea/index.html:299
+#: templates/norway/guides.html:105 templates/norway/index.html:217
+#: templates/norway/index.html:234 templates/norway/index.html:250
+#: templates/norway/index.html:272 templates/norway/index.html:279
+#: templates/norway/index.html:286 templates/norway/ttd.html:80
+#: templates/norway/ttd.html:92 templates/norway/ttd.html:104
+#: templates/norway/ttd.html:120 templates/norway/ttd.html:132
+#: templates/norway/ttd.html:144
+msgid "Learn more"
+msgstr ""
+
+#: templates/korea/index.html:242
+msgid "Top 10 places For Food & Drink"
+msgstr ""
+
+#: templates/korea/index.html:243 templates/norway/index.html:230
+msgid "From Dublin to Galway"
+msgstr ""
+
+#: templates/korea/index.html:245
+msgid ""
+"Enjoy our melting pot of cultures foods and drinks. From our best chefs "
+"and world renowned dishes and cuisines"
+msgstr ""
+
+#: templates/korea/index.html:259 templates/norway/index.html:246
+msgid "Ultimate Guide To Galway City"
+msgstr ""
+
+#: templates/korea/index.html:260
+msgid "In the Sunny city&nbsp;"
+msgstr ""
+
+#: templates/korea/index.html:261 templates/norway/index.html:248
+msgid ""
+"In the city that never sleeps enjoy the beautiful beaches, land scapes "
+"and nature and relax at the beach once your done."
+msgstr ""
+
+#: templates/korea/index.html:273 templates/norway/index.html:260
+msgid "FIND COMFORT IN IRELAND"
+msgstr ""
+
+#: templates/korea/index.html:276 templates/norway/index.html:263
+msgid "The best places and cities to stay in Ireland, with the best services"
+msgstr ""
+
+#: templates/korea/index.html:283 templates/norway/index.html:270
+msgid "Our Beating Heart"
+msgstr ""
+
+#: templates/korea/index.html:284
+msgid "Safety Our Priority"
+msgstr ""
+
+#: templates/korea/index.html:290 templates/norway/index.html:277
+msgid "Relax in our Home"
+msgstr ""
+
+#: templates/korea/index.html:291 templates/norway/index.html:278
+msgid "Find peace in your home away from home"
+msgstr ""
+
+#: templates/korea/index.html:297 templates/norway/index.html:284
+msgid "Views From Your Window"
+msgstr ""
+
+#: templates/korea/index.html:298 templates/norway/index.html:285
+msgid "Enjoy the beauty of Ireland from your wind seat."
+msgstr ""
+
+#: templates/korea/index.html:310 templates/norway/index.html:297
+msgid "Our Properties"
+msgstr ""
+
+#: templates/korea/index.html:317 templates/norway/index.html:304
+msgid "Resorts"
+msgstr ""
+
+#: templates/korea/index.html:318 templates/norway/index.html:305
+msgid "Galway, Limrick, Wicklow"
+msgstr ""
+
+#: templates/korea/index.html:319
+msgid "Breath-taking views of the lakes and mountains of Killarney welcome"
+msgstr ""
+
+#: templates/korea/index.html:319
+msgid "visitors to Aghadoe Heights Hotel &amp; Spa, a splendid, five-star hotel"
+msgstr ""
+
+#: templates/korea/index.html:319
+msgid "situated in County Kerry."
+msgstr ""
+
+#: templates/korea/index.html:319 templates/korea/index.html:329
+#: templates/korea/index.html:338 templates/korea/index.html:348
+#: templates/korea/index.html:358 templates/korea/index.html:367
+#: templates/korea/index.html:377 templates/korea/index.html:386
+#: templates/norway/index.html:305 templates/norway/index.html:322
+#: templates/norway/index.html:331 templates/norway/index.html:340
+#: templates/norway/index.html:348 templates/norway/index.html:357
+#: templates/norway/index.html:365
+msgid "Link"
+msgstr ""
+
+#: templates/korea/index.html:327 templates/norway/index.html:313
+msgid "Air bnb"
+msgstr ""
+
+#: templates/korea/index.html:328 templates/norway/index.html:314
+msgid "Dublin, Cork"
+msgstr ""
+
+#: templates/korea/index.html:329
+msgid ""
+"Our guests will enjoy easy access to the McGillycuddy Reeks mountain "
+"range. Killlarneys finest golf courses and lakes as well as The Gap of "
+"Dunloe from this centrally located place. The apartment is situated in a "
+"country area on the wild Atlantic Way."
+msgstr ""
+
+#: templates/korea/index.html:336
+msgid "Cottages&nbsp;"
+msgstr ""
+
+#: templates/korea/index.html:337 templates/norway/index.html:322
+msgid "WaterFord, Sligo"
+msgstr ""
+
+#: templates/korea/index.html:338
+msgid ""
+"The Peacock House is located within the Lismore Demesne. It was once the "
+"dairy and workers cottage.These days it is a bright and cozy cottage "
+"offering tranquil views of mature trees and park land. There is private "
+"access to forest walks ."
+msgstr ""
+
+#: templates/korea/index.html:346
+msgid "Villas"
+msgstr ""
+
+#: templates/korea/index.html:347 templates/norway/index.html:331
+msgid "Westport , Bray"
+msgstr ""
+
+#: templates/korea/index.html:348
+msgid ""
+"Our unique villa's are within 10mins walking distance of Clonakilty town "
+"centre. A warm and friendly welcome awaits the guests.<br>This single "
+"room is ideal for a stop-over, long or short on a visit to West Cork, or "
+"as a stop off for guest on his/her Wild Atlantic Way trip."
+msgstr ""
+
+#: templates/korea/index.html:356
+msgid "Resorts & Villas"
+msgstr ""
+
+#: templates/korea/index.html:357 templates/norway/index.html:340
+msgid "Dublin Docks, Wexford"
+msgstr ""
+
+#: templates/korea/index.html:358
+msgid ""
+"The Kenmare Bay Lodges are part of the Kenmare Bay Hotel &amp; Resort, "
+"and guests have access to its facilities. These include a pool, gym, hot "
+"tub, The Bay Restaurant and the Courtyard Bar. The opening times for "
+"<br>the hotel and restaurant are seasonal."
+msgstr ""
+
+#: templates/korea/index.html:365 templates/norway/index.html:347
+msgid "Rentals"
+msgstr ""
+
+#: templates/korea/index.html:366 templates/norway/index.html:348
+msgid "Rosecommon"
+msgstr ""
+
+#: templates/korea/index.html:367
+msgid ""
+"Swuite Grangegorman is located in Dublin City Centre. The rental offered "
+"includes a mix of standard double rooms, deluxe double rooms, double "
+"rooms with a balcony and twin rooms. There are also 2 self contained "
+"studio apartments and a penthouse with panoramic views over Dublin city."
+msgstr ""
+
+#: templates/korea/index.html:375 templates/norway/index.html:356
+msgid "Apartment (Hotels)"
+msgstr ""
+
+#: templates/korea/index.html:376 templates/norway/index.html:357
+msgid "Dublin, Cork, Limrick"
+msgstr ""
+
+#: templates/korea/index.html:377
+msgid ""
+"Central Dublin Apartment offers accommodation in Dublin , this unit is "
+"700m from Trinity College and 650 m from Connolly Train Station Free WiFi"
+" is available throughout the property."
+msgstr ""
+
+#: templates/korea/index.html:384 templates/norway/index.html:364
+msgid "Estate &amp; Country Club"
+msgstr ""
+
+#: templates/korea/index.html:385
+msgid "Carlow, Portloaise"
+msgstr ""
+
+#: templates/korea/index.html:386
+msgid "The original Dublin Country Club was chartered on September 10, 1921, by"
+msgstr ""
+
+#: templates/korea/index.html:386
+msgid "E.G. Simmons, H.G. Stevens, and F.B. Reins “to provide and maintain a"
+msgstr ""
+
+#: templates/korea/index.html:386
+msgid "clubhouse, golf links, swimming pool, tennis courts, gun club, and any"
+msgstr ""
+
+#: templates/korea/index.html:386
+msgid "other social or athletic features for the purpose of promoting the"
+msgstr ""
+
+#: templates/korea/index.html:386
+msgid "intellectual and physical welfare of its members."
+msgstr ""
+
+#: templates/korea/ttd.html:9 templates/norway/ttd.html:10
+msgid "Things To Do In Ireland"
+msgstr ""
+
+#: templates/korea/ttd.html:11
+msgid "Start Your Adventure Here......"
+msgstr ""
+
+#: templates/korea/ttd.html:31
+msgid "Explore Everything To Do"
+msgstr ""
+
+#: templates/korea/ttd.html:33
+msgid "Find out about all the fun things to experience in Ireland below"
+msgstr ""
+
+#: templates/korea/ttd.html:35
+msgid "Museums"
+msgstr ""
+
+#: templates/korea/ttd.html:35
+msgid "Discover the world of museums of art , history and many more...."
+msgstr ""
+
+#: templates/korea/ttd.html:36 templates/korea/ttd.html:70
+msgid "Get Outdoors"
+msgstr ""
+
+#: templates/korea/ttd.html:36
+msgid "Visit Irelands many cliffs , mountains and beautiful landscapes..."
+msgstr ""
+
+#: templates/korea/ttd.html:37
+msgid "Tours Galore"
+msgstr ""
+
+#: templates/korea/ttd.html:37
+msgid "Irelands tours are endless come find out which tour is right for you"
+msgstr ""
+
+#: templates/korea/ttd.html:38
+msgid "Food/Drinks"
+msgstr ""
+
+#: templates/korea/ttd.html:38
+msgid ""
+"Come taste the delicious Irish cuisine and get a pint Guinness while your"
+" at it"
+msgstr ""
+
+#: templates/korea/ttd.html:39
+msgid "On A Budget ?"
+msgstr ""
+
+#: templates/korea/ttd.html:39
+msgid "If your on a budget don't fret Ireland has things for you to do too"
+msgstr ""
+
+#: templates/korea/ttd.html:40 templates/korea/ttd.html:92
+msgid "Family Day Out"
+msgstr ""
+
+#: templates/korea/ttd.html:40
+msgid "bring the family along to one of Irelands many parks"
+msgstr ""
+
+#: templates/korea/ttd.html:71
+msgid ""
+"The Giant's Causeway in County Antrim, the Cliffs of Moher in County "
+"Clare, and the Carrick-a-Rede Rope Bridge in County Antrim are three of "
+"Ireland's most popular natural attractions. The Giant's Causeway is a "
+"UNESCO World Heritage Site with distinctive hexagonal basalt columns, "
+"while the Cliffs of Moher offer breathtaking views of the Atlantic Ocean "
+"from a height of over 200 meters. The Carrick-a-Rede Rope Bridge, "
+"spanning a 30-meter chasm, offers visitors a thrilling but safe way to "
+"experience the stunning coastal scenery of Northern Ireland. These iconic"
+" landmarks are a must-see for anyone visiting the Emerald Isle"
+msgstr ""
+
+#: templates/korea/ttd.html:71 templates/korea/ttd.html:93
+#: templates/korea/ttd.html:113
+msgid "Learn More"
+msgstr ""
+
+#: templates/korea/ttd.html:93
+msgid ""
+"Tayto Park's Sky Park in County Meath, Carlingford Adventure Centre in "
+"County Louth, and Killary Adventure Center in County Galway offer a range"
+" of outdoor activities, such as high ropes courses, kayaking, rock "
+"climbing, and more. These adventure centers are popular destinations for "
+"families, team building events, and outdoor enthusiasts in Ireland. With "
+"stunning locations and exciting activities, visitors of all ages can "
+"challenge themselves and enjoy the beautiful Irish scenery."
+msgstr ""
+
+#: templates/korea/ttd.html:112
+msgid "Learn The History"
+msgstr ""
+
+#: templates/korea/ttd.html:113
+msgid ""
+"The EPIC Irish Museum, the National Museum of Ireland - Natural History, "
+"and the National Gallery of Ireland are three of Ireland's most prominent"
+" cultural attractions. The EPIC Irish Museum tells the story of the Irish"
+" diaspora and their contributions to the world. The Natural History "
+"Museum houses a vast collection of specimens, while the National Gallery "
+"of Ireland houses an extensive collection of art from Ireland and Europe."
+msgstr ""
+
+#: templates/korea/ttd.html:126
+msgid "Book Today"
+msgstr ""
+
+#: templates/korea/ttd.html:127
+msgid "Book Your Tickets Here"
+msgstr ""
+
+#: templates/korea/ttd.html:135
+msgid "EPIC Irish Immigration"
+msgstr ""
+
+#: templates/korea/ttd.html:136
+msgid "Visit EPIC Irish Immigration today Visit the website below"
+msgstr ""
+
+#: templates/korea/ttd.html:136 templates/korea/ttd.html:140
+#: templates/korea/ttd.html:144 templates/korea/ttd.html:148
+msgid "Visit Here"
+msgstr ""
+
+#: templates/korea/ttd.html:139
+msgid "Sky Park"
+msgstr ""
+
+#: templates/korea/ttd.html:140
+msgid "Visit Sky Park today Visit the website below"
+msgstr ""
+
+#: templates/korea/ttd.html:143
+msgid "National History Museum"
+msgstr ""
+
+#: templates/korea/ttd.html:144
+msgid "Visit The National History Museum today Visit the website below"
+msgstr ""
+
+#: templates/korea/ttd.html:147
+msgid "Tayto Park"
+msgstr ""
+
+#: templates/korea/ttd.html:148
+msgid "Visit Tayto Park today Visit the website below"
+msgstr ""
+
+#: templates/korea/ttd.html:162 templates/norway/ttd.html:174
+msgid "Subscribe to our newsletter"
+msgstr ""
+
+#: templates/korea/ttd.html:163
+msgid "Get updates on things to do in ireland"
+msgstr ""
+
+#: templates/korea/ttd.html:166 templates/norway/ttd.html:178
+msgid "Your Email"
+msgstr ""
+
+#: templates/korea/ttd.html:167 templates/norway/ttd.html:179
+msgid "Subscribe"
+msgstr ""
+
+#: templates/norway/base.html:70
+msgid "Explore the history"
+msgstr ""
+
+#: templates/norway/base.html:71
+msgid "Resturants"
+msgstr ""
+
+#: templates/norway/base.html:72
+msgid "Bookings"
+msgstr ""
+
+#: templates/norway/base.html:77
+msgid "Info"
+msgstr ""
+
+#: templates/norway/base.html:78
+msgid "Family Day out"
+msgstr ""
+
+#: templates/norway/base.html:79
+msgid "places to be"
+msgstr ""
+
+#: templates/norway/base.html:88
+msgid "Land Of The Saint And Scholars"
+msgstr ""
+
+#: templates/norway/base.html:95
+msgid "Copyright © 2023 Éire-Escapes"
+msgstr ""
+
+#: templates/norway/bookings.html:31
+msgid "Where to stay..."
+msgstr ""
+
+#: templates/norway/bookings.html:31
+msgid "Book places here......."
+msgstr ""
+
+#: templates/norway/bookings.html:43
+msgid ""
+"Dublin is a warm and welcoming city, known for the friendliness of its "
+"people and famous for its 'craic'"
+msgstr ""
+
+#: templates/norway/bookings.html:44
+msgid "Kerry"
+msgstr ""
+
+#: templates/norway/bookings.html:44
+msgid ""
+"Renowned for its beautiful scenery and one of the most mountainous "
+"regions in Ireland."
+msgstr ""
+
+#: templates/norway/bookings.html:45
+msgid ""
+"Visit Cork and you'll find a true blend of old and new. "
+"Contemporary&nbsp; art in historic buildings and chic cocktails in the "
+"Victorian Quarter."
+msgstr ""
+
+#: templates/norway/bookings.html:47
+msgid ""
+"Epic coastlines, magnificent beaches and lofty mountain peaks, marvel at "
+"the epic scenery in County Galway. Visit the City of the Tribes, Discover"
+" History."
+msgstr ""
+
+#: templates/norway/bookings.html:48
+msgid "Dingle"
+msgstr ""
+
+#: templates/norway/bookings.html:48
+msgid ""
+"Dingle is a beautiful coastal town in western Ireland that is most well-"
+"known for its beaches and prime location along the Dingle Peninsula, one "
+"of Ireland's most scenic areas."
+msgstr ""
+
+#: templates/norway/bookings.html:49
+msgid "Kilkenny"
+msgstr ""
+
+#: templates/norway/bookings.html:49
+msgid ""
+"Kilkenny is known as the Marble City because of its distinctive black "
+"marble. The city has a medieval feel with well-maintained and preserved "
+"old buildings. Kilkenny is also home to one of Ireland's premier comedy "
+"festivals, the Kilkenny Cat Laughs festival."
+msgstr ""
+
+#: templates/norway/bookings.html:50
+msgid "Killarney"
+msgstr ""
+
+#: templates/norway/bookings.html:50
+msgid ""
+"Nestled in a valley surrounded by the magnificent McGillycuddy Reeks, "
+"Ireland's highest mountain range is the vibrant town of Killarney."
+msgstr ""
+
+#: templates/norway/bookings.html:51
+msgid "Wicklow"
+msgstr ""
+
+#: templates/norway/bookings.html:51
+msgid ""
+"Colloquially known as the Garden of Ireland for its scenery—which "
+"includes extensive woodlands, nature trails, beaches, and ancient ruins "
+"while allowing for a multitude of walking, hiking, and climbing options"
+msgstr ""
+
+#: templates/norway/bookings.html:58
+msgid "Hostels"
+msgstr ""
+
+#: templates/norway/bookings.html:58
+msgid "B&amp;Bs"
+msgstr ""
+
+#: templates/norway/bookings.html:86
+msgid "Temple Bar, Dublin"
+msgstr ""
+
+#: templates/norway/bookings.html:120
+msgid "Killarney, Kerry"
+msgstr ""
+
+#: templates/norway/bookings.html:137
+msgid "Camden Street, Dublin"
+msgstr ""
+
+#: templates/norway/bookings.html:154
+msgid "Cork City, Cork"
+msgstr ""
+
+#: templates/norway/bookings.html:171
+msgid "Grafton Street, Dublin"
+msgstr ""
+
+#: templates/norway/bookings.html:188
+msgid "Thomastown, Kilkenny"
+msgstr ""
+
+#: templates/norway/bookings.html:205
+msgid "Limerick City, Limerick"
+msgstr ""
+
+#: templates/norway/bookings.html:219
+msgid "Curated Experiences"
+msgstr ""
+
+#: templates/norway/bookings.html:220
+msgid "Looking for something specific? Look no further."
+msgstr ""
+
+#: templates/norway/bookings.html:228
+msgid "Best Hostels for Solo - Travelers"
+msgstr ""
+
+#: templates/norway/bookings.html:239
+msgid "Meet your new travel group at these B&amp;Bs"
+msgstr ""
+
+#: templates/norway/bookings.html:250
+msgid "Cheapest&nbsp; Hotels in Dublin"
+msgstr ""
+
+#: templates/norway/guides.html:35
+msgid "Find your guides here......."
+msgstr ""
+
+#: templates/norway/guides.html:47
+msgid "Exploring Irelands Hiking Trails"
+msgstr ""
+
+#: templates/norway/guides.html:52
+msgid "Kayaking in Irelands Rivers And Lakes"
+msgstr ""
+
+#: templates/norway/guides.html:57
+msgid "Relaxing Escapes To Irelands Rural Retreats"
+msgstr ""
+
+#: templates/norway/guides.html:66 templates/norway/guides.html:71
+#: templates/norway/guides.html:76 templates/norway/guides.html:85
+#: templates/norway/guides.html:90 templates/norway/guides.html:95
+#: templates/norway/guides.html:138 templates/norway/guides.html:143
+#: templates/norway/guides.html:148 templates/norway/guides.html:157
+#: templates/norway/guides.html:162 templates/norway/guides.html:167
+msgid "Card title"
+msgstr ""
+
+#: templates/norway/guides.html:104
+msgid "Familly Trips"
+msgstr ""
+
+#: templates/norway/guides.html:109
+msgid "Family Fun"
+msgstr ""
+
+#: templates/norway/guides.html:110
+msgid ""
+"Discover endless adventures for the whole family in Ireland, from "
+"amusement parks to interactive museums and beyond."
+msgstr ""
+
+#: templates/norway/guides.html:119
+msgid "Discovering Irelands Wonders With Family"
+msgstr ""
+
+#: templates/norway/guides.html:124
+msgid "Adventurous Activities for the Whole Family"
+msgstr ""
+
+#: templates/norway/guides.html:129
+msgid "Fun-filled Days Out for the Whole Family"
+msgstr ""
+
+#: templates/norway/index.html:29
+msgid "QUICK FIND SOMETHING TO DO&nbsp;"
+msgstr ""
+
+#: templates/norway/index.html:111
+msgid "OUR ACTIVITES &amp; GUIDES"
+msgstr ""
+
+#: templates/norway/index.html:121
+msgid "MUSEUME"
+msgstr ""
+
+#: templates/norway/index.html:190
+msgid "Previous"
+msgstr ""
+
+#: templates/norway/index.html:194
+msgid "Next"
+msgstr ""
+
+#: templates/norway/index.html:214
+msgid "In our beating heart&nbsp;"
+msgstr ""
+
+#: templates/norway/index.html:229
+msgid "Top 10 places For Food &amp; Drink"
+msgstr ""
+
+#: templates/norway/index.html:232
+msgid ""
+"Enjoy our melting pot of cultures foods and drinks. From our best chefs "
+"and world renowned dishes and cuisines&nbsp;"
+msgstr ""
+
+#: templates/norway/index.html:247
+msgid "In the Sunny city"
+msgstr ""
+
+#: templates/norway/index.html:271
+msgid "Safety Our Priority&nbsp;"
+msgstr ""
+
+#: templates/norway/index.html:314
+msgid "Link="
+msgstr ""
+
+#: templates/norway/index.html:321
+msgid "Cottages"
+msgstr ""
+
+#: templates/norway/index.html:330
+msgid "Villa's"
+msgstr ""
+
+#: templates/norway/index.html:339
+msgid "Resorts &amp; Villa's&nbsp;"
+msgstr ""
+
+#: templates/norway/index.html:365
+msgid "Carlow, Portloaise&nbsp;"
+msgstr ""
+
+#: templates/norway/ttd.html:10
+msgid "Start your adventure here......."
+msgstr ""
+
+#: templates/norway/ttd.html:25
+msgid "Find out all the tasty resturants"
+msgstr ""
+
+#: templates/norway/ttd.html:26
+msgid "Look For Tasty restaurants below."
+msgstr ""
+
+#: templates/norway/ttd.html:26 templates/norway/ttd.html:50
+msgid "Find oUT more"
+msgstr ""
+
+#: templates/norway/ttd.html:37
+msgid "Find out about the historic sights"
+msgstr ""
+
+#: templates/norway/ttd.html:38
+msgid "Look For Historic sights below."
+msgstr ""
+
+#: templates/norway/ttd.html:38
+msgid "Find oUT more<"
+msgstr ""
+
+#: templates/norway/ttd.html:49
+msgid "Find out about all the Amazing museums"
+msgstr ""
+
+#: templates/norway/ttd.html:50
+msgid "Look For Museums below."
+msgstr ""
+
+#: templates/norway/ttd.html:67
+msgid "Look For Things To Do"
+msgstr ""
+
+#: templates/norway/ttd.html:76
+msgid "Top 10 Things to do in Ireland"
+msgstr ""
+
+#: templates/norway/ttd.html:78 templates/norway/ttd.html:90
+#: templates/norway/ttd.html:102 templates/norway/ttd.html:118
+#: templates/norway/ttd.html:130 templates/norway/ttd.html:142
+msgid "Find out more below"
+msgstr ""
+
+#: templates/norway/ttd.html:88
+msgid "Whats On : Events in Ireland"
+msgstr ""
+
+#: templates/norway/ttd.html:100
+msgid "Art History And Culture"
+msgstr ""
+
+#: templates/norway/ttd.html:116
+msgid "Top 10 Things to do in Dublin"
+msgstr ""
+
+#: templates/norway/ttd.html:128
+msgid "Live shows"
+msgstr ""
+
+#: templates/norway/ttd.html:140
+msgid "Best places to solo travel"
+msgstr ""
+
+#: templates/norway/ttd.html:155
+msgid "Learn about the history culture and language"
+msgstr ""
+
+#: templates/norway/ttd.html:158
+msgid "Learn about the history"
+msgstr ""
+
+#: templates/norway/ttd.html:158
+msgid "Click here to Learn more..."
+msgstr ""
+
+#: templates/norway/ttd.html:159
+msgid "Learn About the Culture"
+msgstr ""
+
+#: templates/norway/ttd.html:159
+msgid "Click here to learn about the culture...."
+msgstr ""
+
+#: templates/norway/ttd.html:160
+msgid "Learn about the language"
+msgstr ""
+
+#: templates/norway/ttd.html:160
+msgid "click here to learn about the language..."
+msgstr ""
+
+#: templates/norway/ttd.html:175
+msgid "Get updates on up and coming events"
+msgstr ""
+

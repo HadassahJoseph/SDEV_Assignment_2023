@@ -1,0 +1,400 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Sections
+   ========================================================================== */
+
+/* *
+ * Remove the margin in all browsers (opinionated). */
+
+body {
+  margin: 0;
+}
+
+/* *
+ * Add the correct display in IE 9-. */
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+/* *
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari. */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/* *
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE. */
+
+/* *
+ * Add the correct margin in IE 8. */
+
+/* *
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE. */
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+/* *
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers. */
+
+/* Text-level semantics
+   ========================================================================== */
+
+/* *
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+. */
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+/* *
+ * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari. */
+
+/* *
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6. */
+
+/* *
+ * Add the correct font weight in Chrome, Edge, and Safari. */
+
+/* *
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers. */
+
+/* *
+ * Add the correct font style in Android 4.3-. */
+
+/* *
+ * Add the correct background and color in IE 9-. */
+
+/* *
+ * Add the correct font size in all browsers. */
+
+/* *
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers. */
+
+/* Embedded content
+   ========================================================================== */
+
+/* *
+ * Add the correct display in IE 9-. */
+
+/* *
+ * Add the correct display in iOS 4-7. */
+
+/* *
+ * Remove the border on images inside links in IE 10-. */
+
+img {
+  border-style: none;
+}
+
+/* *
+ * Hide the overflow in IE. */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Forms
+   ========================================================================== */
+
+/* *
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari. */
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+/* *
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge. */
+
+/* *
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox. */
+
+/* *
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari. */
+
+button, html [type="button"], [type="reset"], [type="submit"] {
+  -webkit-appearance: button;
+}
+
+/* *
+ * Remove the inner border and padding in Firefox. */
+
+/* *
+ * Restore the focus styles unset by the previous rule. */
+
+/* *
+ * Correct the padding in Firefox. */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/* *
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers. */
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+/* *
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera. */
+
+/* *
+ * Remove the default vertical scrollbar in IE. */
+
+/* *
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-. */
+
+/* *
+ * Correct the cursor style of increment and decrement buttons in Chrome. */
+
+/* *
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari. */
+
+/* *
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS. */
+
+/* *
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari. */
+
+/* Interactive
+   ========================================================================== */
+
+/* * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox. */
+
+/* * Add the correct display in all browsers. */
+
+/* Scripting
+   ========================================================================== */
+
+/* *
+ * Add the correct display in IE 9-. */
+
+/* *
+ * Add the correct display in IE. */
+
+/* Hidden
+   ========================================================================== */
+
+/* *
+ * Add the correct display in IE 10-. */
+
+html {
+  height: 100%;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-before: 0;
+  -webkit-padding-start: 0;
+  -webkit-padding-end: 0;
+  -webkit-padding-after: 0;
+  border: 0;
+}
+
+legend {
+  margin: 0;
+  padding: 0;
+  display: block;
+  -webkit-padding-start: 0;
+  -webkit-padding-end: 0;
+}
+
+/* ===============================
+=            Choices            =
+=============================== */
+
+/* =====  End of Choices  ====== */
+
+* {
+  box-sizing: border-box;
+}
+
+.s013 {
+  min-height: 100vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: url("../images/Searchs_013.png");
+  background-size: cover;
+  background-position: center center;
+  padding: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.s013 form {
+  width: 100%;
+  max-width: 914px;
+  margin: 0;
+}
+
+.s013 form fieldset {
+  margin-bottom: 50px;
+}
+
+.s013 form fieldset legend {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.s013 form .inner-form {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.s013 form .inner-form .left {
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.s013 form .inner-form .input-wrap {
+  background: #fff;
+  height: 80px;
+  position: relative;
+  padding: 20px 25px 20px 25px;
+}
+
+.s013 form .inner-form .input-wrap .input-field label {
+  font-size: 11px;
+  font-weight: 500;
+  display: block;
+  color: #555;
+}
+
+.s013 form .inner-form .input-wrap .input-field input {
+  font-size: 16px;
+  color: #333;
+  background: transparent;
+  width: 100%;
+  border: 0;
+  font-family: 'Lato', sans-serif;
+  padding: 8px 0;
+}
+
+.s013 form .inner-form .input-wrap .input-field input.hover, .s013 form .inner-form .input-wrap .input-field input:focus {
+  box-shadow: none;
+  outline: 0;
+}
+
+.s013 form .inner-form .input-wrap.first {
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  border-radius: 3px 0 0 3px;
+}
+
+.s013 form .inner-form .input-wrap.second {
+  min-width: 262px;
+  border-radius: 0 3px 3px 0;
+  border-left: 1px solid #e5e5e5;
+}
+
+.s013 form .input-select {
+  height: 34px;
+  padding: 10px 0 6px 0;
+}
+
+.s013 form .btn-search {
+  min-width: 110px;
+  height: 80px;
+  padding: 0 15px;
+  background: #fa4251;
+  white-space: nowrap;
+  border-radius: 3px;
+  font-size: 16px;
+  color: #fff;
+  transition: all .2s ease-out, color .2s ease-out;
+  border: 0;
+  cursor: pointer;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 10px;
+}
+
+.s013 form .btn-search:hover {
+  background: #f9293a;
+}
+
+@media screen and (max-width: 767px) {
+  .s013 form .inner-form {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .s013 form .inner-form .left {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .s013 form .inner-form .left .input-wrap {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .s013 form .btn-search {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+/* # sourceMappingURL=Searchs_013.css.map */
+

@@ -1,0 +1,42 @@
+/* !
+ * baguetteBox.js
+ * @author  feimosi
+ * @version 1.11.1
+ * @url https://github.com/feimosi/baguetteBox.js */
+
+#Things {
+  margin: 20px ;
+  background: #ffffff;
+}
+
+#heading {
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  color: rgb(28,29,30);
+}
+
+#things2 {
+  margin: 20px;
+  margin-right: 50px;
+}
+
+#activities {
+  text-align: center;
+  font-size: 28px;
+  font-family: Poppins, sans-serif;
+  margin: 50px;
+  margin-top: 60px;
+  padding: 20PX;
+  background: rgba(0,0,0,0);
+  border-radius: 60PX;
+  border-color: #185339;
+}
+
+#guides {
+  margin: 20px;
+}
+
+#stay {
+  margin: 100px;
+}
+

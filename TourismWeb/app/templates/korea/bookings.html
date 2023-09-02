@@ -1,0 +1,316 @@
+{% set lang=session["language"] %}
+{% extends "korea/base.html" %}
+{% block main %}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>korea2</title>
+    <link rel="stylesheet" href="static/Korean/css/bookings/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900">
+    <link rel="stylesheet" href="static/Korean/css/bookings/Ionicons.css">
+    <link rel="stylesheet" href="static/Korean/fonts/bookings/fontawesome-all.min.css">
+    <link rel="stylesheet" href="static/Korean/css/bookings/-Filterable-Cards--Filterable-Cards.css">
+    <link rel="stylesheet" href="static/Korean/css/bookings/Button-Outlines---Pretty-1.css">
+    <link rel="stylesheet" href="static/Korean/css/bookings/Button-Outlines---Pretty.css">
+    <link rel="stylesheet" href="static/Korean/css/bookings/footer-busy.css">
+    <link rel="stylesheet" href="static/Korean/css/bookings/Hero-Carousel-images.css">
+    <link rel="stylesheet" href="static/Korean/css/bookings/korea_nav.css">
+</head>
+
+<body>
+    <div class="carousel slide" data-bs-ride="carousel" id="carousel-1" style="height: 600px;">
+        <div class="carousel-inner h-100">
+            <div class="carousel-item active h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="static/Korean/assets/bookings/bedroompic.jpg" alt="Slide Image" style="z-index: -1;">
+                <div class="container d-flex flex-column justify-content-center h-100">
+                    <div class="row">
+                        <div class="col-md-6 col-xl-4 offset-md-2">
+                            <div style="max-width: 350px;">
+                                <h1 class="text-uppercase fw-bold" style="color: var(--bs-black);">{{_('Where to stay')}}</h1>
+                                <p class="my-3"><span style="color: rgb(2, 36, 41);">{{_("Find great places to stay across Ireland with Discover Ireland, all assessed by Fáilte Ireland for quality assurance. Book your perfect short break stay")}}</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="static/Korean/assets/bookings/header2.png" alt="Slide Image" style="z-index: -1;">
+                <div class="container d-flex flex-column justify-content-center h-100">
+                    <div class="row">
+                        <div class="col-md-6 col-xl-4 offset-md-2">
+                            <div style="max-width: 350px;">
+                                <h1 class="text-uppercase fw-bold">{{_('Where to stay')}}</h1>
+                                <p class="my-3" style="color: #ffffff;"><span style="color: rgb(2, 36, 41);">{{_("Find great places to stay across Ireland with Discover Ireland, all assessed by Fáilte Ireland for quality assurance. Book your perfect short break stay.")}}</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="static/Korean/assets/bookings/header3.png" alt="Slide Image" style="z-index: -1;">
+                <div class="container d-flex flex-column justify-content-center h-100">
+                    <div class="row">
+                        <div class="col-md-6 col-xl-4 offset-md-2">
+                            <div style="max-width: 350px;">
+                                <h1 class="text-uppercase fw-bold">{{_('Where to stay')}}</h1>
+                                <p class="my-3" style="color: #ffffff;"><span style="color: rgb(2, 36, 41);">{{_("Find great places to stay across Ireland with Discover Ireland, all assessed by Fáilte Ireland for quality assurance. Book your perfect short break stay.")}}</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div>
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carousel-1" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carousel-1" data-bs-slide-to="2"></li>
+        </ol>
+    </div>
+    <section>
+        <div class="container py-4 py-xl-5">
+            <div class="row mb-5">
+                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                    <h2>{{_('Popular Destinations')}}</h2>
+                    <p>{{_("Visit some of the most famous places in Ireland.")}}</p>
+                </div>
+            </div>
+            <div class="row gy-4 row-cols-1 row-cols-md-2">
+                <div class="col-xxl-5">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <div class="w-100"><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="static/Korean/assets/bookings/dublin.jpg" width="451" height="200"></div>
+                    </div>
+                    <div class="py-4 py-lg-0 px-lg-4">
+                        <h4>{{_('Dublin')}}</h4>
+                        <p><br><span style="color: rgb(26, 26, 26);">{{_("Dublin is a warm and welcoming city, known for the friendliness of its people and famous for its")}}</span><em><span style="color: rgb(26, 26, 26);">{{_('craic')}}</span></em><span style="color: rgb(26, 26, 26);">. {{_('It has faded grandeur.')}}</span><br><br></p>
+                    </div>
+                </div>
+                <div class="col-xxl-6">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <div class="w-100"><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="static/Korean/assets/bookings/galway.jpg" width="268" height="200"></div>
+                    </div>
+                    <div class="py-4 py-lg-0 px-lg-4">
+                        <h4>{{_('Galway')}}</h4>
+                        <p><span style="color: rgb(2, 36, 41);">{{_("Epic coastlines, magnificent beaches and lofty mountain peaks, marvel at the epic scenery in County Galway.&nbsp;Visit the City of the Tribes, Discover History.")}}</span><br><br></p>
+                    </div>
+                </div>
+                <div class="col-xxl-5">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <div class="w-100"><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;width: 127.7px;" src="static/Korean/assets/bookings/houses%202.jpg" width="116" height="200">
+                            <div class="py-4 py-lg-0 px-lg-4">
+                                <h4>{{_('Cork')}}</h4>
+                                <p><span style="color: rgb(2, 36, 41);">{{_("Visit Cork and you’ll find a true blend of old and new. Contemporary art in historic buildings, chic cocktails in the Victorian Quarter.")}}</span><br><br><br></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-6">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <div class="w-100"><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="static/Korean/assets/bookings/limerick.jpg" width="546" height="200"></div>
+                    </div>
+                    <div class="py-4 py-lg-0 px-lg-4">
+                        <h4>{{_('Limerick')}}</h4>
+                        <p><span style="color: rgb(2, 36, 41);">{{_("Travel to Limerick and stroll along the historic streets on the edge of the River Shannon. Visit King John’s Castle, and discover its Norman heritage.")}}</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <section class="py-5">
+            <div class="container">
+                <h1 class="text-center mb-4">{{_('ACCOMMODATION')}}</h1>
+                <div class="filtr-controls text-center lead text-uppercase mb-3"><span class="active d-inline-block mx-3 py-1 position-relative" data-filter="all">all </span><span class="d-inline-block mx-3 py-1 position-relative" data-filter="1">{{_('Guesthouse')}}</span><span class="d-inline-block mx-3 py-1 position-relative" data-filter="2">{{_('Hotels')}}</span><span class="d-inline-block mx-3 py-1 position-relative" data-filter="3">{{_('hostels')}}</span></div>
+                <div class="row filtr-container">
+                    <div class="col-md-6 col-lg-4 filtr-item" data-category="2">
+                        <div class="card border-dark">
+                            <div class="card-header bg-dark text-light">
+                                <h5 class="m-0">River House Hotel</h5>
+                            </div><img class="img-fluid card-img w-100 d-block rounded-0" src="static/Korean/assets/bookings/hotel1.jpg">
+                            <div class="card-body">
+                                <p class="card-text"><span style="color: rgb(0, 40, 85); background-color: rgb(255, 250, 246);">{{_("The River House Hotel is located in Temple Bar, Dublin City Centre, County Dublin and is in walking distance of O'Connell Street.")}}</span><br><br><svg xmlns="http://www.w3.org/2000/svg" viewBox="-64 0 512 512" width="1em" height="1em" fill="currentColor" style="font-size: 20px;border-color: #185339;">
+                                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                        <path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"></path>
+                                    </svg>{{_('Temple Bar, Dublin City')}}<br><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" style="font-size: 20px;border-color: #185339;">
+                                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                        <path d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"></path>
+                                    </svg>&nbsp;+353 (41) 782 973</p>
+                            </div>
+                            <div class="d-flex card-footer"><button class="btn btn-primary" type="button" style="background: #185339;">{{_('Visit Website')}}</button></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 filtr-item" data-category="3">
+                        <div class="card border-dark">
+                            <div class="card-header bg-dark text-light">
+                                <h5 class="m-0">Happy Hostel</h5>
+                            </div><img class="img-fluid card-img w-100 d-block rounded-0" src="static/Korean/assets/bookings/hostel.jpg">
+                            <div class="card-body">
+                                <p class="card-text"><span style="color: rgb(2, 36, 41);">{{_("Happy Hostel is a small, friendly independent hostel in the city of Galway offering great value, a great vibe and great times. Looking forward to seeing you.")}}</span><br><br><svg xmlns="http://www.w3.org/2000/svg" viewBox="-64 0 512 512" width="1em" height="1em" fill="currentColor" style="font-size: 20px;border-color: #185339;">
+                                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                        <path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"></path>
+                                    </svg>{{_('Galway City, Galway')}}<br><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" style="font-size: 20px;border-color: #185339;">
+                                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                        <path d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"></path>
+                                    </svg>&nbsp;+353 (81) 467 372</p>
+                            </div>
+                            <div class="d-flex card-footer"><button class="btn btn-primary" type="button" style="background: #185339;">{{_('Visit Website')}}</button></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 filtr-item" data-category="2">
+                        <div class="card border-dark">
+                            <div class="card-header bg-dark text-light">
+                                <h5 class="m-0">The Camden Hotel</h5>
+                            </div><img class="img-fluid card-img w-100 d-block rounded-0" src="static/Korean/assets/bookings/hotel2.jpg">
+                            <div class="card-body">
+                                <p class="card-text"><span style="color: rgb(0, 40, 85); background-color: rgb(255, 250, 246);">{{_("The Camden Street Hotel is located on trendy Camden Street and just a 10 minute walk from both Grafton Street and Temple Bar. Surrounded by great restaurants and bars we also have one of Dublin’s best bars and nightclubs.")}}</span><br><br><svg xmlns="http://www.w3.org/2000/svg" viewBox="-64 0 512 512" width="1em" height="1em" fill="currentColor" style="font-size: 20px;border-color: #185339;">
+                                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                        <path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"></path>
+                                    </svg> {{_('Camden Street, Dublin City')}}<br><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" style="font-size: 20px;border-color: #185339;">
+                                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                        <path d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"></path>
+                                    </svg>&nbsp;+353 (45) 672 873</p>
+                            </div>
+                            <div class="d-flex card-footer"><button class="btn btn-primary" type="button" style="background: #185339;">{{_('Visit Website')}}</button></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 filtr-item" data-category="3">
+                        <div class="card border-dark">
+                            <div class="card-header bg-dark text-light">
+                                <h5 class="m-0">The Nest Boutique</h5>
+                            </div><img class="img-fluid card-img w-100 d-block rounded-0" src="static/Korean/assets/bookings/hostel2.jpg">
+                            <div class="card-body">
+                                <p class="card-text"><span style="color: rgb(2, 36, 41);">{{_("Whether you travel solo or with family and friends, for business or just to have some fun exploring Galway, The Nest Boutique is a place for you, as they offer a range of private rooms with ensuite or dorm rooms to share with fellow travellers.")}}</span><br><br><svg xmlns="http://www.w3.org/2000/svg" viewBox="-64 0 512 512" width="1em" height="1em" fill="currentColor" style="font-size: 20px;border-color: #185339;">
+                                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                        <path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"></path>
+                                    </svg>&nbsp;{{_('Salthill, Galway')}}<br><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" style="font-size: 20px;border-color: #185339;">
+                                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                        <path d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"></path>
+                                    </svg>&nbsp;+353 (52) 792 732</p>
+                            </div>
+                            <div class="d-flex card-footer"><button class="btn btn-primary" type="button" style="background: #185339;">{{_('Visit Website')}}</button></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 filtr-item" data-category="1">
+                        <div class="card border-dark">
+                            <div class="card-header bg-dark text-light">
+                                <h5 class="m-0">Rosquil House</h5>
+                            </div><img class="img-fluid card-img w-100 d-block rounded-0" src="static/Korean/assets/bookings/house3.jpg">
+                            <div class="card-body">
+                                <p class="card-text"><span style="color: rgb(2, 36, 41);">{{_("Rosquil House is a four-star Fáilte Ireland approved guesthouse perfectly located for exploring the medieval city of Kilkenny. Enjoy the ambience of a hotel, with the best traditions of Irish hospitality and within easy walking distance of the city.")}}</span><br><br><svg xmlns="http://www.w3.org/2000/svg" viewBox="-64 0 512 512" width="1em" height="1em" fill="currentColor" style="font-size: 20px;border-color: #185339;">
+                                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                        <path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"></path>
+                                    </svg>&nbsp;{{_('Kilkenny City, Kilkenny')}}<br>&nbsp;+353 (64) 763 783</p>
+                            </div>
+                            <div class="d-flex card-footer"><button class="btn btn-primary" type="button" style="background: #185339;">{{_('Visit Website')}}</button></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 filtr-item" data-category="1">
+                        <div class="card border-dark">
+                            <div class="card-header bg-dark text-light">
+                                <h5 class="m-0">Perryville House</h5>
+                            </div><img class="img-fluid card-img w-100 d-block rounded-0" src="static/Korean/assets/bookings/house2.jpg">
+                            <div class="card-body">
+                                <p class="card-text"><span style="color: rgb(2, 36, 41);">{{_("Poised in the centre of Kinsale, County Cork, overlooking the marina and the colourful streets with their forests of hanging baskets and window boxes,Perryville Guesthouse combines the grandeur of the past with the luxuries and convenience of today")}}</span><br><br><svg xmlns="http://www.w3.org/2000/svg" viewBox="-64 0 512 512" width="1em" height="1em" fill="currentColor" style="font-size: 20px;border-color: #185339;">
+                                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                        <path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"></path>
+                                    </svg>&nbsp;{{_('Kinsale, Cork')}}<br><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" style="font-size: 20px;border-color: #185339;">
+                                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                        <path d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"></path>
+                                    </svg>&nbsp;+353 (71) 563 583</p>
+                            </div>
+                            <div class="d-flex card-footer"><button class="btn btn-primary" type="button" style="background: #185339;">{{_('Visit Website')}}</button></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 filtr-item" data-category="3">
+                        <div class="card border-dark">
+                            <div class="card-header bg-dark text-light">
+                                <h5 class="m-0">Jacob's Inn</h5>
+                            </div><img class="img-fluid card-img w-100 d-block rounded-0" src="static/Korean/assets/bookings/hostel4.jpg">
+                            <div class="card-body">
+                                <p class="card-text"><span style="color: rgb(2, 36, 41);">{{_("Jacob’s Inn is a modern hostel situated in the heart of Dublin City centre. It is within walking distance of Temple Bar, Croke Park, The 3Arena and O’Connell Street, making it the perfect base for exploring all Dublin has to offer.")}}</span><br><br><svg xmlns="http://www.w3.org/2000/svg" viewBox="-64 0 512 512" width="1em" height="1em" fill="currentColor" style="font-size: 20px;border-color: #185339;">
+                                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                        <path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"></path>
+                                    </svg>&nbsp;{{_('Dublin City, Dublin')}}<br><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" style="font-size: 20px;border-color: #185339;">
+                                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                        <path d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"></path>
+                                    </svg>&nbsp;+353 (78) 672 873</p>
+                            </div>
+                            <div class="d-flex card-footer"><button class="btn btn-primary" type="button" style="background: #185339;">{{_('Visit Website')}}</button></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 filtr-item" data-category="2">
+                        <div class="card border-dark">
+                            <div class="card-header bg-dark text-light">
+                                <h5 class="m-0">Grafton Hotel</h5>
+                            </div><img class="img-fluid card-img w-100 d-block rounded-0" src="static/Korean/assets/bookings/hotel3.jpg">
+                            <div class="card-body">
+                                <p class="card-text"><span style="color: rgb(0, 40, 85); background-color: rgb(255, 250, 246);">{{_("The Grafton Hotel with its 128 luxurious rooms is a buzzing home in the heart of Dublin, a stone’s throw from Trinity College, Grafton Street, the main shopping street and The Guinness Storehouse which are all in easy walking distance from the hotel")}}</span><br><br><svg xmlns="http://www.w3.org/2000/svg" viewBox="-64 0 512 512" width="1em" height="1em" fill="currentColor" style="font-size: 20px;border-color: #185339;">
+                                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                        <path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"></path>
+                                    </svg>&nbsp;{{_('Grafton Street')}}<br><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" style="font-size: 20px;border-color: #185339;">
+                                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                        <path d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"></path>
+                                    </svg>&nbsp;+353 (89) 123 456</p>
+                            </div>
+                            <div class="d-flex card-footer"><button class="btn btn-primary" type="button" style="background: #185339;">{{_('Visit Website')}}</button></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 filtr-item" data-category="1">
+                        <div class="card border-dark">
+                            <div class="card-header bg-dark text-light">
+                                <h5 class="m-0">Ben View House</h5>
+                            </div><img class="img-fluid card-img w-100 d-block rounded-0" src="static/Korean/assets/bookings/house4.jpg">
+                            <div class="card-body">
+                                <p class="card-text"><span style="color: rgb(2, 36, 41);">{{_("Ben View House is a charming guesthouse in Clifden, County Galway. Built in the mid 19th century, this guesthouse has plenty of character and has been managed by the same family since 1926.")}}</span><br><br><svg xmlns="http://www.w3.org/2000/svg" viewBox="-64 0 512 512" width="1em" height="1em" fill="currentColor" style="font-size: 20px;border-color: #185339;">
+                                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                        <path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"></path>
+                                    </svg>&nbsp;{{_('Clifden, Galway')}}<br><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" style="font-size: 20px;border-color: #185339;">
+                                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                        <path d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"></path>
+                                    </svg>&nbsp;+353 (83) 672 984</p>
+                            </div>
+                            <div class="d-flex card-footer"><button class="btn btn-primary" type="button" style="background: #185339;">{{_('Visit Website')}}</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container py-4 py-xl-5">
+                <div class="row mb-5">
+                    <div class="col-md-8 col-xl-6 text-center mx-auto">
+                        <h2>{{_('Personalised Experiences')}}</h2>
+                        <p>{{_("Want something more specific? Look no further.")}}</p>
+                    </div>
+                </div>
+                <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
+                    <div class="col-xxl-4 offset-xxl-0">
+                        <div class="p-4"><span class="badge rounded-pill bg-primary mb-2" style="background: #185339;">{{_('Article')}}</span>
+                            <h4>{{_('Perfect Airbnbs for families')}}</h4>
+                            <p>{{_("Find the perfect house for your family. Spacious, safe and secure we have everything you need to make your family trip the best time ever.")}}</p>
+                            <div class="d-flex">
+                                <div></div><button class="btn btn-primary" type="button" style="background: #185339;">{{_("Continue Reading")}}</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-4">
+                        <div class="p-4"><span class="badge rounded-pill bg-primary mb-2" style="background: #185339;">{{_("Article")}}</span>
+                            <h4>{{_('Cheap Hostels for group trips')}}</h4>
+                            <p>{{_("Travelling as a group can be hard, but a affordable and clean hostel can make it easier. Whether you're travelling with your friends or want to meet new people we have the perfect choices for you.")}}</p>
+                            <div class="d-flex">
+                                <div></div><button class="btn btn-primary" type="button" style="background: #185339;">{{_('Continue Reading')}}</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-4">
+                        <div class="p-4"><span class="badge rounded-pill bg-primary mb-2" style="background: #185339;">{{_('Article')}}</span>
+                            <h4>{{_('Romantic Couple Getaways')}}</h4>
+                            <p>{{_("Perfect locations for a trip for you and your partner")}}</p>
+                            <div class="d-flex">
+                                <div></div><button class="btn btn-primary" type="button" style="background: #185339;">{{_('Continue Reading')}}</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <script src="static/Korean/js/bookings/jquery.min.js"></script>
+    <script src="static/Korean/js/bookings/bootstrap.min.js"></script>
+    <script src="static/Korean/js/bookings/-Filterable-Cards--Filterable-Cards.js"></script>
+</body>
+
+{% endblock %}

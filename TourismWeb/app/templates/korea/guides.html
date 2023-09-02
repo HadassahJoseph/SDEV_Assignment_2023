@@ -1,0 +1,128 @@
+{% set lang=session["language"] %}
+{% extends "korea/base.html" %}
+{% block main %}
+    <div class="carousel slide" data-bs-ride="carousel" id="carousel-1" style="height: 600px;">
+        <div class="carousel-inner h-100">
+            <div class="carousel-item active h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="static/Korean/assets/Guides/header-spring-cliffs-of-moher-county-clare.jpg" alt="Slide 2 Image - Cliffs of Moher" style="z-index: -1;">
+                <div class="container d-flex flex-column justify-content-center h-100">
+                    <div class="row">
+                        <div class="col-md-6 col-xl-4 offset-md-2">
+                            <div style="max-width: 350px;">
+                                <h1 class="text-uppercase fw-bold" style="color: var(--bs-white);">{{_('Experience the Beauty of Ireland Cliffs of Moher')}}</h1>
+                                <p class="my-3" style="color: var(--bs-white);">{{_("Experience the awe-inspiring beauty of Ireland's Cliffs of Moher, where the rugged coastline meets the Atlantic Ocean.")}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="static/Korean/assets/Guides/header-great-western-greenway_achill%20island_co-mayo.jpg" alt="Slide 2 Image - People Cycling" style="z-index: -1;">
+                <div class="container d-flex flex-column justify-content-center h-100">
+                    <div class="row">
+                        <div class="col-md-6 col-xl-4 offset-md-2">
+                            <div style="max-width: 350px;">
+                                <h1 class="text-uppercase fw-bold" style="color: var(--bs-white);">{{_('Family Fun on Two Wheels')}}</h1>
+                                <p class="my-3" style="color: var(--bs-white);">{{_("Create unforgettable memories with your family as you cycle through Ireland's stunning countryside.")}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="static/Korean/assets/Guides/header-river-shannon.jpg" alt="Slide 2 Image - River Shannon" style="z-index: -1;">
+                <div class="container d-flex flex-column justify-content-center h-100">
+                    <div class="row">
+                        <div class="col-md-6 col-xl-4 offset-md-2">
+                            <div style="max-width: 350px;">
+                                <h1 class="text-uppercase fw-bold" style="color: var(--bs-white);">{{_("Sailing the Serene Waters of the River Shannon")}}</h1>
+                                <p class="my-3" style="color: var(--bs-white);">{{_("Unwind and explore the beauty of Ireland on a leisurely sail along the tranquil River Shannon.")}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item h-100"><img class="w-100 d-block position-absolute h-100 fit-cove" src="static/Korean/assets/Guides/header-skellig-micheal-wild-atlantic-way.jpg" alt="Slide 3 Image - Skellig Michael" style="z-index: -1;">
+                <div class="container d-flex flex-column justify-content-center h-100">
+                    <div class="row">
+                        <div class="col-md-6 col-xl-4 offset-md-2">
+                            <div style="max-width: 350px;">
+                                <h1 class="text-uppercase fw-bold" style="color: var(--bs-white);">&nbsp;{{_("Ireland's Mystical Island Monastery")}}</h1>
+                                <p class="my-3" style="color: var(--bs-white);">{{_("Uncover the mystical allure of Skellig Michael, an ancient island monastery off the coast of Ireland.")}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div>
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carousel-1" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carousel-1" data-bs-slide-to="2"></li>
+            <li data-bs-target="#carousel-1" data-bs-slide-to="3"></li>
+        </ol>
+    </div>
+    <section class="gallery-block compact-gallery">
+        <div class="container">
+            <div class="heading">
+                <h2 style="text-align: left;">{{_('Explore Our Guides Below')}}</h2>
+                <p style="text-align: left;">{{_("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.")}}</p>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="lightbox" href="static/Korean/assets/Guides/beara-way-county-cavan.jpg"><img class="img-fluid image" src="static/Korean/assets/Guides/temple.jpg" style="height: 246.312px;" width="370" height="246"><span class="description"><span class="description-heading">{{_('Top Tourist Attractions In Ireland')}}</span><span class="description-body">{{_("Discover the magic of Ireland's must-see destinations and create memories that will last a lifetime.")}}</span></span></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="lightbox" href="static/Korean/assets/Guides/image2.jpg"><img class="img-fluid image" src="static/Korean/assets/Guides/header-hiking-sliabh-liag-donegal.jpg" style="height: 246.938px;"><span class="description"><span class="description-heading">{{_('Most Popular Hiking Trails in Ireland')}}</span><span class="description-body">{{_("Explore the stunning natural beauty of Ireland on our most popular hiking trails, and discover hidden gems along the way.")}}</span></span></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="lightbox" href="static/Korean/assets/Guides/image3.jpg"><img class="img-fluid image" src="static/Korean/assets/Guides/portumna-forest-county-galway.webp" style="height: 247.766px;"><span class="description"><span class="description-heading">{{_('Amazing Walking Trails in Ireland')}}</span><span class="description-body">{{_("Step into Ireland's breath-taking landscapes with our guide to the best walking trails, from rugged mountains to coastal cliffs.")}}</span></span></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="lightbox" href="static/Korean/assets/Guides/image4.jpg"><img class="img-fluid image" src="static/Korean/assets/Guides/content-fatbike-adventures-wicklow.jpg" style="height: 246.984px;width: 401.938px;"><span class="description"><span class="description-heading">{{_('8 Best Cycling Routes in Ireland')}}</span><span class="description-body">{{_("Pedal through Ireland's breath-taking landscapes on the country's top cycling routes, carefully selected and curated for you")}}</span></span></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="lightbox" href="static/Korean/assets/Guides/image5.jpg"><img class="img-fluid image" src="static/Korean/assets/Guides/canoe.png" style="width: 371px;"><span class="description"><span class="description-heading">{{_('Water Activities In Ireland&nbsp;')}}</span><span class="description-body">{{_("Dive into adventure with our guide to the best water activities in Ireland, from surfing to kayaking and beyond.")}}</span></span></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="lightbox" href="static/Korean/assets/Guides/image6.jpg"><img class="img-fluid image" src="static/Korean/assets/Guides/header-dun-na-si-amenity-park-moate-westmeath.jpg" width="370" height="239" style="height: 246.938px;"><span class="description"><span class="description-heading">{{_('Family Friendly Activities')}}</span><span class="description-body">{{_("Create lifelong memories with our handpicked selection of family-friendly activities in Ireland.")}}</span></span></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="lightbox" href="static/Korean/assets/Guides/image7.jpg"><img class="img-fluid image" src="static/Korean/assets/Guides/Roe%20&%20Co%20Whiskey%20Tour,%20Thomas%20St,%20Dublin%20City_Web%20Size.jpg" style="height: 247.938px;"><span class="description"><span class="description-heading">{{_('Top Food and Drink Experiences in Dublin')}}</span><span class="description-body">{{_("Taste the flavours of Dublin with our guide to the city's top culinary ")}}<br>{{("experiences, from traditional pub fare to Michelin-starred restaurants.")}}</span></span></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="lightbox" href="static/Korean/assets/Guides/image8.jpg"><img class="img-fluid image" src="static/Korean/assets/Guides/sligo-surf-county-sligo.jpg"><span class="description"><span class="description-heading">{{_('Best Activities For Children In Ireland')}}</span><span class="description-body">{{_("Make family memories that will last a lifetime with our handpicked selection of the best activities for children in Ireland")}}</span></span></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="lightbox" href="static/Korean/assets/Guides/image9.jpg"><img class="img-fluid image" src="static/Korean/assets/Guides/a-group-of-people-whiskey-sampling.jpg" style="height: 247.438px;"><span class="description"><span class="description-heading">{{_('Group Activities for Solo Travellers')}}</span><span class="description-body">{{_("Connect with like-minded adventurers and experience the best of Ireland with our curated group activities for solo travellers.")}}</span></span></a></div>
+            </div>
+        </div>
+        <div class="container py-4 py-xl-5">
+            <div class="row mb-5" style="padding-top: 59px;">
+                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                    <h2>{{_('Curated Guides&nbsp;')}}</h2>
+                    <p>{{_("Discover Ireland's best-kept secrets with our personalised guides, crafted just for you.")}}</p>
+                </div>
+            </div>
+            <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
+                <div class="col">
+                    <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="static/Korean/assets/Guides/groupselfie.jpg">
+                        <div class="card-body p-4">
+                            <p class="text-primary card-text mb-0">Article</p>
+                            <h4 class="card-title">{{_('Solo Travellers Guide To Ireland')}}</h4>
+                            <p class="card-text">{{_("As a solo traveller, Ireland can be a great destination for your next")}}<br>{{_("adventure. With its friendly locals, stunning landscapes, and rich")}}<br>{("history, there's no shortage of things to see and do.")}}<br><br></p>
+                            <div class="d-flex">
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="static/Korean/assets/Guides/lough-oughter-cavan.jpg">
+                        <div class="card-body p-4">
+                            <p class="text-primary card-text mb-0">Article</p>
+                            <h4 class="card-title">{{_("Family Fun in Ireland: Tips for a Memorable Trip with Kids")}}</h4>
+                            <p class="card-text">{{_("Taking a trip to Ireland with kids can be an exciting and enriching")}}<br>{{_("experience for the whole family. To ensure a smooth and enjoyable")}}<br>{{_("journey, there are a few things to keep in mind.")}}</p>
+                            <div class="d-flex">
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="static/Korean/assets/Guides/brooklyn-movie-enniscorthy-wexford.jpeg" width="348" height="200">
+                        <div class="card-body p-4">
+                            <p class="text-primary card-text mb-0">Article</p>
+                            <h4 class="card-title">{{_("Your guide to Irish film and TV locations")}}</h4>
+                            <p class="card-text">{{_("Although Ireland has a long history of success on the silver screen, the 21st century has seen the rise of a fantastic selection of homegrown TV and movies.")}}<br><span style="color: rgb(2, 36, 41);">{{_("From idealised islands to inner city hidden gems, here are some locations from Irish film and television that you can step away from the screen and explore")}}</span><br><br></p>
+                            <div class="d-flex">
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><button class="btn btn-primary" type="button" style="transform: translate(1000px);background: #185339;border-style: solid;border-color: #185339;margin-top: 20px;margin-left: 27px;">See more</button>
+        </div>
+    </section>
+{% endblock %}

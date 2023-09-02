@@ -1,0 +1,188 @@
+{% set lang=session["language"] %}
+{% extends "norway/base.html" %}
+{% block main %}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>GuidesNorbsdesign (copy)</title>
+    <link rel="stylesheet" href="static/norway/css/guides/bootstrap.min.css">
+    <link rel="stylesheet" href="static/norway/css/guides/swiper-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600&amp;display=swap">
+    <link rel="stylesheet" href="static/norway/css/guides/eir_navbar.css">
+    <link rel="stylesheet" href="static/norway/css/guides/Hero-Carousel-images.css">
+    <link rel="stylesheet" href="static/norway/css/guides/Hero-Travel-.css">
+    <link rel="stylesheet" href="static/norway/css/guides/Lightbox-Gallery-baguetteBox.min.css">
+    <link rel="stylesheet" href="static/norway/css/guides/navbar3Norway.css">
+    <link rel="stylesheet" href="static/norway/css/guides/Paralax-Hero-Banner-Hero-Technology.css">
+    <link rel="stylesheet" href="static/norway/css/guides/Paralax-Hero-Banner.css">
+    <link rel="stylesheet" href="static/norway/css/guides/Simple-Slider-swiper-bundle.min.css">
+    <link rel="stylesheet" href="static/norway/css/guides/Simple-Slider.css">
+    <link rel="stylesheet" href="static/norway/css/guides/fonts/icomoon/style.css">
+    <link rel="stylesheet" href="static/norway/css/guides/owl.carousel.min.css">
+    <link rel="stylesheet" href="static/norway/css/guides/bootstrap.min.css">
+    <link rel="stylesheet" href="static/norway/css/guides/style.css">
+</head>
+
+<body>
+   <header class="masthead" style="background-image: url('home-bg.jpg');height: 517.391px;width: 1357px;">
+        <div class="overlay" style="height: 519.391px;width: 1343px;"><img style="height: 517px;width: 1346px;" src="static/norway/assets/guides/hero-background-travel.jpg"></div>
+        <div class="container" style="width: 1268px;">
+            <div class="row" style="height: 481.391px;">
+                <div class="col-md-10 col-lg-8 col-xl-7 mx-auto position-relative" style="height: 462.391px;">
+                    <div class="site-heading" style="height: 496.391px;">
+                        <h1> {{_('Guides')}}</h1><span class="subheading"> {{_('Find your guides here.......')}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container-sm d-flex justify-content-around card-wrapper">
+                    <div class="card" style="width: 18rem;"><img class="card-img-top w-100 d-block card-img-top" src="static/norway/assets/guides/header-cliffs-of-moher-clare.jpg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">{{_('Exploring Irelands Hiking Trails')}}<br><br></h5>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;"><img class="card-img-top w-100 d-block card-img-top" src="static/norway/assets/guides/Kayaking-on-a-Lake-Cloughoughter-Castle-Lough-Oughter.jpg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">{{_('Kayaking in Irelands Rivers And Lakes')}}<br><br></h5>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;"><img class="card-img-top w-100 d-block card-img-top" src="static/norway/assets/guides/beara-way-county-cavan.jpg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">{{_('Relaxing Escapes To Irelands Rural Retreats')}}</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container-sm d-flex justify-content-around card-wrapper">
+                    <div class="card" style="width: 18rem;"><img class="card-img-top w-100 d-block card-img-top" src="static/norway/assets/guides/womanfeetinsea.jpg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">{{_('Card title')}}</h5>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;"><img class="card-img-top w-100 d-block card-img-top" src="static/norway/assets/guides/zipline.jpg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">{{_('Card title')}}</h5>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;"><img class="card-img-top w-100 d-block card-img-top" src="static/norway/assets/guides/manalpaca.jpg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">{{_('Card title')}}</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container-sm d-flex justify-content-around card-wrapper">
+                    <div class="card" style="width: 18rem;"><img class="card-img-top w-100 d-block card-img-to" src="static/norway/assets/guides/lough-muckno-leisure-park-caslteblaney-monaghan.jpg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">{{_('Card title')}}</h5>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;"><img class="card-img-top w-100 d-block card-img-top" src="static/norway/assets/guides/great-western-greenway-mayo.jpg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">{{_('Card title')}}</h5>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;"><img class="card-img-top w-100 d-block card-img-top" src="static/norway/assets/guides/person-looking-out-at-the-cliffs-of-moher-in-ireland.jpg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">{{_('Card title')}}</h5>
+                        </div>
+                    </div>
+                </div>
+            </div><button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button><button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+        </div><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    </div>
+    <div style="height: 20px;"></div>
+    <div class="bg-light border rounded border-light hero-technology jumbotron py-5 px-4" style="height: 450px;">
+        <h1 class="hero-title" style="padding-bottom: 0px;margin-top: 128px;">{{_('Familly Trips')}}</h1>
+        <p style="text-align: center;"><a class="btn btn-primary btn-lg hero-button" role="button" href="#" style="background: #185339;border-color: #185339;">{{_('Learn more')}}</a></p>
+    </div>
+    <div class="row mb-5">
+        <div class="col-md-8 col-xl-6 text-center mx-auto">
+            <h2 style="padding-top: 30px;">{{_('Family Fun')}}</h2>
+            <p>{{_("Discover endless adventures for the whole family in Ireland, from amusement parks to interactive museums and beyond.")}}</p>
+        </div>
+    </div>
+    <div id="carouselExampleControls-1" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container-sm d-flex justify-content-around card-wrapper">
+                    <div class="card" style="width: 18rem;"><img class="card-img-top w-100 d-block card-img-top" src="static/norway/assets/guides/header-dun-na-si-amenity-park-moate-westmeath.jpg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">{{_('Discovering Irelands Wonders With Family')}}</h5>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;"><img class="card-img-top w-100 d-block card-img-top" src="static/norway/assets/guides/lough-oughter-cavan.jpg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">{{_('Adventurous Activities for the Whole Family')}}<br><br></h5>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;"><img class="card-img-top w-100 d-block card-img-top" src="static/norway/assets/guides/bunratty-castle-and-folk-park.jpg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">{{_('Fun-filled Days Out for the Whole Family')}}</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container-sm d-flex justify-content-around card-wrapper">
+                    <div class="card" style="width: 18rem;"><img class="card-img-top w-100 d-block card-img-top" src="static/norway/assets/guides/womanfeetinsea.jpg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">{{_('Card title')}}</h5>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;"><img class="card-img-top w-100 d-block card-img-top" src="static/norway/assets/guides/zipline.jpg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">{{_('Card title')}}</h5>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;"><img class="card-img-top w-100 d-block card-img-top" src="static/norway/assets/guides/manalpaca.jpg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">{{_('Card title')}}</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container-sm d-flex justify-content-around card-wrapper">
+                    <div class="card" style="width: 18rem;"><img class="card-img-top w-100 d-block card-img-to" src="static/norway/assets/guides/lough-muckno-leisure-park-caslteblaney-monaghan.jpg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">{{_('Card title')}}</h5>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;"><img class="card-img-top w-100 d-block card-img-top" src="static/norway/assets/guides/great-western-greenway-mayo.jpg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">{{_('Card title')}}</h5>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;"><img class="card-img-top w-100 d-block card-img-top" src="static/norway/assets/guides/person-looking-out-at-the-cliffs-of-moher-in-ireland.jpg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">{{_('Card title')}}</h5>
+                        </div>
+                    </div>
+                </div>
+            </div><button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button><button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+        </div><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    </div>
+    <div style="padding: 25px;"></div>
+    <script src="static/norway/js/guides/bootstrap.min.js"></script>
+    <script src="static/norway/js/guides/Lightbox-Gallery-baguetteBox.min.js"></script>
+    <script src="static/norway/js/guides/Lightbox-Gallery.js"></script>
+    <script src="static/norway/js/guides/Paralax-Hero-Banner-untitled.js"></script>
+    <script src="static/norway/js/guides/Simple-Slider-swiper-bundle.min.js"></script>
+    <script src="static/norway/js/guides/Simple-Slider.js"></script>
+    <script src="static/norway/js/guides/jquery-3.3.1.min.js"></script>
+    <script src="static/norway/js/guides/popper.min.js"></script>
+    <script src="static/norway/js/guides/bootstrap.min.js"></script>
+    <script src="static/norway/js/guides/owl.carousel.min.js"></script>
+    <script src="static/norway/js/guides/main.js"></script>
+</body>
+{% endblock %}
+

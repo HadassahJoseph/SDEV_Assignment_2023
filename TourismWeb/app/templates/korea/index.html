@@ -1,0 +1,402 @@
+{% set lang=session["language"] %}
+{% extends "korea/base.html" %}
+{% block main %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Korea2.0 (Backup 1682452983452)</title>
+    <link rel="stylesheet" href="static/Korean/css/index/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900">
+    <link rel="stylesheet" href="static/Korean/css/index/swiper-icons.css">
+    <link rel="stylesheet" href="static/Korean/css/index/fontawesome-all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="static/Korean/css/index/main.css">
+    <link rel="stylesheet" href="static/Korean/css/index/Articles-Cards-images.css">
+    <link rel="stylesheet" href="static/Korean/css/index/Carousel-Hero.css">
+    <link rel="stylesheet" href="static/Korean/css/index/compact-gallery.css">
+    <link rel="stylesheet" href="static/Korean/css/index/footer-busy.css">
+    <link rel="stylesheet" href="static/Korean/css/index/Lightbox-Gallery-No-Gutters-baguetteBox.min.css">
+    <link rel="stylesheet" href="static/Korean/css/index/Masonry-gallery-cards-responsive.css">
+    <link rel="stylesheet" href="static/Korean/css/index/Media-Slider-Bootstrap-3-media.slider.css">
+    <link rel="stylesheet" href="static/Korean/css/index/Media-Slider-Bootstrap-3.css">
+    <link rel="stylesheet" href="static/Korean/css/index/Navbar-Centered-Links-icons.css">
+    <link rel="stylesheet" href="static/Korean/css/index/norway_nav.css">
+    <link rel="stylesheet" href="static/Korean/css/index/Simple-Slider-swiper-bundle.min.css">
+
+
+<body>
+
+    <div class="s013" style="background: url(&quot;static/Korean/assets/index/pexels-mikhail-nilov-9207296.jpg&quot;);background-size: 1360px;">
+        <form>
+            <fieldset>
+                <legend style="color: rgb(244,244,244);"><span style="color: rgb(255, 255, 255);">{{_('FIND SOMETHING TO DO')}}</span></legend>
+            </fieldset>
+            <div class="inner-form">
+                <div class="left">
+                    <div class="input-wrap first">
+                        <div class="input-field first"><label class="form-label">{{_('WHAT')}}</label><input type="text" placeholder="{{_('ex: food, service, bar, hotel')}}"></div>
+                    </div>
+                    <div class="input-wrap second">
+                        <div class="input-field second"><label class="form-label">{{_('WHERE')}}</label></div>
+                        <div class="input-select"><select data-trigger="" name="choices-single-defaul">
+                                <option value="">{{_("1 adult")}}</option>
+                                <option value="">{{_("2 adults")}}</option>
+                                <option value="">{{_("3 adults")}}</option>
+                                <option value="">{{_("4 adults")}}</option>
+                            </select></div>
+                    </div>
+                </div><button class="btn-search" type="button" style="background: #185339;">{{_('SEARCH')}}</button>
+            </div>
+        </form>
+    </div><script>
+      const choices = new Choices('[data-trigger]',
+      {
+        searchEnabled: false,
+        itemSelectText: '',
+      });
+
+    </script>
+    <section id="Things">
+        <h1 id="heading"><span style="color: rgb(10, 10, 10);">{{_('WELCOME TO ÉIRE')}}&nbsp;</span></h1>
+        <div class="row mb-5">
+            <div class="col-md-8 col-xl-6 text-center mx-auto">
+                <h2 style="font-size: 28PX;"><span style="color: rgb(232, 51, 51);">{{_('WHAT HOT RIGHT NOW !')}}</span></h2>
+                <p>{{_("From our wonderful mountains to our lovely riversides enjoy all of Ireland")}}&nbsp;</p>
+            </div>
+        </div>
+    </section>
+       <section class="gallery-block compact-gallery">
+        <div class="container">
+            <div class="heading"></div>
+            <div class="row no-gutters">
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="lightbox" href="static/Korean/assets/index/image1.jpg"><img class="img-fluid image" src="static/Korean/assets/index/pexels-askar-abayev-5638830.jpg" style="height: 253px;"><span class="description"><span class="description-heading">{{_('Cycle down by the docks')}}</span><span class="description-body">{{_("while you cycle look out unto the beautiful horizons of the oceans and enjoy your cycle with friends family or a new buddy.")}}</span></span></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="lightbox" href="static/Korean/assets/index/image2.jpg"><img class="img-fluid image" src="static/Korean/assets/index/pexels-rachel-claire-4577828.jpg"><span class="description"><span class="description-heading">{{_('Enjoy the sunsets')}}</span><span class="description-body">{{_("In the heart of Galway explore the waves and the sand at the beach. Rest and relax where the sun beats and shines all day.")}}</span></span></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="lightbox" href="static/Korean/assets/index/image3.jpg"><img class="img-fluid image" src="static/Korean/assets/index/pexels-matheus-bertelli-2376989.jpg"><span class="description"><span class="description-heading">{{_('Camping in the Woods')}}&nbsp;</span><span class="description-body">{{_("Have a camping trip with the group and enjoy all that the wild has to offer. Set up a tent and enjoy your time with a friend.")}}</span></span></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="lightbox" href="static/Korean/assets/index/image4.jpg"><img class="img-fluid image" src="static/Korean/assets/index/insta-2.jpg" style="height: 290px;"><span class="description"><span class="description-heading">{{_('Eat Good Food')}}&nbsp;</span><span class="description-body">{{_("From our melting pot of a country enjoy all our food that shares the rich history of our country. From O'normans to Yammaori we have a wide range of treat that best to share .")}}</span></span></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="lightbox" href="static/Korean/assets/index/image5.jpg"><img class="img-fluid image" src="static/Korean/assets/index/pexels-yulianto-poitier-1231365.jpg" style="height: 290px;width: 380px;" width="380" height="253"><span class="description"><span class="description-heading">{{_('Swimming Lesson')}}</span><span class="description-body">{{_("If you are learning or simply want to enjoy swimming come and get taught by our certified teachers. Swimming Suffering Boating we got it all .")}}</span></span></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="lightbox" href="static/Korean/assets/index/image6.jpg"><img class="img-fluid image" src="static/Korean/assets/index/pexels-askar-abayev-5638830.jpg" style="height: 290px;"><span class="description"><span class="description-heading">{{_('Enjoy Group Outings')}}&nbsp;</span><span class="description-body">{{_("Wether is singing songs by a camp fire or having a nice chat come and experience it here in Ireland and enjoy new company and old company.")}}</span></span></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="lightbox" href="static/Korean/assets/index/image7.jpg"><img class="img-fluid image" src="static/Korean/assets/index/pexels-cottonbro-studio-4910964.jpg" style="height: 290px;"><span class="description"><span class="description-heading">{{_('Fishing')}}&nbsp;</span><span class="description-body">{{_("If your having a drink you might as well fish will your at it, enjoy our vast seas and try catch your own fish who know you might a great catch.")}}</span></span></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="lightbox" href="static/Korean/assets/index/image8.jpg"><img class="img-fluid image" src="static/Korean/assets/index/temple-bar-2344400_1920.jpg" style="height: 290px;"><span class="description"><span class="description-heading">{{_('Social /Night life')}}&nbsp;</span><span class="description-body">{{_("In the beating heart of our country enjoy night life with a few drinks with friends or family. Explore the city where the lights never see to fade and have fun doing it.")}}</span></span></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="lightbox" href="static/Korean/assets/index/image9.jpg"><img class="img-fluid image" src="static/Korean/assets/index/insta-1.jpg" style="height: 290px;"><span class="description"><span class="description-heading">{{_('Relax')}}&nbsp;</span><span class="description-body">{{_("Sometimes all we want it to relax with a cup of tea or coffee so why not get tea in the county that does it best. Relax in our greenery.")}}</span></span></a></div>
+            </div>
+        </div>
+    </section>
+    <section id="things2">
+        <h2 id="activities">{{_('OUR ACTIVITES')}}</h2><div>
+  <body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="card-wrapper container-sm d-flex  justify-content-around">
+      <div class="card  " style="width: 18rem;">
+  <img src="static/Korean/assets/index/2h-media-4QKR_6JJtYk-unsplash.jpg" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{_('MUSEUM')}}</h5>
+      <p>{{_("Here the stories of Ireland new and old.")}}</p>
+  </div>
+</div><div class="card" style="width: 18rem;">
+  <img src="static/Korean/assets/index/toomas-tartes-Yizrl9N_eDA-unsplash.jpg" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{_('HIKING')}}</h5>
+    <p>{{_("Hike up the beautiful mountains and trails.")}}</p>
+  </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+  <img src="static/Korean/assets/index/clem-onojeghuo-mQ0_MMw5qas-unsplash.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{_('FOOD STALLS')}}</h5>
+    <p>{{_("Eat locally source and grown food and enjoy all the rich flavours and blends.")}}</p>
+  </div>
+</div>
+</div>
+    </div>
+    <div class="carousel-item">
+      <div class="card-wrapper container-sm d-flex   justify-content-around">
+      <div class="card  " style="width: 18rem;">
+  <img src="static/Korean/assets/index/waldemar-IkbfQ3K6J-0-unsplash.jpg" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{_('TOURS')}}</h5>
+    <p>{{_("Enjoy a tour of Ireland and take pictures to remember your time her with friends(new and old) or family. ")}}</p>
+  </div>
+</div><div class="card" style="width: 18rem;">
+  <img src="static/Korean/assets/index/dublin-2344423_1920.jpg" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{_('DAY OUT')}}</h5>
+    <p>{{_("Have a relaxing day out by the beach or in the libaray.")}}</p>
+  </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+  <img src="static/Korean/assets/index/patrick-tomasso-GXXYkSwndP4-unsplash.jpg" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{_('PUBS')}} </h5>
+    <p>{{_("Why not have a pint while where at it ?")}}</p>
+  </div>
+</div>
+    </div>
+    </div>
+    <div class="carousel-item">
+      <div class="card-wrapper container-sm d-flex  justify-content-around">
+      <div class="card " style="width: 18rem;">
+  <img src="static/Korean/assets/index/edgar-castrejon-bG5rhvRH0JM-unsplash.jpg" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{_('COOKING CLASS')}}</h5>
+    <p>{{_("Learn a new culture the best way, through food.")}}</p>
+  </div>
+</div>
+        <div class="card" style="width: 18rem;">
+  <img src="static/Korean/assets/index/maxi-am-brunnen-_jYWndzkkVo-unsplash.jpg" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{_('BOATING')}}</h5>
+   <p>{{_("Have a lovely day by the sea. ")}}</p>
+  </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+  <img src="static/Korean/assets/index/david-marcu-VfUN94cUy4o-unsplash.jpg" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{_('CYCLING')}}</h5>
+    <p>{{_("cycle and let all the worries go away especially in a group.")}}</p>
+  </div>
+</div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" value ="black">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden" value="black">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next" value ="black">
+    <span class="carousel-control-next-icon" aria-hidden="true" ></span>
+    <span class="visually-hidden"value="black">Next</span>
+  </button>
+</div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    </div>
+  </body>
+</html></div>
+                <div class="container py-4 py-xl-5">
+            <div class="row mb-5">
+                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                    <h2>{{_('GUIDES')}}</h2>
+                    <p>{{_("Have a peak at what your itinerary could be like , group hike to the mountains , tour of Ireland through food or a fun family out")}}</p>
+                </div>
+            </div>
+            <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
+                <div class="col">
+                    <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="static/Korean/assets/index/tourists-915852_1920.jpg">
+                        <div class="card-body p-4">
+                            <h4 class="card-title">{{_('Top 10 places to Visit')}}</h4>
+                            <p class="card-text">{{_("Weather it is our castle, our artefacts or our ruins there is not a dull place in Ireland to visit. Come enjoy all that Ireland has to show and offer.")}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="static/Korean/assets/index/camera-1869430_1920.jpg">
+                        <div class="card-body p-4">
+                            <h4 class="card-title">{{_('Top 10 places to Eat')}}</h4>
+                            <p class="card-text">{{_("We are a melting pot of cultures and backgrounds and so is our food from Irish to Chinese to Korean to Norwegian we got all the hots spots covered. Come get full and get ready to eat")}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="static/Korean/assets/index/sunset-1985086_1920.jpg">
+                        <div class="card-body p-4">
+                            <h4 class="card-title">{{_('Hidden Gems of Ireland')}}&nbsp;</h4>
+                            <p class="card-text">{{_("The land of scholars and saints has more to offer that meets the eye. There is a whole country to tour why not tour it with those who know best.")}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section></section>
+        <section id="guides" style="margin: 20px;margin-top: 100px;">
+            <div style="height: 600px;background: url(&quot;static/Korean/assets/index/pexels-luciann-photography-3566187.jpg&quot;) center / cover;">
+                <h1 id="header" style="/*text-align: center;*//*margin-bottom: 0px;*/">{{_('FIND OUT THE TOP 10 OF IRELAND..')}}</h1>
+            </div>
+            <div class="container h-100 position-relative" style="top: -50px;">
+                <div class="row gy-5 gy-lg-0 row-cols-1 row-cols-md-2 row-cols-lg-3">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body pt-5 p-4">
+                                <div class="bs-icon-lg bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center position-absolute mb-3 bs-icon" style="top: -30px;background: #185339;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-bicycle">
+                                        <path d="M4 4.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1v.5h4.14l.386-1.158A.5.5 0 0 1 11 4h1a.5.5 0 0 1 0 1h-.64l-.311.935.807 1.29a3 3 0 1 1-.848.53l-.508-.812-2.076 3.322A.5.5 0 0 1 8 10.5H5.959a3 3 0 1 1-1.815-3.274L5 5.856V5h-.5a.5.5 0 0 1-.5-.5zm1.5 2.443-.508.814c.5.444.85 1.054.967 1.743h1.139L5.5 6.943zM8 9.057 9.598 6.5H6.402L8 9.057zM4.937 9.5a1.997 1.997 0 0 0-.487-.877l-.548.877h1.035zM3.603 8.092A2 2 0 1 0 4.937 10.5H3a.5.5 0 0 1-.424-.765l1.027-1.643zm7.947.53a2 2 0 1 0 .848-.53l1.026 1.643a.5.5 0 1 1-.848.53L11.55 8.623z"></path>
+                                    </svg></div>
+                                <h4 class="card-title">{{_('Top 10 places To see in Ireland')}}</h4>
+                                <h6 class="text-muted card-subtitle mb-2">{{_('In our beating heart')}}</h6>
+                                <p class="card-text">{{_("Come and enjoy all the beautiful sights of Dublin. And explore our rich History and culture.")}}</p>
+                            </div>
+                            <div class="card-footer p-4 py-3"><a href="#">{{_('Learn more')}}<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                                    </svg></a></div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body pt-5 p-4">
+                                <div class="bs-icon-lg bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center position-absolute mb-3 bs-icon" style="top: -30px;background: #185339;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -32 576 576" width="1em" height="1em" fill="currentColor">
+                                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                        <path d="M96 128C96.53 128 97.07 128 97.6 128C105 91.49 137.3 64 176 64C190.1 64 204.1 68.1 216.9 75.25C230.2 49.55 257.1 32 288 32C318.9 32 345.8 49.56 359.1 75.25C371 68.1 385 64 400 64C438.7 64 470.1 91.49 478.4 128C478.9 128 479.5 128 480 128C515.3 128 544 156.7 544 192C544 203.7 540.9 214.6 535.4 224H40.56C35.12 214.6 32 203.7 32 192C32 156.7 60.65 128 96 128H96zM16 283.4C16 268.3 28.28 256 43.43 256H532.6C547.7 256 560 268.3 560 283.4C560 356.3 512.6 418.2 446.9 439.8C447.6 442.4 448 445.2 448 448C448 465.7 433.7 480 416 480H160C142.3 480 128 465.7 128 448C128 445.2 128.4 442.4 129.1 439.8C63.4 418.2 16 356.3 16 283.4H16z"></path>
+                                    </svg></div>
+                                <h4 class="card-title">{{_('Top 10 places For Food & Drink')}}</h4>
+                                <h6 class="text-muted card-subtitle mb-2">{{_('From Dublin to Galway')}}&nbsp;</h6>
+                                <h6 class="text-muted card-subtitle mb-2"></h6>
+                                <p class="card-text">{{_("Enjoy our melting pot of cultures foods and drinks. From our best chefs and world renowned dishes and cuisines")}}</p>
+                            </div>
+                            <div class="card-footer p-4 py-3"><a href="#">{{_('Learn more')}}&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                                    </svg></a></div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body pt-5 p-4">
+                                <div class="bs-icon-lg bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center position-absolute mb-3 bs-icon" style="top: -30px;background: #185339;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -64 640 640" width="1em" height="1em" fill="currentColor">
+                                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                        <path d="M480 192H592C618.5 192 640 213.5 640 240V464C640 490.5 618.5 512 592 512H48C21.49 512 0 490.5 0 464V144C0 117.5 21.49 96 48 96H64V24C64 10.75 74.75 0 88 0C101.3 0 112 10.75 112 24V96H176V24C176 10.75 186.7 0 200 0C213.3 0 224 10.75 224 24V96H288V48C288 21.49 309.5 0 336 0H432C458.5 0 480 21.49 480 48V192zM576 368C576 359.2 568.8 352 560 352H528C519.2 352 512 359.2 512 368V400C512 408.8 519.2 416 528 416H560C568.8 416 576 408.8 576 400V368zM240 416C248.8 416 256 408.8 256 400V368C256 359.2 248.8 352 240 352H208C199.2 352 192 359.2 192 368V400C192 408.8 199.2 416 208 416H240zM128 368C128 359.2 120.8 352 112 352H80C71.16 352 64 359.2 64 368V400C64 408.8 71.16 416 80 416H112C120.8 416 128 408.8 128 400V368zM528 256C519.2 256 512 263.2 512 272V304C512 312.8 519.2 320 528 320H560C568.8 320 576 312.8 576 304V272C576 263.2 568.8 256 560 256H528zM256 176C256 167.2 248.8 160 240 160H208C199.2 160 192 167.2 192 176V208C192 216.8 199.2 224 208 224H240C248.8 224 256 216.8 256 208V176zM80 160C71.16 160 64 167.2 64 176V208C64 216.8 71.16 224 80 224H112C120.8 224 128 216.8 128 208V176C128 167.2 120.8 160 112 160H80zM256 272C256 263.2 248.8 256 240 256H208C199.2 256 192 263.2 192 272V304C192 312.8 199.2 320 208 320H240C248.8 320 256 312.8 256 304V272zM112 320C120.8 320 128 312.8 128 304V272C128 263.2 120.8 256 112 256H80C71.16 256 64 263.2 64 272V304C64 312.8 71.16 320 80 320H112zM416 272C416 263.2 408.8 256 400 256H368C359.2 256 352 263.2 352 272V304C352 312.8 359.2 320 368 320H400C408.8 320 416 312.8 416 304V272zM368 64C359.2 64 352 71.16 352 80V112C352 120.8 359.2 128 368 128H400C408.8 128 416 120.8 416 112V80C416 71.16 408.8 64 400 64H368zM416 176C416 167.2 408.8 160 400 160H368C359.2 160 352 167.2 352 176V208C352 216.8 359.2 224 368 224H400C408.8 224 416 216.8 416 208V176z"></path>
+                                    </svg></div>
+                                <h4 class="card-title">{{_('Ultimate Guide To Galway City')}}</h4>
+                                <h6 class="text-muted card-subtitle mb-2">{{_("In the Sunny city&nbsp;")}}</h6>
+                                <p class="card-text">{{_('In the city that never sleeps enjoy the beautiful beaches, land scapes and nature and relax at the beach once your done.')}}</p>
+                            </div>
+                            <div class="card-footer p-4 py-3"><a href="#">{{_('Learn more')}}<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                                    </svg></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section id="stay">
+        <h1 id="heading-1" style="text-align: center;"><span style="color: rgb(10, 10, 10);">{{_('FIND COMFORT IN IRELAND')}}&nbsp;</span></h1>
+        <div class="row mb-5">
+            <div class="col-md-8 col-xl-6 text-center mx-auto">
+                <p>{{_("The best places and cities to stay in Ireland, with the best services")}}</p>
+            </div>
+        </div>
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel-1">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="bg-light border rounded border-light hero-nature carousel-hero jumbotron py-5 px-4" style="height: 400PX;">
+                        <h1 class="hero-title">{{_('Our Beating Heart')}}&nbsp;</h1>
+                        <p class="hero-subtitle">{{_('Safety Our Priority')}}</p>
+                        <p><a class="btn btn-primary btn-lg hero-button" role="button" href="#">{{_('Learn more')}}</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="bg-light border rounded border-light hero-photography carousel-hero jumbotron py-5 px-4" style="width: 1110PX;height: 400PX;">
+                        <h1 class="hero-title">{{_('Relax in our Home')}}</h1>
+                        <p class="hero-subtitle">{{_('Find peace in your home away from home')}}</p>
+                        <p><a class="btn btn-primary btn-lg hero-button" role="button" href="#">{{_('Learn more')}}</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="bg-light border rounded border-light hero-technology carousel-hero jumbotron py-5 px-4" style="height: 400PX;">
+                        <h1 class="hero-title">{{_('Views From Your Window')}}</h1>
+                        <p class="hero-subtitle">{{_("Enjoy the beauty of Ireland from your wind seat.")}}</p>
+                        <p><a class="btn btn-primary btn-lg hero-button" role="button" href="#">{{_('Learn more')}}</a></p>
+                    </div>
+                </div>
+            </div>
+            <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div>
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carousel-1" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carousel-1" data-bs-slide-to="2"></li>
+            </ol>
+        </div>
+        <h1 style="text-align: center;margin: 20PX;">{{_('Our Properties')}}</h1>
+        <div>
+            <div class="row" data-masonry="{&quot;percentPosition&quot;: true }">
+                <div class="col-sm-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <picture type="" srcset=""><img class="card-img-top p-3" src=" static/Korean/assets/index/pexels-ben-baker-1608102.jpg" alt="" style="border-radius: 24px;object-fit: cover;"></picture>
+                        <div class="card-body">
+                            <h5 class="card-title">{{_('Resorts')}}</h5>
+                            <p class="card-text text-muted">{{_('Galway, Limrick, Wicklow')}}&nbsp;</p>
+                            <p>{{_("Breath-taking views of the lakes and mountains of Killarney welcome")}}<br>{{_("visitors to Aghadoe Heights Hotel &amp; Spa, a splendid, five-star hotel")}}<br>{{_("situated in County Kerry.")}}&nbsp;</p><a href="">{{_('Link')}}</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <picture type="" srcset=""><img class="card-img-top p-3" src="static/Korean/assets/index/pexels-binyamin-mellish-1396122.jpg" alt="" style="border-radius: 24px;object-fit: cover;"></picture>
+                        <div class="card-body">
+                            <h5 class="card-title">{{_('Air bnb')}}</h5>
+                            <p class="card-text text-muted">{{_('Dublin, Cork')}}</p>
+                            <p>{{_("Our guests will enjoy easy access to the McGillycuddy Reeks mountain range. Killlarneys finest golf courses and lakes as well as The Gap of Dunloe from this centrally located place. The apartment is situated in a country area on the wild Atlantic Way.")}}</p><a href="">{{_('Link')}}</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4">
+                    <div class="card"><img class="card-img-top p-3" src="static/Korean/assets/index/pexels-pixabay-280221.jpg" alt="" style="border-radius: 24px;object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">{{_("Cottages&nbsp;")}}</h5>
+                            <p class="card-text text-muted">{{_("WaterFord, Sligo")}}</p>
+                            <p>{{_("The Peacock House is located within the Lismore Demesne. It was once the dairy and workers cottage.These days it is a bright and cozy cottage offering tranquil views of mature trees and park land. There is private access to forest walks .")}}</p><a href="">{{_('Link')}}</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <picture type="" srcset=""><img class="card-img-top p-3" src="static/Korean/assets/index/pexels-pixabay-417351.jpg" alt="" style="border-radius: 24px;object-fit: cover;"></picture>
+                        <div class="card-body">
+                            <h5 class="card-title">{{_('Villas')}}</h5>
+                            <p class="card-text text-muted">{{_('Westport , Bray')}}</p>
+                            <p>{{_("Our unique villa's are within 10mins walking distance of Clonakilty town centre. A warm and friendly welcome awaits the guests.<br>This single room is ideal for a stop-over, long or short on a visit to West Cork, or as a stop off for guest on his/her Wild Atlantic Way trip.")}}</p><a href="">{{_('Link')}}</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <picture type="" srcset=""><img class="card-img-top p-3" src="static/Korean/assets/index/pexels-nextvoyage-2157194.jpg" alt="" style="border-radius: 24px;object-fit: cover;"></picture>
+                        <div class="card-body">
+                            <h5 class="card-title">{{_('Resorts & Villas')}}</h5>
+                            <p class="card-text text-muted">{{_('Dublin Docks, Wexford')}}</p>
+                            <p>{{_("The Kenmare Bay Lodges are part of the Kenmare Bay Hotel &amp; Resort, and guests have access to its facilities. These include a pool, gym, hot tub, The Bay Restaurant and the Courtyard Bar. The opening times for <br>the hotel and restaurant are seasonal.")}}</p><a href="">{{_('Link')}}</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4">
+                    <div class="card"><img class="card-img-top p-3" src="static/Korean/assets/index/pexels-binyamin-mellish-106399.jpg" alt="" style="border-radius: 24px;object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">{{_('Rentals')}}</h5>
+                            <p class="card-text text-muted">{{_('Rosecommon')}}</p>
+                            <p>{{_("Swuite Grangegorman is located in Dublin City Centre. The rental offered includes a mix of standard double rooms, deluxe double rooms, double rooms with a balcony and twin rooms. There are also 2 self contained studio apartments and a penthouse with panoramic views over Dublin city.")}}</p><a href="">{{_('Link')}}</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <picture type="" srcset=""><img class="card-img-top p-3" src="static/Korean/assets/index/pexels-nuni-telo-14682799.jpg" alt="" style="border-radius: 24px;object-fit: cover;"></picture>
+                        <div class="card-body">
+                            <h5 class="card-title">{{_('Apartment (Hotels)')}}</h5>
+                            <p class="card-text text-muted">{{_('Dublin, Cork, Limrick')}}&nbsp;</p>
+                            <p>{{_("Central Dublin Apartment offers accommodation in Dublin , this unit is 700m from Trinity College and 650 m from Connolly Train Station Free WiFi is available throughout the property.")}}</p><a href="">{{_('Link')}}</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4">
+                    <div class="card"><img class="card-img-top p-3" src="static/Korean/assets/index/pexels-michael-tuszynski-2157404.jpg" alt="" style="border-radius: 24px;object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">{{_('Estate &amp; Country Club')}}</h5>
+                            <p class="card-text text-muted">{{_('Carlow, Portloaise')}}&nbsp;</p>
+                            <p>{{_("The original Dublin Country Club was chartered on September 10, 1921, by")}}<br>{{_("E.G. Simmons, H.G. Stevens, and F.B. Reins “to provide and maintain a")}}<br>{{_("clubhouse, golf links, swimming pool, tennis courts, gun club, and any")}}<br>{{_("other social or athletic features for the purpose of promoting the")}}<br>{{_("intellectual and physical welfare of its members.")}}</p><a href="">{{_('Link')}}</a>
+                        </div>
+                    </div>
+                </div>
+            </div><script async="" src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"></script>
+        </div>
+    </section>
+    <div class="map-clean"><iframe allowfullscreen="" frameborder="0" loading="lazy" src="https://www.google.com/maps/embed/v1/view?key=AIzaSyB93Ag7zgr97vod1TOtlgJhncIjJIXYkV4&amp;center=-33.8569%2C151.2152&amp;zoom=15&amp;maptype=satellite" width="100%" height="450"></iframe></div>
+    <script src="static/Korean/js/index/bootstrap.min.js"></script>
+    <script src="static/Korean/js/index/choices.js"></script>
+    <script src="static/Korean/js/index/Lightbox-Gallery-No-Gutters-baguetteBox.min.js"></script>
+    <script src="static/Korean/js/index/Lightbox-Gallery-No-Gutters-Lightbox-Gallery.js"></script>
+    <script src="static/Korean/js/index/Media-Slider-Bootstrap-3-media.slider.js"></script>
+    <script src="static/Korean/js/index/Simple-Slider-swiper-bundle.min.js"></script>
+    <script src="static/Korean/js/index/Simple-Slider.js"></script>
+</body>
+{% endblock %}

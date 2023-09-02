@@ -1,0 +1,11 @@
+.fit-cover {
+  object-fit: cover;
+}
+
+#header {
+  text-align: center;
+  z-index: 1;
+  align-items: center;
+  margin-top: 50px;
+}
+

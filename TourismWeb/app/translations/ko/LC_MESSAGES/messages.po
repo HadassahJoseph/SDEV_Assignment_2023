@@ -1,0 +1,1347 @@
+# Korean translations for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-05-01 22:30+0100\n"
+"PO-Revision-Date: 2023-04-28 22:52+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ko\n"
+"Language-Team: ko <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: templates/korea/base.html:39
+msgid "Home"
+msgstr "홈"
+
+#: templates/korea/base.html:40
+msgid "Accomodation"
+msgstr "숙박"
+
+#: templates/korea/base.html:41
+msgid "Things To Do"
+msgstr "할일"
+
+#: templates/korea/base.html:42
+msgid "Guides"
+msgstr "가이드"
+
+#: templates/korea/base.html:46
+msgid "Norway"
+msgstr "노르웨이"
+
+#: templates/korea/base.html:46
+msgid "Korea"
+msgstr "한국"
+
+#: templates/korea/base.html:51
+msgid "Search...."
+msgstr "검색..."
+
+#: templates/korea/base.html:62 templates/korea/base.html:100
+msgid "About"
+msgstr "소개"
+
+#: templates/korea/base.html:71
+msgid "Enter email address"
+msgstr "이메일 주소 입력"
+
+#: templates/korea/base.html:71
+msgid "Submit"
+msgstr "제출"
+
+#: templates/korea/base.html:75
+msgid "Latest News"
+msgstr "최신 뉴스"
+
+#: templates/korea/base.html:78 templates/korea/base.html:88
+msgid "Even the all-powerful Pointing has no control about"
+msgstr "지시력이 높아도 제어할 수 없습니다"
+
+#: templates/korea/base.html:98
+msgid "Information"
+msgstr "정보"
+
+#: templates/korea/base.html:101
+msgid "Products"
+msgstr "제품"
+
+#: templates/korea/base.html:102
+msgid "Blog"
+msgstr "블로그"
+
+#: templates/korea/base.html:103
+msgid "Contact"
+msgstr "연락처"
+
+#: templates/korea/base.html:104
+#, fuzzy
+msgid "Help &amp; Support"
+msgstr "도움말 및 지원"
+
+#: templates/korea/base.html:108
+msgid "Instagram"
+msgstr "인스타그램"
+
+#: templates/korea/base.html:123
+msgid "Copyright"
+msgstr "저작권"
+
+#: templates/korea/base.html:123
+msgid "All rights reserved."
+msgstr "모든 권리 보유."
+
+#: templates/korea/bookings.html:28 templates/korea/bookings.html:40
+#: templates/korea/bookings.html:52
+msgid "Where to stay"
+msgstr "어디에 머무를까요"
+
+#: templates/korea/bookings.html:29
+msgid ""
+"Find great places to stay across Ireland with Discover Ireland, all "
+"assessed by Fáilte Ireland for quality assurance. Book your perfect short"
+" break stay"
+msgstr ""
+"디스커버 아일랜드와 함께 아일랜드 전역에서 훌륭한 숙박처를 찾으세요. 모든 숙박처는 품질 보증을 위해 Fáilte Ireland에서"
+" 평가합니다. 완벽한 짧은 여행 숙박을 예약하세요."
+
+#: templates/korea/bookings.html:41 templates/korea/bookings.html:53
+msgid ""
+"Find great places to stay across Ireland with Discover Ireland, all "
+"assessed by Fáilte Ireland for quality assurance. Book your perfect short"
+" break stay."
+msgstr ""
+"디스커버 아일랜드와 함께 아일랜드 전역에서 품질 보증을 받은 최고의 "
+"숙박처를 찾으세요. 완벽한 짧은 여행을 예약하세요."
+
+#: templates/korea/bookings.html:71 templates/norway/bookings.html:40
+msgid "Popular Destinations"
+msgstr "인기 있는 여행지"
+
+#: templates/korea/bookings.html:72
+msgid "Visit some of the most famous places in Ireland."
+msgstr "아일랜드에서 가장 유명한 장소를 방문해보세요."
+
+#: templates/korea/bookings.html:81
+msgid "Dublin"
+msgstr "더블린"
+
+#: templates/korea/bookings.html:82
+msgid ""
+"Dublin is a warm and welcoming city, known for the friendliness of its "
+"people and famous for its"
+msgstr ""
+"더블린은 친절한 사람들과 따뜻한 환영으로 유명한 도시입니다."
+
+#: templates/korea/bookings.html:82
+msgid "craic"
+msgstr "좋은 시간"
+
+#: templates/korea/bookings.html:82
+msgid "It has faded grandeur."
+msgstr "그러나 그 역사적인 면모는 그대로입니다."
+
+#: templates/korea/bookings.html:90
+msgid "Galway"
+msgstr "갈웨이"
+
+#: templates/korea/bookings.html:91
+msgid ""
+"Epic coastlines, magnificent beaches and lofty mountain peaks, marvel at "
+"the epic scenery in County Galway.&nbsp;Visit the City of the Tribes, "
+"Discover History."
+msgstr ""
+"에픽한 해안선, 웅장한 해변과 높은 산봉우리를 감상하세요갈웨이 카운티의 에픽한"
+"풍경을 즐기세요.시티 오브 더 트라이브스를 방문하여 "
+"역사를 발견하세요."
+
+#: templates/korea/bookings.html:98
+msgid "Cork"
+msgstr "코크"
+
+#: templates/korea/bookings.html:99
+msgid ""
+"Visit Cork and you’ll find a true blend of old and new. Contemporary art "
+"in historic buildings, chic cocktails in the Victorian Quarter."
+msgstr ""
+"코크를 방문하면 옛 것과 새로운 것이 완벽하게 어우러진 것을 발견할 수 있습니다.역사적 건물에 현대 예술을, 빅토리아 시대 지구에서"
+" 멋진 칵테일을 즐길 수 있습니다."
+
+#: templates/korea/bookings.html:109
+msgid "Limerick"
+msgstr "리머릭"
+
+#: templates/korea/bookings.html:110
+msgid ""
+"Travel to Limerick and stroll along the historic streets on the edge of "
+"the River Shannon. Visit King John’s Castle, and discover its Norman "
+"heritage."
+msgstr ""
+"리머릭을 여행하며 샤넌 강 둑가에 위치한 역사적인 거리를 산책해보세요.존 "
+"왕의 성을 방문하여 노르만 문화 유산을 발견하세요."
+
+#: templates/korea/bookings.html:118
+msgid "ACCOMMODATION"
+msgstr "숙박"
+
+#: templates/korea/bookings.html:119
+msgid "Guesthouse"
+msgstr "게스트 하우스"
+
+#: templates/korea/bookings.html:119
+msgid "Hotels"
+msgstr "호텔"
+
+#: templates/korea/bookings.html:119
+msgid "hostels"
+msgstr "호스텔"
+
+#: templates/korea/bookings.html:127
+msgid ""
+"The River House Hotel is located in Temple Bar, Dublin City Centre, "
+"County Dublin and is in walking distance of O'Connell Street."
+msgstr ""
+"리버 하우스 호텔은 더블린 시내의 템플 바,더블린 카운티에 위치하며"
+ "오코넬 스트리트까지 도보 거리에 있습니다."
+
+#: templates/korea/bookings.html:130
+msgid "Temple Bar, Dublin City"
+msgstr "더블린 시내 템플 바"
+
+#: templates/korea/bookings.html:135 templates/korea/bookings.html:152
+#: templates/korea/bookings.html:169 templates/korea/bookings.html:186
+#: templates/korea/bookings.html:200 templates/korea/bookings.html:217
+#: templates/korea/bookings.html:234 templates/korea/bookings.html:251
+#: templates/korea/bookings.html:268
+msgid "Visit Website"
+msgstr "웹사이트 방문"
+
+#: templates/korea/bookings.html:144
+msgid ""
+"Happy Hostel is a small, friendly independent hostel in the city of "
+"Galway offering great value, a great vibe and great times. Looking "
+"forward to seeing you."
+msgstr ""
+"해피 호스텔은 가치 있는 휴식, 멋진 분위기, 즐거운 시간을 제공하는 "
+"가로웨이 시티의 작고 친절한 독립 호스텔입니다. 당신을 "
+"기다리고 있겠습니다."
+
+#: templates/korea/bookings.html:147
+msgid "Galway City, Galway"
+msgstr "가로웨이 시티, 가로웨이"
+
+#: templates/korea/bookings.html:161
+msgid ""
+"The Camden Street Hotel is located on trendy Camden Street and just a 10 "
+"minute walk from both Grafton Street and Temple Bar. Surrounded by great "
+"restaurants and bars we also have one of Dublin’s best bars and "
+"nightclubs."
+msgstr ""
+"캠던 스트리트 호텔은 유행하는 캠던 스트리트에 위치하며 그래프턴 스트리트와 템플 바에서 도보로 10분 거리에 있습니다. 훌륭한 "
+"레스토랑과 바에 둘러싸인 저희 호텔은 더불린의 최고의 바와 나이트 클럽 중 하나를 보유하고 있습니다."
+
+#: templates/korea/bookings.html:164
+msgid "Camden Street, Dublin City"
+msgstr "더블린 시내 캠던 스트리트"
+
+#: templates/korea/bookings.html:178
+msgid ""
+"Whether you travel solo or with family and friends, for business or just "
+"to have some fun exploring Galway, The Nest Boutique is a place for you, "
+"as they offer a range of private rooms with ensuite or dorm rooms to "
+"share with fellow travellers."
+msgstr ""
+"개인이나 가족, 친구와 함께 비즈니스를 위해 방문하든 갈웨이를 탐험하러 와서 즐거운 시간을 보내기 위해 방문하든, The Nest "
+"Boutique는 개인용 객실과 도미토리 식 방을 제공하여 모든 여행객들을 맞이합니다."
+
+#: templates/korea/bookings.html:181
+msgid "Salthill, Galway"
+msgstr "갈웨이(Salthill)"
+
+#: templates/korea/bookings.html:195
+msgid ""
+"Rosquil House is a four-star Fáilte Ireland approved guesthouse perfectly"
+" located for exploring the medieval city of Kilkenny. Enjoy the ambience "
+"of a hotel, with the best traditions of Irish hospitality and within easy"
+" walking distance of the city."
+msgstr ""
+"로스킬 하우스는 4성급으로 평가되며, 킬케니 중세 도시 탐험에 최적으로 위치해"
+ "있습니다.호텔 분위기와 아일랜드 환대의 전통을 모두 "
+"갖추고 있으며 도시 중심까지 쉽게 걸어갈 수 있는 거리에 위치해 있습니다."
+
+#: templates/korea/bookings.html:198
+msgid "Kilkenny City, Kilkenny"
+msgstr "모든 여행객들"
+
+#: templates/korea/bookings.html:209
+msgid ""
+"Poised in the centre of Kinsale, County Cork, overlooking the marina and "
+"the colourful streets with their forests of hanging baskets and window "
+"boxes,Perryville Guesthouse combines the grandeur of the past with the "
+"luxuries and convenience of today"
+msgstr ""
+"개인이나 가족, 친구와 함께 비즈니스를 위해 방문하든 갈웨이를 탐험하러 와서 즐거운 시간을 보내기 위해 방문하든, The Nest "
+"Boutique는 개인용 객실과 도미토리 식 방을 제공하여 모든 여행객들을 맞이합니다."
+
+#: templates/korea/bookings.html:212
+msgid "Kinsale, Cork"
+msgstr "모든 여행"
+
+#: templates/korea/bookings.html:226
+msgid ""
+"Jacob’s Inn is a modern hostel situated in the heart of Dublin City "
+"centre. It is within walking distance of Temple Bar, Croke Park, The "
+"3Arena and O’Connell Street, making it the perfect base for exploring all"
+" Dublin has to offer."
+msgstr ""
+"개인이나 가족, 친구와 함께 비즈니스를 위해 방문하든 갈웨이를 탐험하러 와서 즐거운 시간을 보내기 위해 방문하든, The Nest "
+"Boutique는 개인용 객실과 도미토리 식 방을 제공하여 모든 여행객들을 맞이합니다."
+
+#: templates/korea/bookings.html:229
+msgid "Dublin City, Dublin"
+msgstr "모든 여행"
+
+#: templates/korea/bookings.html:243
+msgid ""
+"The Grafton Hotel with its 128 luxurious rooms is a buzzing home in the "
+"heart of Dublin, a stone’s throw from Trinity College, Grafton Street, "
+"the main shopping street and The Guinness Storehouse which are all in "
+"easy walking distance from the hotel"
+msgstr ""
+"개인이나 가족, 친구와 함께 비즈니스를 위해 방문하든 갈웨이를 탐험하러 와서 즐거운 시간을 보내기 위해 방문하든, The Nest "
+"Boutique는 개인용 객실과 도미토리 식 방을 제공하여 모든 여행객들을 맞이합니다."
+
+#: templates/korea/bookings.html:246
+msgid "Grafton Street"
+msgstr "모든 여행"
+
+#: templates/korea/bookings.html:260
+msgid ""
+"Ben View House is a charming guesthouse in Clifden, County Galway. Built "
+"in the mid 19th century, this guesthouse has plenty of character and has "
+"been managed by the same family since 1926."
+msgstr ""
+"개인이나 가족, 친구와 함께 비즈니스를 위해 방문하든 갈웨이를 탐험하러 와서 즐거운 시간을 보내기 위해 방문하든, The Nest "
+"Boutique는 개인용 객실과 도미토리 식 방을 제공하여 모든 여행객들을 맞이합니다."
+
+#: templates/korea/bookings.html:263
+msgid "Clifden, Galway"
+msgstr "여행객들"
+
+#: templates/korea/bookings.html:276
+msgid "Personalised Experiences"
+msgstr "여행객들을 맞이"
+
+#: templates/korea/bookings.html:277
+msgid "Want something more specific? Look no further."
+msgstr "좀 더 구체적인 것이 필요하신가요? 더 이상 찾지 마세요."
+
+#: templates/korea/bookings.html:282 templates/korea/bookings.html:291
+#: templates/korea/bookings.html:300
+msgid "Article"
+msgstr "기사"
+
+#: templates/korea/bookings.html:283
+msgid "Perfect Airbnbs for families"
+msgstr "가족 여행에 완벽한 에어비앤비"
+
+#: templates/korea/bookings.html:284
+msgid ""
+"Find the perfect house for your family. Spacious, safe and secure we have"
+" everything you need to make your family trip the best time ever."
+msgstr ""
+"가족 여행에 딱 맞는 집을 찾아보세요. 넓고 안전하며 안심할 수 있는 공간이 준비되어 있으니, 당신의 가족 여행이 최고의 시간이 "
+"되도록 만들어 드릴게요."
+
+#: templates/korea/bookings.html:286 templates/korea/bookings.html:295
+#: templates/korea/bookings.html:304
+msgid "Continue Reading"
+msgstr "계속 읽기"
+
+#: templates/korea/bookings.html:292
+msgid "Cheap Hostels for group trips"
+msgstr "단체 여행에 적합한 저렴한 호스텔"
+
+#: templates/korea/bookings.html:293
+msgid ""
+"Travelling as a group can be hard, but a affordable and clean hostel can "
+"make it easier. Whether you're travelling with your friends or want to "
+"meet new people we have the perfect choices for you."
+msgstr ""
+"단체로 여행하는 것은 어렵다고 생각할 수 있습니다. 하지만 저렴하면서도 깨끗한 호스텔을이용하면 여행을 더욱 쉽게 즐길 수 있습니다."
+" 친구와 함께 여행하든 새로운 사람들을 만나는여행이든, 당신에게 딱 맞는 선택지를 제공해 드립니다."
+
+#: templates/korea/bookings.html:301
+msgid "Romantic Couple Getaways"
+msgstr "커플을 위한 낭만적인 여행"
+
+#: templates/korea/bookings.html:302
+msgid "Perfect locations for a trip for you and your partner"
+msgstr "당신과 파트너를 위한 완벽한 여행지를 소개합니다"
+
+#: templates/korea/guides.html:11
+msgid "Experience the Beauty of Ireland Cliffs of Moher"
+msgstr "아일랜드 모어 벽의 아름다움을 경험해보세요"
+
+#: templates/korea/guides.html:12
+msgid ""
+"Experience the awe-inspiring beauty of Ireland's Cliffs of Moher, where "
+"the rugged coastline meets the Atlantic Ocean."
+msgstr ""
+"Ireland의 모어 벽에서 격렬한 연안이 대서양과 만나는 순간의 경이로움을 느껴보세요."
+
+#: templates/korea/guides.html:23
+msgid "Family Fun on Two Wheels"
+msgstr "두 개의 바퀴로 가족과 함께 즐기는 재미"
+
+#: templates/korea/guides.html:24
+msgid ""
+"Create unforgettable memories with your family as you cycle through "
+"Ireland's stunning countryside."
+msgstr ""
+"아일랜드의 아름다운 시골을 자전거로 돌아다니며 가족과 함께 \"잊지 못할 추억을 만드세요."
+
+#: templates/korea/guides.html:35
+msgid "Sailing the Serene Waters of the River Shannon"
+msgstr "평화로운 샤넌 강에서의 선박 여행"
+
+#: templates/korea/guides.html:36
+msgid ""
+"Unwind and explore the beauty of Ireland on a leisurely sail along the "
+"tranquil River Shannon."
+msgstr ""
+"조용한 샤넌 강을 따라 여유롭게 항해하며 아일랜드의 아름다움을 탐험하세요."
+
+#: templates/korea/guides.html:47
+msgid "Ireland's Mystical Island Monastery"
+msgstr "아일랜드 신비로운 섬 수도원"
+
+#: templates/korea/guides.html:48
+msgid ""
+"Uncover the mystical allure of Skellig Michael, an ancient island "
+"monastery off the coast of Ireland."
+msgstr ""
+"아일랜드 해안에 위치한 섬 수도원 Skellig Michael의 신비로운 매력을 발견하세요."
+
+#: templates/korea/guides.html:66
+msgid "Explore Our Guides Below"
+msgstr "아래의 가이드를 탐험해보세요."
+
+#: templates/korea/guides.html:67
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam "
+"urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+msgstr ""
+"개인이나 가족, 친구와 함께 비즈니스를 위해 방문하든 갈웨이를 탐험하러 와서 "
+"Boutique는 개인용 객실과 도미토리 식 방을 제공하여 모든 여행객들을 맞이합니다."
+
+#: templates/korea/guides.html:70
+msgid "Top Tourist Attractions In Ireland"
+msgstr "개인용 객실과 도미토리 식 방을"
+
+#: templates/korea/guides.html:70
+msgid ""
+"Discover the magic of Ireland's must-see destinations and create memories"
+" that will last a lifetime."
+msgstr ""
+"개인이나 가족, 친구와 함께 비즈니스를 위해 방문하든 갈웨이를 탐험하러 와서 "
+"Boutique는 개인용 객실과 도미토리 식 방을 제공하여 모든 여행객들을 맞이합니다."
+
+#: templates/korea/guides.html:71
+msgid "Most Popular Hiking Trails in Ireland"
+msgstr "아일랜드에서 할 수 있는 것들"
+
+#: templates/korea/guides.html:71
+msgid ""
+"Explore the stunning natural beauty of Ireland on our most popular hiking"
+" trails, and discover hidden gems along the way."
+msgstr ""
+"개인이나 가족, 친구와 함께 비즈니스를 위해 방문하든 갈웨이를 탐험하러 와서 "
+"Boutique는 개인용 객실과 도미토리 식 방을 제공하여 모든 여행객들을 맞이합니다."
+
+#: templates/korea/guides.html:72
+msgid "Amazing Walking Trails in Ireland"
+msgstr "개인용 객실과 도미토리"
+
+#: templates/korea/guides.html:72
+msgid ""
+"Step into Ireland's breath-taking landscapes with our guide to the best "
+"walking trails, from rugged mountains to coastal cliffs."
+msgstr ""
+"개인이나 가족, 친구와 함께 비즈니스를 위해 방문하든 갈웨이를 탐험하러 와서 "
+"Boutique는 개인용 객실과 도미토리 식 방을 제공하여 모든 여행객들을 맞이합니다."
+
+#: templates/korea/guides.html:73
+msgid "8 Best Cycling Routes in Ireland"
+msgstr "객실과 도미토리 식 방을"
+
+#: templates/korea/guides.html:73
+msgid ""
+"Pedal through Ireland's breath-taking landscapes on the country's top "
+"cycling routes, carefully selected and curated for you"
+msgstr ""
+"개인이나 가족, 친구와 함께 비즈니스를 위해 방문하든 갈웨이를 탐험하러 와서 "
+"Boutique는 개인용 객실과 도미토리 식 방을 제공하여 모든 여행객들을 맞이합니다."
+
+#: templates/korea/guides.html:74
+msgid "Water Activities In Ireland&nbsp;"
+msgstr "객실과 도미토리 식 방을"
+
+#: templates/korea/guides.html:74
+msgid ""
+"Dive into adventure with our guide to the best water activities in "
+"Ireland, from surfing to kayaking and beyond."
+msgstr ""
+"개인이나 가족, 친구와 함께 비즈니스를 위해 방문하든 갈웨이를 탐험하러 와서 "
+"Boutique는 개인용 객실과 도미토리 식 방을 제공하여 모든 여행객들을 맞이합니다."
+
+#: templates/korea/guides.html:75
+msgid "Family Friendly Activities"
+msgstr "개인용 객실과 도미토리"
+
+#: templates/korea/guides.html:75
+msgid ""
+"Create lifelong memories with our handpicked selection of family-friendly"
+" activities in Ireland."
+msgstr ""
+"개인이나 가족, 친구와 함께 비즈니스를 위해 방문하든 갈웨이를 탐험하러 와서 "
+"Boutique는 개인용 객실과 도미토리 식 방을 제공하여 모든 여행객들을 맞이합니다."
+
+#: templates/korea/guides.html:76
+msgid "Top Food and Drink Experiences in Dublin"
+msgstr "도미토리 식 방을 제공하여 모든"
+
+#: templates/korea/guides.html:76
+msgid "Taste the flavours of Dublin with our guide to the city's top culinary "
+msgstr "개인이나 가족, 친구와 함께 비즈니스를 위해 방문하든 갈웨이를"
+
+#: templates/korea/guides.html:77
+msgid "Best Activities For Children In Ireland"
+msgstr "아일랜드에서 할 일에 대한 업데이트를 받아보세요."
+
+#: templates/korea/guides.html:77
+msgid ""
+"Make family memories that will last a lifetime with our handpicked "
+"selection of the best activities for children in Ireland"
+msgstr ""
+"개인이나 가족, 친구와 함께 비즈니스를 위해 방문하든 갈웨이를 탐험하러 와서 "
+"Boutique는 개인용 객실과 도미토리 식 방을 제공하여 모든 여행객들을 맞이합니다."
+
+
+#: templates/korea/guides.html:78
+msgid "Group Activities for Solo Travellers"
+msgstr "도미토리 식 방을 제공하여 모든 여행객들을 "
+
+#: templates/korea/guides.html:78
+msgid ""
+"Connect with like-minded adventurers and experience the best of Ireland "
+"with our curated group activities for solo travellers."
+msgstr ""
+"개인이나 가족, 친구와 함께 비즈니스를 위해 방문하든 갈웨이를 탐험하러 와서 "
+"Boutique는 개인용 객실과 도미토리 식 방을 제공하여 모든 여행객들을 맞이합니다."
+
+
+#: templates/korea/guides.html:84
+msgid "Curated Guides&nbsp;"
+msgstr "당신에게 딱 맞"
+
+#: templates/korea/guides.html:85
+msgid ""
+"Discover Ireland's best-kept secrets with our personalised guides, "
+"crafted just for you."
+msgstr ""
+"개인이나 가족, 친구와 함께 비즈니스를 위해 방문하든 갈웨이를 탐험하러 와서 "
+"Boutique는 개인용 객실과 도미토리 식 방을 제공하여 모든 여행객들을 맞이합니다."
+
+
+#: templates/korea/guides.html:93
+msgid "Solo Travellers Guide To Ireland"
+msgstr "객실과 도미토리 식 방을 제공하여 모든 "
+
+#: templates/korea/guides.html:94
+msgid "As a solo traveller, Ireland can be a great destination for your next"
+msgstr "객실과 도미토리 식 방을 제공하여 모든 여행객들을 맞이합니다"
+
+#: templates/korea/guides.html:94
+msgid "adventure. With its friendly locals, stunning landscapes, and rich"
+msgstr "객실과 도미토리 식 방을 제공하여 모든 여행객들을 맞이합니다"
+
+#: templates/korea/guides.html:105
+msgid "Family Fun in Ireland: Tips for a Memorable Trip with Kids"
+msgstr "객실과 도미토리 식 방을 제공하여 모든 여행객들을 맞이합니다"
+
+#: templates/korea/guides.html:106
+msgid "Taking a trip to Ireland with kids can be an exciting and enriching"
+msgstr "객실과 도미토리 식 방을 제공하여 모든 여행객들을 맞이합니다"
+
+#: templates/korea/guides.html:106
+msgid "experience for the whole family. To ensure a smooth and enjoyable"
+msgstr "객실과 도미토리 식 방을 제공하여 모든 여행객들을 맞이합니다"
+
+#: templates/korea/guides.html:106
+msgid "journey, there are a few things to keep in mind."
+msgstr " 비즈니스를  비즈니스 도미토리 "
+
+#: templates/korea/guides.html:117
+msgid "Your guide to Irish film and TV locations"
+msgstr "과 도미토리  비즈니스를"
+
+#: templates/korea/guides.html:118
+msgid ""
+"Although Ireland has a long history of success on the silver screen, the "
+"21st century has seen the rise of a fantastic selection of homegrown TV "
+"and movies."
+msgstr ""
+"개인이나 가족, 친구와 함께 비즈니스를 위해 방문하든 갈웨이를 탐험하러 와서 "
+"Boutique는 개인용 객실과 도미토리 식 방을 제공하여 모든 여행객들을 맞이합니다."
+
+
+#: templates/korea/guides.html:118
+msgid ""
+"From idealised islands to inner city hidden gems, here are some locations"
+" from Irish film and television that you can step away from the screen "
+"and explore"
+msgstr ""
+"개인이나 가족, 친구와 함께 비즈니스를 위해 방문하든 갈웨이를 탐험하러 와서 "
+"Boutique는 개인용 객실과 도미토리 식 방을 제공하여 모든 여행객들을 맞이합니다."
+
+
+#: templates/korea/index.html:32
+msgid "FIND SOMETHING TO DO"
+msgstr "할 것을 찾아보세요"
+
+#: templates/korea/index.html:37
+msgid "WHAT"
+msgstr "무엇"
+
+#: templates/korea/index.html:37
+msgid "ex: food, service, bar, hotel"
+msgstr "객실과 도미토리 식"
+
+#: templates/korea/index.html:40
+msgid "WHERE"
+msgstr "어디"
+
+#: templates/korea/index.html:42
+msgid "1 adult"
+msgstr "어른 1명"
+
+#: templates/korea/index.html:43
+msgid "2 adults"
+msgstr "어른 2명"
+
+#: templates/korea/index.html:44
+msgid "3 adults"
+msgstr "어른 3명"
+
+#: templates/korea/index.html:45
+msgid "4 adults"
+msgstr "어른 4명"
+
+#: templates/korea/index.html:48
+msgid "SEARCH"
+msgstr "검색"
+
+#: templates/korea/index.html:60
+msgid "WELCOME TO ÉIRE"
+msgstr "에어 온 걸 환영합니다"
+
+#: templates/korea/index.html:63
+msgid "WHAT HOT RIGHT NOW !"
+msgstr "요즘 뜨는 핫한 콘텐츠"
+
+#: templates/korea/index.html:64
+msgid "From our wonderful mountains to our lovely riversides enjoy all of Ireland"
+msgstr "우리의 아름다운 산에서부터 사랑스러운 강변까지, 아일랜드의 모든 것을 즐겨보세요."
+
+#: templates/korea/index.html:72
+msgid "Cycle down by the docks"
+msgstr "항구를 따라 자전거를 타며"
+
+#: templates/korea/index.html:72
+msgid ""
+"while you cycle look out unto the beautiful horizons of the oceans and "
+"enjoy your cycle with friends family or a new buddy."
+msgstr ""
+"자전거를 타며 아름다운 바다 풍경을 감상하며, 친구, 가족 또는새로운 친구와 함께 자전거를 즐기세요."
+
+#: templates/korea/index.html:73
+msgid "Enjoy the sunsets"
+msgstr "일몰을 즐겨보세요"
+
+#: templates/korea/index.html:73
+msgid ""
+"In the heart of Galway explore the waves and the sand at the beach. Rest "
+"and relax where the sun beats and shines all day."
+msgstr ""
+"갈웨이의 중심가에서 해변의 파도와 모래를 즐기세요.일광욕을 즐기며 쉬어가세요."
+
+#: templates/korea/index.html:74
+msgid "Camping in the Woods"
+msgstr "숲에서 캠핑하기"
+
+#: templates/korea/index.html:74
+msgid ""
+"Have a camping trip with the group and enjoy all that the wild has to "
+"offer. Set up a tent and enjoy your time with a friend."
+msgstr ""
+"자전거를 타며 아름다운 바다 풍경을 감상하며, 친구, 가족 또는새로운 친구와 함께 자전거를 즐기세요."
+
+#: templates/korea/index.html:75
+msgid "Eat Good Food"
+msgstr "아름다운 바다 "
+
+#: templates/korea/index.html:75
+msgid ""
+"From our melting pot of a country enjoy all our food that shares the rich"
+" history of our country. From O'normans to Yammaori we have a wide range "
+"of treat that best to share ."
+msgstr ""
+"단체로 여행하는 것은 어렵다고 생각할 수 있습니다. 하지만 저렴하면서도 깨끗한 호스텔을이용하면 여행을 더욱 쉽게 즐길 수 있습니다."
+" 친구와 함께 여행하든 새로운 사람들을 만나는여행이든, 당신에게 딱 맞는 선택지를 제공해 드립니다."
+
+#: templates/korea/index.html:76
+msgid "Swimming Lesson"
+msgstr "여행하는 것은"
+
+#: templates/korea/index.html:76
+msgid ""
+"If you are learning or simply want to enjoy swimming come and get taught "
+"by our certified teachers. Swimming Suffering Boating we got it all ."
+msgstr ""
+"이용하면 여행을 더욱 쉽게 즐길 수 있습니다. 친구와 함께 여행하든 새로운 사람들을 만나는여행이든, 당신에게 딱 맞는 선택지를 "
+"제공해 드립니다."
+
+#: templates/korea/index.html:77
+msgid "Enjoy Group Outings"
+msgstr "여행을 더욱 쉽게"
+
+#: templates/korea/index.html:77
+msgid ""
+"Wether is singing songs by a camp fire or having a nice chat come and "
+"experience it here in Ireland and enjoy new company and old company."
+msgstr ""
+"단체로 여행하는 것은 어렵다고 생각할 수 있습니다. 하지만 저렴하면서도 깨끗한 호스텔을이용하면 여행을 더욱 쉽게 즐길 수 있습니다."
+" 친구와 함께 여행하든 새로운 사람들을 만나는"
+
+#: templates/korea/index.html:78
+msgid "Fishing"
+msgstr "이용하면"
+
+#: templates/korea/index.html:78
+msgid ""
+"If your having a drink you might as well fish will your at it, enjoy our "
+"vast seas and try catch your own fish who know you might a great catch."
+msgstr ""
+"단체로 여행하는 것은 어렵다고 생각할 수 있습니다. 하지만 저렴하면서도 깨끗한 호스텔을이용하면 여행을 더욱 쉽게 즐길 수 있습니다."
+" 친구와 함께 여행하든 새로운 사람들을 만나는"
+
+#: templates/korea/index.html:79
+msgid "Social /Night life"
+msgstr "단체로 여행하"
+
+#: templates/korea/index.html:79
+msgid ""
+"In the beating heart of our country enjoy night life with a few drinks "
+"with friends or family. Explore the city where the lights never see to "
+"fade and have fun doing it."
+msgstr ""
+"단체로 여행하는 것은 어렵다고 생각할 수 있습니다. 하지만 저렴하면서도 깨끗한 호스텔을이용하면 여행을 더욱 쉽게 즐길 수 있습니다."
+" 친구와 함께 여행하든 새로운 사람들을 만나는여행이든, 당신에게 딱 맞는 선택지를 제공해 드립니다."
+
+#: templates/korea/index.html:80
+msgid "Relax"
+msgstr "당신에"
+
+#: templates/korea/index.html:80
+msgid ""
+"Sometimes all we want it to relax with a cup of tea or coffee so why not "
+"get tea in the county that does it best. Relax in our greenery."
+msgstr ""
+"이용하면 여행을 더욱 쉽게 즐길 수 있습니다. 친구와 함께 여행하든 새로운 사람들을 만나는여행이든, 당신에게 딱 맞는 선택지를 "
+"제공해 드립니다."
+
+#: templates/korea/index.html:85
+msgid "OUR ACTIVITES"
+msgstr "당신에게 딱"
+
+#: templates/korea/index.html:95
+msgid "MUSEUM"
+msgstr "여행을 "
+
+#: templates/korea/index.html:96
+msgid "Here the stories of Ireland new and old."
+msgstr "여행이든, 당신에게 딱 맞는 선"
+
+#: templates/korea/index.html:101
+msgid "HIKING"
+msgstr "즐길 수"
+
+#: templates/korea/index.html:102
+msgid "Hike up the beautiful mountains and trails."
+msgstr "여행이든, 당신에게 딱 맞는 선"
+
+#: templates/korea/index.html:108
+msgid "FOOD STALLS"
+msgstr "여행 이든"
+
+#: templates/korea/index.html:109
+msgid ""
+"Eat locally source and grown food and enjoy all the rich flavours and "
+"blends."
+msgstr ""
+"이용하면 여행을 더욱 쉽게 즐길 수 있습니다. 친구와 함께 여행하든 새로운 사람들을 "
+"만나는여행이든, 당신에게 딱 맞는 선택지를 "
+
+#: templates/korea/index.html:119
+msgid "TOURS"
+msgstr "여행을"
+
+#: templates/korea/index.html:120
+msgid ""
+"Enjoy a tour of Ireland and take pictures to remember your time her with "
+"friends(new and old) or family. "
+msgstr ""
+"이용하면 여행을 더욱 쉽게 즐길 수 있습니다. 친구와 함께 여행하든 새로운 사람들을 "
+"만나는여행이든, 당신에게 딱 맞는 선택지를 "
+
+#: templates/korea/index.html:125
+msgid "DAY OUT"
+msgstr " 당신에"
+
+#: templates/korea/index.html:126
+msgid "Have a relaxing day out by the beach or in the libaray."
+msgstr "이용하면 여행을 더욱 쉽게 즐길 수 있습니다."
+
+#: templates/korea/index.html:132
+msgid "PUBS"
+msgstr "이용"
+
+#: templates/korea/index.html:133
+msgid "Why not have a pint while where at it ?"
+msgstr "이용하면 여행을 더욱 쉽게 즐길 수 있습"
+
+#: templates/korea/index.html:143
+msgid "COOKING CLASS"
+msgstr "요리 수업"
+
+#: templates/korea/index.html:144
+msgid "Learn a new culture the best way, through food."
+msgstr "음식을 통해 새로운 문화를 배우세요."
+
+#: templates/korea/index.html:150
+msgid "BOATING"
+msgstr "보트 타기"
+
+#: templates/korea/index.html:151
+msgid "Have a lovely day by the sea. "
+msgstr "바닷가에서 멋진 하루를 보내세요."
+
+#: templates/korea/index.html:157
+msgid "CYCLING"
+msgstr "사이클링"
+
+#: templates/korea/index.html:158
+msgid "cycle and let all the worries go away especially in a group."
+msgstr "그룹으로 사이클링을 하면 모든 걱정을 잊을 수 있습니다."
+
+#: templates/korea/index.html:182
+msgid "GUIDES"
+msgstr "가이드"
+
+#: templates/korea/index.html:183
+msgid ""
+"Have a peak at what your itinerary could be like , group hike to the "
+"mountains , tour of Ireland through food or a fun family out"
+msgstr ""
+"도미토리 식 방을 제공하여 모든 여행객들을 맞이합니다"
+"도미토리 식 방을 제공하여 모든 여행객들을 맞이합니다"
+
+#: templates/korea/index.html:190
+msgid "Top 10 places to Visit"
+msgstr "방문해야 할 상위 10곳"
+
+#: templates/korea/index.html:191
+msgid ""
+"Weather it is our castle, our artefacts or our ruins there is not a dull "
+"place in Ireland to visit. Come enjoy all that Ireland has to show and "
+"offer."
+msgstr ""
+"아일랜드의 성, 유물 또는 폐허는 어디 하나 지루하지 않은 장소가 없습니다."
+"아일랜드가 보여주고 제공하는 모든 것을 즐기러 오세요."
+
+#: templates/korea/index.html:198
+msgid "Top 10 places to Eat"
+msgstr "아일랜드가 10 보여주"
+
+#: templates/korea/index.html:199
+msgid ""
+"We are a melting pot of cultures and backgrounds and so is our food from "
+"Irish to Chinese to Korean to Norwegian we got all the hots spots "
+"covered. Come get full and get ready to eat"
+msgstr ""
+"아일랜드의 성, 유물 또는 폐허는 어디 하나 지루하지 않은 장소가 없습니다. "
+"아일랜드가 보여주고 제공하는 모든 것을 즐기러 오세요."
+
+#: templates/korea/index.html:206
+msgid "Hidden Gems of Ireland"
+msgstr "아일랜드가 보여주고"
+
+#: templates/korea/index.html:207
+msgid ""
+"The land of scholars and saints has more to offer that meets the eye. "
+"There is a whole country to tour why not tour it with those who know "
+"best."
+msgstr ""
+"아일랜드의 성, 유물 또는 폐허는 어디 하나 지루하지 않은 장소가 없습니다. "
+"아일랜드가 보여주고 제공하는 모든 것을 즐기러 오세요."
+
+#: templates/korea/index.html:216
+msgid "FIND OUT THE TOP 10 OF IRELAND.."
+msgstr "아일랜드의 10대 명소를 발견하세요.."
+
+#: templates/korea/index.html:226
+msgid "Top 10 places To see in Ireland"
+msgstr "아일랜드에서 볼 만한 10대 장소"
+
+#: templates/korea/index.html:227
+msgid "In our beating heart"
+msgstr "우리의 떨리는 심장에서"
+
+#: templates/korea/index.html:228
+msgid ""
+"Come and enjoy all the beautiful sights of Dublin. And explore our rich "
+"History and culture."
+msgstr "아일랜드의 성, 유물 또는 폐허는 어디 하나 지루하지 않은 장소가 없습니다. 아일랜드가 보여주고 제공하는 모든 것을 즐기러 오세요."
+
+#: templates/korea/index.html:230 templates/korea/index.html:247
+#: templates/korea/index.html:263 templates/korea/index.html:285
+#: templates/korea/index.html:292 templates/korea/index.html:299
+msgid "Learn more"
+msgstr "아일랜드가 보"
+
+#: templates/korea/index.html:242
+msgid "Top 10 places For Food & Drink"
+msgstr "음식과 음료를 즐길 수 있는 최고의 장소 10곳"
+
+#: templates/korea/index.html:243
+msgid "From Dublin to Galway"
+msgstr "더블린에서 갤웨이까지"
+
+#: templates/korea/index.html:245
+msgid ""
+"Enjoy our melting pot of cultures foods and drinks. From our best chefs "
+"and world renowned dishes and cuisines"
+msgstr ""
+"아일랜드의 성, 유물 또는 폐허는 어디 하나 지루하지 않은 장소가 없습니다."
+"아일랜드가 보여주고 제공하는 모든 것을 즐기러 오세요."
+
+#: templates/korea/index.html:259
+msgid "Ultimate Guide To Galway City"
+msgstr "갈웨이 시 궁극적 가이드"
+
+#: templates/korea/index.html:260
+#, fuzzy
+msgid "In the Sunny city&nbsp;"
+msgstr "맑은 도시에서 "
+
+#: templates/korea/index.html:261
+msgid ""
+"In the city that never sleeps enjoy the beautiful beaches, land scapes "
+"and nature and relax at the beach once your done."
+msgstr ""
+"아일랜드의 성, 유물 또는 폐허는 어디 하나 지루하지 않은 장소가 없습니다."
+"아일랜드가 보여주고 제공하는 모든 것을 즐기러 오세요."
+
+#: templates/korea/index.html:273
+msgid "FIND COMFORT IN IRELAND"
+msgstr "아일랜드에서 안락함을 찾아보세요"
+
+#: templates/korea/index.html:276
+msgid "The best places and cities to stay in Ireland, with the best services"
+msgstr "최고의 서비스를 제공하는 아일랜드의 최고의 숙박지와 도시들"
+
+#: templates/korea/index.html:283
+msgid "Our Beating Heart"
+msgstr "우리의 가슴이 뛰는 곳"
+
+#: templates/korea/index.html:284
+msgid "Safety Our Priority"
+msgstr "안전이 우리의 최우선 과제입니다"
+
+#: templates/korea/index.html:290
+msgid "Relax in our Home"
+msgstr "우리의 숙소에서 편안함을 느껴보세요"
+
+#: templates/korea/index.html:291
+msgid "Find peace in your home away from home"
+msgstr "집과 같은 곳에서 평화를 찾아보세요"
+
+#: templates/korea/index.html:297
+msgid "Views From Your Window"
+msgstr "창밖으로 보이는 풍경"
+
+#: templates/korea/index.html:298
+msgid "Enjoy the beauty of Ireland from your wind seat."
+msgstr "창가에서 아일랜드의 아름다움을 즐겨보세요"
+
+#: templates/korea/index.html:310
+msgid "Our Properties"
+msgstr "우리의 숙박지"
+
+#: templates/korea/index.html:317
+msgid "Resorts"
+msgstr "리조트"
+
+#: templates/korea/index.html:318
+msgid "Galway, Limrick, Wicklow"
+msgstr "갈웨이, 림릭, 위클로우"
+
+#: templates/korea/index.html:319
+msgid "Breath-taking views of the lakes and mountains of Killarney welcome"
+msgstr "킬라니 지역의 호수와 산맥으로부터 아슬아슬한 경관을 즐겨보세요"
+
+#: templates/korea/index.html:319
+#, fuzzy
+msgid "visitors to Aghadoe Heights Hotel &amp; Spa, a splendid, five-star hotel"
+msgstr "Aghadoe Heights Hotel & Spa는 멋진 5성급 호텔로, 방문객들을 환영합니다"
+
+#: templates/korea/index.html:319
+msgid "situated in County Kerry."
+msgstr "케리 카운티에 위치해 있습니다."
+
+#: templates/korea/index.html:319 templates/korea/index.html:329
+#: templates/korea/index.html:338 templates/korea/index.html:348
+#: templates/korea/index.html:358 templates/korea/index.html:367
+#: templates/korea/index.html:377 templates/korea/index.html:386
+msgid "Link"
+msgstr "케리 카"
+
+#: templates/korea/index.html:327
+msgid "Air bnb"
+msgstr "카운티에"
+
+#: templates/korea/index.html:328
+msgid "Dublin, Cork"
+msgstr "카운티에 위치해"
+
+#: templates/korea/index.html:329
+msgid ""
+"Our guests will enjoy easy access to the McGillycuddy Reeks mountain "
+"range. Killlarneys finest golf courses and lakes as well as The Gap of "
+"Dunloe from this centrally located place. The apartment is situated in a "
+"country area on the wild Atlantic Way."
+msgstr ""
+"단체로 여행하는 것은 어렵다고 생각할 수 있습니다. 하지만 저렴하면서도 깨끗한 호스텔을이용하면 여행을 더욱 쉽게 즐길 수 있습니다."
+" 친구와 함께 여행하든 새로운 사람들을 만나는여행이든, 당신에게 딱 맞는 선택지를 제공해 드립니다."
+
+#: templates/korea/index.html:336
+msgid "Cottages&nbsp;"
+msgstr "당신에게 딱 맞"
+
+#: templates/korea/index.html:337
+msgid "WaterFord, Sligo"
+msgstr "쉽게 즐길 수 있습"
+
+#: templates/korea/index.html:338
+msgid ""
+"The Peacock House is located within the Lismore Demesne. It was once the "
+"dairy and workers cottage.These days it is a bright and cozy cottage "
+"offering tranquil views of mature trees and park land. There is private "
+"access to forest walks ."
+msgstr ""
+"단체로 여행하는 것은 어렵다고 생각할 수 있습니다. 하지만 저렴하면서도 깨끗한 호스텔을이용하면 여행을 더욱 쉽게 즐길 수 있습니다."
+" 친구와 함께 여행하든 새로운 사람들을 만나는여행이든, 당신에게 딱 맞는 선택지를 제공해 드립니다."
+
+#: templates/korea/index.html:346
+msgid "Villas"
+msgstr "당신에게"
+
+#: templates/korea/index.html:347
+msgid "Westport , Bray"
+msgstr "당신에게 딱 맞"
+
+#: templates/korea/index.html:348
+msgid ""
+"Our unique villa's are within 10mins walking distance of Clonakilty town "
+"centre. A warm and friendly welcome awaits the guests.<br>This single "
+"room is ideal for a stop-over, long or short on a visit to West Cork, or "
+"as a stop off for guest on his/her Wild Atlantic Way trip."
+msgstr ""
+"단체로 여행하는 것은 어렵다고 생각할 수 있습니다. 하지만 저렴하면서도 깨끗한 호스텔을이용하면 여행을 더욱 쉽게 즐길 수 있습니다."
+" 친구와 함께 여행하든 새로운 사람들을 만나는여행이든, 당신에게 딱 맞는 선택지를 제공해 드립니다."
+
+#: templates/korea/index.html:356
+msgid "Resorts & Villas"
+msgstr "당신에게 딱 맞는"
+
+#: templates/korea/index.html:357
+msgid "Dublin Docks, Wexford"
+msgstr "여행을 더욱 쉽게 즐길 "
+
+#: templates/korea/index.html:358
+msgid ""
+"The Kenmare Bay Lodges are part of the Kenmare Bay Hotel &amp; Resort, "
+"and guests have access to its facilities. These include a pool, gym, hot "
+"tub, The Bay Restaurant and the Courtyard Bar. The opening times for "
+"<br>the hotel and restaurant are seasonal."
+msgstr ""
+"단체로 여행하는 것은 어렵다고 생각할 수 있습니다. 하지만 저렴하면서도 깨끗한 호스텔을이용하면 여행을 더욱 쉽게 즐길 수 있습니다."
+" 친구와 함께 여행하든 새로운 사람들을 만나는여행이든, 당신에게 딱 맞는 선택지를 제공해 드립니다."
+
+#: templates/korea/index.html:365
+msgid "Rentals"
+msgstr " 당신에게 딱"
+
+#: templates/korea/index.html:366
+msgid "Rosecommon"
+msgstr "맞는 선택지"
+
+#: templates/korea/index.html:367
+msgid ""
+"Swuite Grangegorman is located in Dublin City Centre. The rental offered "
+"includes a mix of standard double rooms, deluxe double rooms, double "
+"rooms with a balcony and twin rooms. There are also 2 self contained "
+"studio apartments and a penthouse with panoramic views over Dublin city."
+msgstr ""
+"단체로 여행하는 것은 어렵다고 생각할 수 있습니다. 하지만 저렴하면서도 깨끗한 호스텔을이용하면 여행을 더욱 쉽게 즐길 수 있습니다."
+" 친구와 함께 여행하든 새로운 사람들을 만나는여행이든, 당신에게 딱 맞는 선택지를 제공해 드립니다."
+
+#: templates/korea/index.html:375
+msgid "Apartment (Hotels)"
+msgstr "당신에게 딱 맞는 선"
+
+#: templates/korea/index.html:376
+msgid "Dublin, Cork, Limrick"
+msgstr "부동산 및 컨트리 클럽"
+
+#: templates/korea/index.html:377
+msgid ""
+"Central Dublin Apartment offers accommodation in Dublin , this unit is "
+"700m from Trinity College and 650 m from Connolly Train Station Free WiFi"
+" is available throughout the property."
+msgstr ""
+"단체로 여행하는 것은 어렵다고 생각할 수 있습니다. 하지만 저렴하면서도 깨끗한 호스텔을이용하면 여행을 더욱 쉽게 즐길 수 있습니다."
+" 친구와 함께 여행하든 새로운 사람들을 만나는여행이든, 당신에게 딱 맞는 선택지를 제공해 드립니다."
+
+#: templates/korea/index.html:384
+#, fuzzy
+msgid "Estate &amp; Country Club"
+msgstr "부동산 및 컨트리 클럽"
+
+#: templates/korea/index.html:385
+msgid "Carlow, Portloaise"
+msgstr "칼로우, 포트로이스"
+
+#: templates/korea/index.html:386
+msgid "The original Dublin Country Club was chartered on September 10, 1921, by"
+msgstr "원래 더블린 컨트리 클럽은 1921년 9월 10일 E.G. 시몬스, H.G. 스티븐스 및 F.B. 라인즈에 의해 허가를 받았으며,"
+
+#: templates/korea/index.html:386
+msgid "E.G. Simmons, H.G. Stevens, and F.B. Reins “to provide and maintain a"
+msgstr "사회적 또는 운동 기능을 유지하고 제공하여 촉진하기 위한 것'으로 목적을 두었습니다."
+
+#: templates/korea/index.html:386
+msgid "clubhouse, golf links, swimming pool, tennis courts, gun club, and any"
+msgstr "클럽 하우스, 골프 코스, 수영장, 테니스 코트, 총 클럽 및 어떤"
+
+#: templates/korea/index.html:386
+msgid "other social or athletic features for the purpose of promoting the"
+msgstr "다른 사회적 또는 운동적 기능을 제공하고 촉진하기 위한 것입니다."
+
+#: templates/korea/index.html:386
+msgid "intellectual and physical welfare of its members."
+msgstr "회원들의 지적 및 신체적 안녕에 대한 관심"
+
+#: templates/korea/ttd.html:9
+msgid "Things To Do In Ireland"
+msgstr "아일랜드에서 할 수 있는 것들"
+
+#: templates/korea/ttd.html:11
+msgid "Start Your Adventure Here......"
+msgstr "여기서 모험을 시작하세요......"
+
+#: templates/korea/ttd.html:31
+msgid "Explore Everything To Do"
+msgstr "할 것들을 모두 탐험하세요"
+
+#: templates/korea/ttd.html:33
+msgid "Find out about all the fun things to experience in Ireland below"
+msgstr "아일랜드에서 즐길 수 있는 모든 재미있는 것들을 아래에서 확인하세요"
+
+#: templates/korea/ttd.html:35
+msgid "Museums"
+msgstr "박물관"
+
+#: templates/korea/ttd.html:35
+msgid "Discover the world of museums of art , history and many more...."
+msgstr "예술, 역사 등 다양한 주제의 박물관 세계를 발견하세요..."
+
+#: templates/korea/ttd.html:36 templates/korea/ttd.html:70
+msgid "Get Outdoors"
+msgstr "야외 활동"
+
+#: templates/korea/ttd.html:36
+msgid "Visit Irelands many cliffs , mountains and beautiful landscapes..."
+msgstr "아일랜드의 다양한 절벽, 산, 그리고 아름다운 경치를 방문해보세요..."
+
+#: templates/korea/ttd.html:37
+msgid "Tours Galore"
+msgstr "다양한 투어"
+
+#: templates/korea/ttd.html:37
+msgid "Irelands tours are endless come find out which tour is right for you"
+msgstr "아일랜드의 투어는 끝이 없습니다. 어떤 투어가 당신에게 적합한지 알아보세요."
+
+#: templates/korea/ttd.html:38
+msgid "Food/Drinks"
+msgstr "음식/음료"
+
+#: templates/korea/ttd.html:38
+msgid ""
+"Come taste the delicious Irish cuisine and get a pint Guinness while your"
+" at it"
+msgstr ""
+"맛있는 아일랜드 음식을 맛보고, 기네스 맥주 한 잔도 같이즐겨보세요."
+
+#: templates/korea/ttd.html:39
+msgid "On A Budget ?"
+msgstr "예산이 적으신가요?"
+
+#: templates/korea/ttd.html:39
+msgid "If your on a budget don't fret Ireland has things for you to do too"
+msgstr "예산이 적다면 걱정하지 마세요. 아일랜드에는 할 만한 것이 많습니다."
+
+#: templates/korea/ttd.html:40 templates/korea/ttd.html:92
+msgid "Family Day Out"
+msgstr "가족 단위의 외출"
+
+#: templates/korea/ttd.html:40
+msgid "bring the family along to one of Irelands many parks"
+msgstr "아일랜드의 많은 공원 중 하나로 가족과 함께 가보세요."
+
+#: templates/korea/ttd.html:71
+msgid ""
+"The Giant's Causeway in County Antrim, the Cliffs of Moher in County "
+"Clare, and the Carrick-a-Rede Rope Bridge in County Antrim are three of "
+"Ireland's most popular natural attractions. The Giant's Causeway is a "
+"UNESCO World Heritage Site with distinctive hexagonal basalt columns, "
+"while the Cliffs of Moher offer breathtaking views of the Atlantic Ocean "
+"from a height of over 200 meters. The Carrick-a-Rede Rope Bridge, "
+"spanning a 30-meter chasm, offers visitors a thrilling but safe way to "
+"experience the stunning coastal scenery of Northern Ireland. These iconic"
+" landmarks are a must-see for anyone visiting the Emerald Isle"
+msgstr ""
+"안트림 카운티의 Giant's Causeway, 클레어 카운티의 Moher 절벽, 그리고 안트림 카운티의 Carrick-a-Rede"
+" Rope Bridge는 아일랜드에서 가장 인기있는 자연 명소 중 세 곳입니다. Giant's Causeway는 독특한 육각형 "
+"베이절토 기둥으로 이루어진 유네스코 세계문화유산지이며, Moher 절벽은 200m 이상 높이에서 대서양의 아름다운 경치를 "
+"제공합니다. Carrick-a-Rede Rope Bridge는 30m의 협곡을 가로지르며, 북아일랜드의 아름다운 연안 경치를 "
+"안전하게 즐길 수 있는 스릴 넘치는 명소입니다. 이러한 상징적인 유산은 에메랄드 아일랜드를 방문한 모든 여행객에게 꼭 추천하는 "
+"볼거리입니다."
+
+#: templates/korea/ttd.html:71 templates/korea/ttd.html:93
+#: templates/korea/ttd.html:113
+msgid "Learn More"
+msgstr "자세히 알아보기"
+
+#: templates/korea/ttd.html:93
+msgid ""
+"Tayto Park's Sky Park in County Meath, Carlingford Adventure Centre in "
+"County Louth, and Killary Adventure Center in County Galway offer a range"
+" of outdoor activities, such as high ropes courses, kayaking, rock "
+"climbing, and more. These adventure centers are popular destinations for "
+"families, team building events, and outdoor enthusiasts in Ireland. With "
+"stunning locations and exciting activities, visitors of all ages can "
+"challenge themselves and enjoy the beautiful Irish scenery."
+msgstr ""
+"메이오 카운티에 위치한 Tayto Park의 스카이 파크, 로우드 카운티에 위치한 칼링포드 어드벤처 센터, 그리고 가루웨이 카운티에"
+" 위치한 킬러리 어드벤처 센터는 하이 로프 코스, 카약, 암벽 등 다양한 야외 활동을 제공합니다. 이러한 어드벤처 센터들은 "
+"아일랜드의 가족, 팀 빌딩 행사, 야외 열렬이들의 인기있는 목적지입니다. 아름다운 지역과 흥미로운 활동으로 모든 연령대의 방문객들은"
+" 자신을 도전하며 아름다운 아일랜드 풍경을 즐길 수 있습니다."
+
+#: templates/korea/ttd.html:112
+msgid "Learn The History"
+msgstr "역사 배우기"
+
+#: templates/korea/ttd.html:113
+msgid ""
+"The EPIC Irish Museum, the National Museum of Ireland - Natural History, "
+"and the National Gallery of Ireland are three of Ireland's most prominent"
+" cultural attractions. The EPIC Irish Museum tells the story of the Irish"
+" diaspora and their contributions to the world. The Natural History "
+"Museum houses a vast collection of specimens, while the National Gallery "
+"of Ireland houses an extensive collection of art from Ireland and Europe."
+msgstr ""
+"EPIC 아일랜드 박물관, 아일랜드 국립박물관 - 천연사 박물관, 그리고 아일랜드 국립화랑은 아일랜드에서 가장 유명한 문화 명소 중"
+" 세 곳입니다. EPIC 아일랜드 박물관은 아일랜드 이민자들의 이야기와 그들의 세계 기여를 보여줍니다. 천연사 박물관은 거대한 샘플"
+" 컬렉션을 보유하고 있으며, 아일랜드와 유럽의 예술 작품을 다수 보유한 국립화랑은 아일랜드의 대표적인 예술 박물관입니다."
+
+#: templates/korea/ttd.html:126
+msgid "Book Today"
+msgstr "지금 예약하기"
+
+#: templates/korea/ttd.html:127
+msgid "Book Your Tickets Here"
+msgstr "티켓 예약은 여기에서"
+
+#: templates/korea/ttd.html:135
+msgid "EPIC Irish Immigration"
+msgstr "EPIC 아일랜드 이민 박물관"
+
+#: templates/korea/ttd.html:136
+msgid "Visit EPIC Irish Immigration today Visit the website below"
+msgstr "오늘 EPIC 아일랜드 이민 박물관을 방문하세요. 아래 웹 사이트를 방문하세요."
+
+#: templates/korea/ttd.html:136 templates/korea/ttd.html:140
+#: templates/korea/ttd.html:144 templates/korea/ttd.html:148
+msgid "Visit Here"
+msgstr "여기를 방문하세요"
+
+#: templates/korea/ttd.html:139
+msgid "Sky Park"
+msgstr "스카이 파크"
+
+#: templates/korea/ttd.html:140
+msgid "Visit Sky Park today Visit the website below"
+msgstr "오늘 스카이 파크를 방문하세요. 아래 웹 사이트를 방문하세요."
+
+#: templates/korea/ttd.html:143
+msgid "National History Museum"
+msgstr "국립역사박물관"
+
+#: templates/korea/ttd.html:144
+msgid "Visit The National History Museum today Visit the website below"
+msgstr "오늘 국립역사박물관을 방문하세요. 아래 웹 사이트를 방문하세요."
+
+#: templates/korea/ttd.html:147
+msgid "Tayto Park"
+msgstr "테이토 파크"
+
+#: templates/korea/ttd.html:148
+msgid "Visit Tayto Park today Visit the website below"
+msgstr "오늘 테이토 파크를 방문하세요. 아래 웹 사이트를 방문하세요."
+
+#: templates/korea/ttd.html:162
+msgid "Subscribe to our newsletter"
+msgstr "뉴스레터 구독하기"
+
+#: templates/korea/ttd.html:163
+msgid "Get updates on things to do in ireland"
+msgstr "아일랜드에서 할 일에 대한 업데이트를 받아보세요."
+
+#: templates/korea/ttd.html:166
+msgid "Your Email"
+msgstr "이메일"
+
+#: templates/korea/ttd.html:167
+msgid "Subscribe"
+msgstr "구독하기"
+

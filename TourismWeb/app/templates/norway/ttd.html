@@ -1,0 +1,184 @@
+{% set lang=session["language"] %}
+{% extends "norway/base.html" %}
+{% block main %}
+    <header class="masthead" style="background-image: url('home-bg.jpg');height: 517.391px;width: 1357px;">
+        <div class="overlay" style="height: 519.391px;width: 1343px;"><img style="height: 517px;width: 1346px;" src="static/norway/assets/ttd/clipboard-image.png"></div>
+        <div class="container" style="width: 1268px;">
+            <div class="row" style="height: 481.391px;">
+                <div class="col-md-10 col-lg-8 col-xl-7 mx-auto position-relative" style="height: 462.391px;">
+                    <div class="site-heading" style="height: 496.391px;">
+                        <h1> {{_('Things To Do In Ireland')}}</h1><span class="subheading"> {{_('Start your adventure here.......')}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container" style="height: 624px;width: 1206px;margin: 0px;padding: 0px;">
+        <div style="height: 592px;width: 1225px;">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel-1" style="height: 584px;width: 1355px;">
+                <div class="carousel-inner h-100">
+                    <div class="carousel-item active h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="static/norway/assets/ttd/insta-6.jpg" alt="Slide Image" style="z-index: -1;">
+                        <div class="container d-flex flex-column justify-content-center h-100">
+                            <div class="row">
+                                <div class="col-md-6 col-xl-4 offset-md-2" style="background: #2e3a3aab;">
+                                    <div style="max-width: 350px;">
+                                        <h1 class="text-uppercase fw-bold" style="width: 433px;color: rgb(237,227,227);background: rgba(0,0,0,0.1);"> {{_('Find out all the tasty resturants')}}</h1>
+                                        <p class="my-3" style="font-weight: bold;font-size: 21px;color: rgb(220,223,225);"> {{_('Look For Tasty restaurants below.')}}</p><a class="btn btn-primary btn-lg me-2" role="button" href="#" style="background: #185339;border-radius: 24px;border-width: 0px;height: 54px;width: 212.734px;">{{_('Find oUT more')}}</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="static/norway/assets/ttd/clipboard-image-4.png" alt="Slide Image" style="z-index: -1;background: #2e3a3aab;color: rgb(206,212,218);">
+                        <div class="container d-flex flex-column justify-content-center h-100">
+                            <div class="row">
+                                <div class="col-md-6 col-xl-4 offset-md-2" style="background: #2e3a3aab;">
+                                    <div style="max-width: 350px;">
+                                        <h1 class="text-uppercase fw-bold" style="width: 433px;color: rgb(247,242,242);background: rgba(0,0,0,0.1);">{{_('Find out about the historic sights')}}</h1>
+                                        <p class="my-3" style="font-weight: bold;font-size: 21px;color: rgb(251,253,255);">{{_('Look For Historic sights below.')}}</p><a class="btn btn-primary btn-lg me-2" role="button" href="#" style="background: #185339;border-radius: 24px;border-width: 0px;height: 52px;width: 212.734px;">{{_('Find oUT more<')}}</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="static/norway/assets/ttd/kells.jpg" alt="Slide Image" style="z-index: -1;">
+                        <div class="container d-flex flex-column justify-content-center h-100">
+                            <div class="row">
+                                <div class="col-md-6 col-xl-4 offset-md-2" style="background: #2e3a3aab;">
+                                    <div style="max-width: 350px;">
+                                        <h1 class="text-uppercase fw-bold" style="width: 510px;color: rgb(224,216,216);background: rgba(0,0,0,0.1);">{{_('Find out about all the Amazing museums')}}</h1>
+                                        <p class="my-3" style="font-size: 21px;font-weight: bold;color: rgb(207,205,205);">{{_('Look For Museums below.')}}</p><a class="btn btn-primary btn-lg me-2" role="button" href="#" style="background: #185339;border-radius: 27px;border-width: 0px;height: 51px;width: 212.734px;">{{_('Find oUT more')}}</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div>
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carousel-1" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carousel-1" data-bs-slide-to="2"></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1 style="text-align: center;color: rgb(0,0,0);height: 62px;font-weight: bold;">{{_('Look For Things To Do')}}</h1>
+    </div>
+    <div class="container" style="width: 1162px;margin: 0px;padding: 0px;">
+        <section style="height: 859.188px;">
+            <div style="background: url(&quot;https://cdn.bootstrapstudio.io/placeholders/1400x800.png&quot;) center / cover, var(--bs-gray-900);height: 496px;margin: 14px 80px;width: 1205px;"><img style="height: 661px;width: 1202px;" src="static/norway/assets/ttd/cool.webp"></div>
+            <div class="row gy-5 gy-lg-0 row-cols-1 row-cols-md-2 row-cols-lg-3" style="margin: 0px;width: 1279px;height: 1.188px;">
+                <div class="col-xl-3" data-bss-hover-animate="pulse" style="width: 351px;height: 281.188px;margin: 14px 80px;">
+                    <div class="card" style="width: 350px;height: 237.188px;">
+                        <div class="card-body pt-5 p-4" style="width: 380px;height: 155px;padding-top: -1px;">
+                            <h4 class="card-title">{{_('Top 10 Things to do in Ireland')}}</h4>
+                            <h6 class="text-muted card-subtitle mb-2"></h6>
+                            <p class="card-text">{{_('Find out more below')}}</p>
+                        </div>
+                        <div class="card-footer p-4 py-3" style="background: #185339;"><a href="#" style="color: var(--bs-card-bg);">{{_('Learn more')}}<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                                </svg></a></div>
+                    </div>
+                </div>
+                <div class="col-xl-4" data-bss-hover-animate="pulse" style="width: 332px;height: 291.188px;">
+                    <div class="card" style="width: 361px;">
+                        <div class="card-body pt-5 p-4" style="width: 362px;height: 177px;padding-top: 0px;">
+                            <h4 class="card-title">{{_('Whats On : Events in Ireland')}}</h4>
+                            <h6 class="text-muted card-subtitle mb-2"></h6>
+                            <p class="card-text">{{_('Find out more below')}}</p>
+                        </div>
+                        <div class="card-footer p-4 py-3" style="color: rgb(23,52,31);background: #185339;"><a href="#" style="color: var(--bs-card-bg);">{{_('Learn more')}}<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                                </svg></a></div>
+                    </div>
+                </div>
+                <div class="col" data-bss-hover-animate="pulse" style="width: 412px;height: 298.188px;">
+                    <div class="card" style="width: 341px;height: 241px;">
+                        <div class="card-body pt-5 p-4" style="width: 360px;">
+                            <h4 class="card-title">{{_('Art History And Culture')}}</h4>
+                            <h6 class="text-muted card-subtitle mb-2"></h6>
+                            <p class="card-text">{{_('Find out more below')}}</p>
+                        </div>
+                        <div class="card-footer p-4 py-3" style="background: #185339;"><a href="#" style="color: rgb(252,252,252);">{{_('Learn more')}}<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                                </svg></a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section style="height: 303.188px;">
+            <div class="row gy-5 gy-lg-0 row-cols-1 row-cols-md-2 row-cols-lg-3" style="margin: 0px;width: 1279px;height: 1.188px;">
+                <div class="col-xl-3" data-bss-hover-animate="pulse" style="width: 351px;height: 323.188px;margin: 14px 80px;">
+                    <div class="card" style="width: 350px;height: 237.188px;">
+                        <div class="card-body pt-5 p-4" style="width: 380px;height: 155px;padding-top: -1px;">
+                            <h4 class="card-title">{{_('Top 10 Things to do in Dublin')}}</h4>
+                            <h6 class="text-muted card-subtitle mb-2"></h6>
+                            <p class="card-text">{{_('Find out more below')}}</p>
+                        </div>
+                        <div class="card-footer p-4 py-3" style="background: #185339;"><a href="#" style="color: var(--bs-card-bg);">{{_('Learn more')}}<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                                </svg></a></div>
+                    </div>
+                </div>
+                <div class="col-xl-4" data-bss-hover-animate="pulse" style="width: 332px;height: 291.188px;">
+                    <div class="card" style="width: 361px;">
+                        <div class="card-body pt-5 p-4" style="width: 362px;height: 177px;padding-top: 0px;">
+                            <h4 class="card-title">{{_('Live shows')}}</h4>
+                            <h6 class="text-muted card-subtitle mb-2"></h6>
+                            <p class="card-text">{{_('Find out more below')}}</p>
+                        </div>
+                        <div class="card-footer p-4 py-3" style="color: rgb(23,52,31);background: #185339;"><a href="#" style="color: var(--bs-card-bg);">{{_('Learn more')}}<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                                </svg></a></div>
+                    </div>
+                </div>
+                <div class="col" data-bss-hover-animate="pulse" style="width: 412px;height: 298.188px;">
+                    <div class="card" style="width: 341px;height: 241px;">
+                        <div class="card-body pt-5 p-4" style="width: 360px;">
+                            <h4 class="card-title">{{_('Best places to solo travel')}}</h4>
+                            <h6 class="text-muted card-subtitle mb-2"></h6>
+                            <p class="card-text">{{_('Find out more below')}}</p>
+                        </div>
+                        <div class="card-footer p-4 py-3" style="background: #185339;"><a href="#" style="color: rgb(252,252,252);">{{_('Learn more')}}<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                                </svg></a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="gallery-block compact-gallery">
+        <div class="container">
+            <div class="heading">
+                <h2>{{_('Learn about the history culture and language')}} </h2>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="lightbox" href="assets/img/image1.jpg"><img class="img-fluid image" src="static/norway/assets/ttd/clipboard-image-8.png"><span class="description"><span class="description-heading">{{_('Learn about the history')}} </span><span class="description-body">{{_('Click here to Learn more...')}} </span></span></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="lightbox" href="assets/img/image2.jpg"><img class="img-fluid image" src="static/norway/assets/ttd/irishdance.jpg" style="height: 276.125px;"><span class="description"><span class="description-heading">{{_('Learn About the Culture')}} </span><span class="description-body">{{_('Click here to learn about the culture....')}} </span></span></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="lightbox" href="assets/img/image3.jpg"><img class="img-fluid image" src="static/norway/assets/ttd/lang.jpg" style="height: 278px;width: 371.984px;"><span class="description"><span class="description-heading">{{_('Learn about the language')}} </span><span class="description-body">{{_('click here to learn about the language...')}} </span></span></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="lightbox" href="assets/img/image4.jpg"><span class="description"><span class="description-heading">Lorem Ipsum</span><span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></span></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="lightbox" href="assets/img/image5.jpg"><span class="description"><span class="description-heading">Lorem Ipsum</span><span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></span></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="lightbox" href="assets/img/image6.jpg"><span class="description"><span class="description-heading">Lorem Ipsum</span><span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></span></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="lightbox" href="assets/img/image7.jpg"><span class="description"><span class="description-heading">Lorem Ipsum</span><span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></span></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="lightbox" href="assets/img/image8.jpg"><span class="description"><span class="description-heading">Lorem Ipsum</span><span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></span></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="lightbox" href="assets/img/image9.jpg"><span class="description"><span class="description-heading">Lorem Ipsum</span><span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></span></a></div>
+            </div>
+        </div>
+    </section>
+    <section class="py-4 py-xl-5">
+        <div class="container">
+            <div class="bg-success border rounded border-0 border-light d-flex flex-column justify-content-between align-items-center flex-lg-row p-4 p-lg-5" style="width: 1159px;height: 186px;background: #185339;">
+                <div class="text-center text-lg-start py-3 py-lg-1">
+                    <h2 class="fw-bold mb-2"><strong>{{_('Subscribe to our newsletter')}} </strong></h2>
+                    <p class="mb-0">{{_('Get updates on up and coming events')}} </p>
+                </div>
+                <form class="d-flex justify-content-center flex-wrap my-2" method="post">
+                    <div class="my-2"><input class="form-control" type="email" name="email" placeholder="{{_('Your Email')}}"></div>
+                    <div class="my-2"><button class="btn btn-primary ms-sm-2" type="submit" style="background: #185339;border-color: #185339;">{{_('Subscribe')}}</button></div>
+                </form>
+            </div>
+        </div>
+    </section>
+{% endblock %}

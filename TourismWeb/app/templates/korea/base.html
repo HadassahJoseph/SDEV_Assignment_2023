@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+{% set lang_code = session["language"] -%}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="static/korean/css/ttd/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abhaya+Libre&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Actor&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Albert+Sans&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anek+Odia&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Condensed&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&amp;display=swap">
+    <link rel="stylesheet" href="static/korean/css/ttd/Ionicons.css">
+    <link rel="stylesheet" href="static/korean/fonts/ttd/fontawesome-all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="static/korean/css/ttd/compact-gallery.css">
+    <link rel="stylesheet" href="static/korean/css/ttd/eir_navbar.css">
+    <link rel="stylesheet" href="static/korean/css/ttd/Features-Image-icons.css">
+    <link rel="stylesheet" href="static/korean/css/ttd/Features-Image-images.css">
+    <link rel="stylesheet" href="static/korean/css/ttd/footer-busy.css">
+    <link rel="stylesheet" href="static/korean/css/ttd/Lightbox-Gallery-baguetteBox.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md py-3" style="box-shadow: 0px 0px, 0px 0px;">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon" style="background: #185339;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor">
+                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                        <path d="M512 302.3c0 35.29-28.99 63.91-64.28 63.91c-38.82 0-88.7-22.75-122.4-40.92c18.17 33.7 40.92 83.57 40.92 122.4c0 35.29-28.61 63.91-63.91 63.91c-18.1 0-34.45-7.52-46.09-19.63C244.6 504.3 228 512 209.7 512c-35.29 0-63.91-28.99-63.91-64.28c0-38.82 22.75-88.7 40.92-122.4c-33.7 18.17-83.57 40.92-122.4 40.92c-35.29 0-63.91-28.61-63.91-63.91c0-18.1 7.52-34.45 19.63-46.09C7.676 244.6 0 228 0 209.7c0-35.29 28.99-63.91 64.28-63.91c38.82 0 88.7 22.75 122.4 40.92C168.5 152.1 145.8 103.1 145.8 64.28c0-35.29 28.61-63.91 63.91-63.91c18.1 0 34.45 7.52 46.09 19.63C267.4 7.676 283.1 0 302.3 0c35.29 0 63.91 28.99 63.91 64.28c0 38.82-22.75 88.7-40.92 122.4c33.7-18.17 83.57-40.92 122.4-40.92c35.29 0 63.91 28.61 63.91 63.91c0 18.1-7.52 34.45-19.63 46.09C504.3 267.4 512 283.1 512 302.3z"></path>
+                    </svg></span><span>Éire Escapes</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-3"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-3">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link active" href="{{ url_for('Khome') }}">{{_('Home')}}</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('Kaccom') }}">{{_('Accomodation')}}</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('Kttd') }}">{{_('Things To Do')}}</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('Kguides') }}">{{_('Guides')}}</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-globe" style="font-size: 19px;">
+                                <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"></path>
+                            </svg></a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="{{ url_for('Nhome') }}">{{_('Norway')}}</a><a class="dropdown-item" href="{{ url_for('Khome') }}">{{_('Korea')}}</a></div>
+                    </li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="width: 60.672px;"><img src="static/korean/assets/ttd/irishflag.png" style="height: 19px;" width="18" height="19"></a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="{{ url_for('set_language', lang_code='en') }}">English (EN)</a><a class="dropdown-item" href="{{ url_for('set_language', lang_code='ko') }}">Korean (한국어)</a></div>
+                    </li>
+                </ul><input type="text" placeholder="{{_('Search....')}}"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-search" style="font-size: 20px;">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+                </svg>
+            </div>
+        </div>
+    </nav>
+  {% block main %} {% endblock %}
+    <footer class="footer-09" style="background: #185339;height: 650.125px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+                    <h2 class="d-flex footer-heading"><span class="d-flex justify-content-center align-items-center icon"><i class="ion-logo-ionic" style="color: var(--bs-gray-100);"></i></span>{{_('About')}}</h2>
+                    <div class="block-23 mb-3">
+                        <ul>
+                            <li><span class="icon ion-ios-pin"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+                            <li><span class="icon ion-ios-call"></span><span class="text">+2 392 3929 210</span></li>
+                            <li><span class="icon ion-ios-send"></span><span class="text">info@yourdomain.com</span></li>
+                        </ul>
+                    </div>
+                    <form action="#" class="subscribe-form">
+                        <div class="d-flex form-group"><input class="form-control form-control rounded-left" type="text" placeholder="{{_('Enter email address')}}"><button type="submit" class="form-control submit rounded-right" style="background: rgb(255,255,255);"><span class="sr-only">{{_('Submit')}}</span><i class="ion-ios-send" style="color: #185339;"></i></button></div>
+                    </form>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+                    <h2 class="d-flex align-items-center footer-heading"><span class="d-flex justify-content-center align-items-center icon" style="color: var(--bs-gray-100);"><i class="ion-ios-list-box"></i></span>{{_('Latest News')}}</h2>
+                    <div class="d-flex block-21 mb-4"><a class="img mr-4 rounded" style="background-image: url(assets/img/image_1.jpg);"></a>
+                        <div class="text">
+                            <h3 class="heading"><a href="#">{{_('Even the all-powerful Pointing has no control about')}}</a></h3>
+                            <div class="meta">
+                                <div><a href="#"><span class="icon-calendar"></span>&nbsp;March 16, 2023</a></div>
+                                <div><a href="#"><span class="icon-person"></span></a></div>
+                                <div><a href="#"><span class="icon-chat"></span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex block-21 mb-4"><a class="img mr-4 rounded" style="background-image: url(assets/img/image_2.jpg);"></a>
+                        <div class="text">
+                            <h3 class="heading"><a href="#">{{_('Even the all-powerful Pointing has no control about')}}</a></h3>
+                            <div class="meta">
+                                <div><a href="#"><span class="icon-calendar"></span>&nbsp;Feb 22, 2023</a></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+                    <h2 class="d-flex align-items-center footer-heading"><span class="d-flex justify-content-center align-items-center icon" style="color: var(--bs-gray-100);"><i class="fas fa-sticky-note"></i></span>{{_('Information')}}</h2>
+                    <ul class="list-unstyled">
+                        <li><a class="d-block py-1" href="#">{{_('About')}}</a></li>
+                        <li><a class="d-block py-1" href="#">{{_('Products')}}</a></li>
+                        <li><a class="d-block py-1" href="#">{{_('Blog')}}</a></li>
+                        <li><a class="d-block py-1" href="#">{{_('Contact')}}</a></li>
+                        <li><a class="d-block py-1" href="#">{{_('Help &amp; Support')}}</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+                    <h2 class="d-flex align-items-center footer-heading"><span class="d-flex justify-content-center align-items-center icon" style="color: var(--bs-gray-100);"><i class="fab fa-instagram" style="border-color: var(--bs-gray-100);color: var(--bs-gray-100);"></i></span>{{_('Instagram')}}</h2>
+                    <div class="block-24">
+                        <div class="row no-gutters">
+                            <div class="col-4 col-md-4 p-1"><a href="#" class="img rounded" style="background-image: url(static/korean/assets/ttd/insta-1.jpg);"></a></div>
+                            <div class="col-4 col-md-4 p-1"><a href="#" class="img rounded" style="background-image: url(static/korean/assets/ttd/insta-2.jpg);"></a></div>
+                            <div class="col-4 col-md-4 p-1"><a href="#" class="img rounded" style="background-image: url(static/korean/assets/ttd/insta-3.jpg);"></a></div>
+                            <div class="col-4 col-md-4 p-1"><a href="#" class="img rounded" style="background-image: url(static/korean/assets/ttd/insta-4.jpg);"></a></div>
+                            <div class="col-4 col-md-4 p-1"><a href="#" class="img rounded" style="background-image: url(static/korean/assets/ttd/insta-5.jpg);"></a></div>
+                            <div class="col-4 col-md-4 p-1"><a href="#" class="img rounded" style="background-image: url(static/korean/assets/ttd/insta-6.jpg);"></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5 pt-4 border-top">
+                <div class="col-md-6 col-lg-8">
+                    <p class="copyright"> {{_('Copyright')}} © Éire Escapes<script>document.write(new Date().getFullYear());</script>{{_('All rights reserved.')}}</p>
+                </div>
+                <div class="col-md-6 col-lg-4 text-md-right">
+                    <p class="copyright"></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="static/korean/js/ttd/bootstrap.min.js"></script>
+    <script src="static/korean/js/ttd/bs-init.js"></script>
+    <script src="static/korean/js/ttd/bold-and-bright.js"></script>
+    <script src="static/korean/js/ttd/Lightbox-Gallery-baguetteBox.min.js"></script>
+    <script src="static/korean/js/ttd/Lightbox-Gallery.js"></script>
+</body>
+
+</html>

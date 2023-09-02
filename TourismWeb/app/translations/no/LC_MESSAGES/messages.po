@@ -1,0 +1,737 @@
+# Norwegian translations for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-05-01 22:30+0100\n"
+"PO-Revision-Date: 2023-04-28 22:52+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: no\n"
+"Language-Team: no <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: templates/norway/base.html:35
+#: templates/norway/base.html:80
+msgid "Home"
+msgstr "Hjem"
+
+#: templates/norway/base.html:35
+msgid "Accomodation"
+msgstr "Overnatting"
+
+#: templates/norway/base.html:35
+msgid "Things To Do"
+msgstr "Ting Å Gjøre"
+
+#: templates/norway/base.html:35
+#: templates/norway/guides.html:35
+msgid "Guides"
+msgstr "Guider"
+
+#: templates/norway/base.html:47
+msgid "Norway"
+msgstr "Norge"
+
+#: templates/norway/base.html:47
+msgid "Korea"
+msgstr "Sør-Korea"
+
+#: templates/norway/base.html:55
+msgid "Search...."
+msgstr "Søk...."
+
+#: templates/norway/bookings.html:40
+msgid "Popular Destinations"
+msgstr "Populære destinasjoner"
+
+#: templates/norway/bookings.html:43
+msgid "Dublin"
+msgstr "Dublin"
+
+#: templates/norway/bookings.html:47
+msgid "Galway"
+msgstr "Galway"
+
+#: templates/norway/bookings.html:45
+msgid "Cork"
+msgstr "Cork"
+
+#: templates/norway/bookings.html:46
+msgid "Limerick"
+msgstr "Limerick"
+
+#: templates/norway/bookings.html:46
+msgid ""
+"Travel to Limerick and stroll along the historic streets on the edge of "
+"the River Shannon. Visit King John’s Castle, and discover its Norman "
+"heritage."
+msgstr "Reis til Limerick og rusle langs de historiske gatene ved bredden av elven Shannon. Besøk King John's Castle og oppdag dets normanniske arv."
+
+#: templates/norway/bookings.html:57
+msgid "ACCOMMODATION"
+msgstr "Overnatting"
+
+#: templates/norway/bookings.html:58
+msgid "Hotels"
+msgstr "Hoteller"
+
+
+#: templates/norway/bookings.html:74
+#: templates/norway/bookings.html:91 templates/norway/bookings.html:108
+#: templates/norway/bookings.html:125 templates/norway/bookings.html:142
+#: templates/norway/bookings.html:159 templates/norway/bookings.html:176
+#: templates/norway/bookings.html:193 templates/norway/bookings.html:210
+msgid "Visit Website"
+msgstr "Besøk nettside"
+
+#: templates/norway/bookings.html:69
+msgid "Galway City, Galway"
+msgstr "Galway by, Galway"
+
+#: templates/norway/bookings.html:103
+msgid "Kilkenny City, Kilkenny"
+msgstr "Kilkenny by, Kilkenny"
+
+
+
+#: templates/norway/bookings.html:227
+#: templates/norway/bookings.html:238
+msgid "Article"
+msgstr "Artikkel"
+
+
+#: templates/norway/bookings.html:230
+#: templates/norway/bookings.html:241 templates/norway/bookings.html:252
+msgid "Continue Reading"
+msgstr "Fortsett å lese"
+
+
+#: templates/norway/index.html:34
+msgid "WHAT"
+msgstr "HVA"
+
+#: templates/norway/index.html:37
+msgid "WHERE"
+msgstr "HVOR"
+
+#: templates/norway/index.html:39
+msgid "1 adult"
+msgstr "1 voksen"
+
+#: templates/norway/index.html:40
+msgid "2 adults"
+msgstr "2 voksne"
+
+#: templates/norway/index.html:41
+msgid "3 adults"
+msgstr "3 voksne"
+
+#: templates/norway/index.html:42
+msgid "4 adults"
+msgstr "4 voksne"
+
+#: templates/norway/index.html:45
+msgid "SEARCH"
+msgstr "Søk...."
+
+#: templates/norway/index.html:57
+msgid "WELCOME TO ÉIRE"
+msgstr "VELKOMMEN TIL ÉIRE"
+
+#: templates/norway/index.html:60
+msgid "WHAT HOT RIGHT NOW !"
+msgstr "HVA ER HOT AKKURAT NÅ!"
+
+#: templates/norway/index.html:61
+msgid "From our wonderful mountains to our lovely riversides enjoy all of Ireland"
+msgstr "Fra våre fantastiske fjell til våre vakre elvebredder, nyt hele Irland"
+
+#: templates/norway/index.html:127
+msgid "HIKING"
+msgstr "Fotturer"
+
+#: templates/norway/index.html:134
+msgid "FOOD STALLS"
+msgstr "Matboder"
+
+
+#: templates/norway/index.html:145
+msgid "TOURS"
+msgstr "turer"
+
+#: templates/norway/index.html:151
+msgid "DAY OUT"
+msgstr "Familieutflukter"
+
+#: templates/norway/index.html:158
+msgid "PUBS"
+msgstr "Puber"
+
+#: templates/norway/index.html:169
+msgid "COOKING CLASS"
+msgstr "Matlagingskurs"
+
+#: templates/norway/index.html:175
+msgid "BOATING"
+msgstr "Båtturer"
+
+#: templates/norway/index.html:182
+msgid "CYCLING"
+msgstr "Sykling"
+
+#: templates/norway/index.html:213
+msgid "Top 10 places To see in Ireland"
+msgstr "Topp 10 ting å gjøre i Irland"
+
+#: templates/norway/guides.html:105 templates/norway/index.html:217
+#: templates/norway/index.html:234 templates/norway/index.html:250
+#: templates/norway/index.html:272 templates/norway/index.html:279
+#: templates/norway/index.html:286 templates/norway/ttd.html:80
+#: templates/norway/ttd.html:92 templates/norway/ttd.html:104
+#: templates/norway/ttd.html:120 templates/norway/ttd.html:132
+#: templates/norway/ttd.html:144
+msgid "Learn more"
+msgstr "Lær mer"
+
+
+#: templates/norway/index.html:230
+msgid "From Dublin to Galway"
+msgstr "Fra Dublin til Galway"
+
+#: templates/norway/index.html:246
+msgid "Ultimate Guide To Galway City"
+msgstr "Den ultimate guiden til Galway by"
+
+#: templates/norway/index.html:248
+msgid ""
+"In the city that never sleeps enjoy the beautiful beaches, land scapes "
+"and nature and relax at the beach once your done."
+msgstr "I byen som aldri sover, nyt de vakre strendene, landskapene og naturen og slapp av på stranden når du er ferdig."
+
+#: templates/norway/index.html:260
+msgid "FIND COMFORT IN IRELAND"
+msgstr "Ting Å Gjøre i Irland"
+
+#: templates/norway/index.html:263
+msgid "The best places and cities to stay in Ireland, with the best services"
+msgstr "De beste stedene og byene å bo i Irland, med de beste tjenestene"
+
+#: templates/norway/index.html:270
+msgid "Our Beating Heart"
+msgstr "Vårt pulserende hjerte"
+
+#: templates/norway/index.html:277
+msgid "Relax in our Home"
+msgstr "Slapp av i vårt hjem"
+
+#: templates/norway/index.html:278
+msgid "Find peace in your home away from home"
+msgstr "Finn fred i ditt hjem borte fra hjemmet"
+
+#: templates/norway/index.html:284
+msgid "Views From Your Window"
+msgstr "Utsikt fra ditt vindu"
+
+#: templates/norway/index.html:285
+msgid "Enjoy the beauty of Ireland from your wind seat."
+msgstr "Nyt skjønnheten i Irland fra vinduet ditt."
+
+#: templates/norway/index.html:297
+msgid "Our Properties"
+msgstr "Våre Eiendommer"
+
+#: templates/norway/index.html:304
+msgid "Resorts"
+msgstr "Ferieanlegg"
+
+#: templates/norway/index.html:305
+msgid "Galway, Limrick, Wicklow"
+msgstr "Galway, Limerick, Wicklow"
+
+#: templates/norway/index.html:305 templates/norway/index.html:322
+#: templates/norway/index.html:331 templates/norway/index.html:340
+#: templates/norway/index.html:348 templates/norway/index.html:357
+#: templates/norway/index.html:365
+msgid "Link"
+msgstr "Lenke"
+
+#: templates/norway/index.html:313
+msgid "Air bnb"
+msgstr "Airbnb"
+
+#: templates/norway/index.html:314
+msgid "Dublin, Cork"
+msgstr "Dublin, Cork"
+
+
+
+#: templates/norway/index.html:322
+msgid "WaterFord, Sligo"
+msgstr "Waterford, Sligo"
+
+#: templates/norway/index.html:331
+msgid "Westport , Bray"
+msgstr "Westport, Bray"
+
+#: templates/norway/index.html:340
+msgid "Dublin Docks, Wexford"
+msgstr "Dublin havn, Wexford"
+
+#: templates/korea/index.html:358
+msgid ""
+"The Kenmare Bay Lodges are part of the Kenmare Bay Hotel &amp; Resort, "
+"and guests have access to its facilities. These include a pool, gym, hot "
+"tub, The Bay Restaurant and the Courtyard Bar. The opening times for "
+"<br>the hotel and restaurant are seasonal."
+msgstr "Kenmare Bay Lodges er en del av Kenmare Bay Hotel & Resort, og gjester har tilgang til fasiliteter som basseng, treningssenter, boblebad, The Bay Restaurant og Courtyard Bar. Åpningstidene for hotellet og restauranten er sesongbasert."
+
+#: templates/norway/index.html:347
+msgid "Rentals"
+msgstr "Leieobjekter"
+
+#: templates/norway/index.html:348
+msgid "Rosecommon"
+msgstr "Roscommon"
+
+#: templates/norway/index.html:356
+msgid "Apartment (Hotels)"
+msgstr "Leilighet (Hoteller)"
+
+#: templates/norway/index.html:357
+msgid "Dublin, Cork, Limrick"
+msgstr "Dublin, Cork, Limerick"
+
+#: templates/norway/index.html:364
+msgid "Estate &amp; Country Club"
+msgstr "Eiendom og Country Club"
+
+
+#: templates/norway/ttd.html:10
+msgid "Things To Do In Ireland"
+msgstr "Ting Å Gjøre i Irland"
+
+#: templates/norway/ttd.html:174
+msgid "Subscribe to our newsletter"
+msgstr "Abonner på vårt nyhetsbrev"
+
+#: templates/norway/ttd.html:178
+msgid "Your Email"
+msgstr "Din e-post"
+
+#: templates/norway/ttd.html:179
+msgid "Subscribe"
+msgstr "Abonner"
+
+#: templates/norway/base.html:70
+msgid "Explore the history"
+msgstr "Utforsk historien"
+
+#: templates/norway/base.html:71
+msgid "Resturants"
+msgstr "Restauranter"
+
+#: templates/norway/base.html:72
+msgid "Bookings"
+msgstr "Bestillinger"
+
+#: templates/norway/base.html:77
+msgid "Info"
+msgstr "Informasjon"
+
+#: templates/norway/base.html:78
+msgid "Family Day out"
+msgstr "Familieutflukter"
+
+#: templates/norway/base.html:79
+msgid "places to be"
+msgstr "steder å besøke"
+
+#: templates/norway/base.html:88
+msgid "Land Of The Saint And Scholars"
+msgstr "Landet til helgenene og lærdene"
+
+#: templates/norway/base.html:95
+msgid "Copyright © 2023 Éire-Escapes"
+msgstr "Opphavsrett © 2023 Éire-Escapes"
+
+#: templates/norway/bookings.html:31
+msgid "Where to stay..."
+msgstr "Hvor skal du bo..."
+
+#: templates/norway/bookings.html:31
+msgid "Book places here......."
+msgstr "Bestill steder her..."
+
+#: templates/norway/bookings.html:43
+msgid ""
+"Dublin is a warm and welcoming city, known for the friendliness of its "
+"people and famous for its 'craic'"
+msgstr "Dublin er en varm og imøtekommende by, kjent for vennligheten til folket og kjent for sin 'craic"
+
+#: templates/norway/bookings.html:44
+msgid "Kerry"
+msgstr "Kerry"
+
+#: templates/norway/bookings.html:44
+msgid ""
+"Renowned for its beautiful scenery and one of the most mountainous "
+"regions in Ireland."
+msgstr "Kjent for sitt vakre landskap og en av de mest fjellrike regionene i Irland."
+
+#: templates/norway/bookings.html:45
+msgid ""
+"Visit Cork and you'll find a true blend of old and new. "
+"Contemporary&nbsp; art in historic buildings and chic cocktails in the "
+"Victorian Quarter."
+msgstr ""
+"Besøk Cork og du vil finne en sann blanding av gammelt og nytt. "
+"Nåtidens kunst i historiske bygninger og stilige cocktails i det "
+"victorianske kvartalet."
+
+#: templates/norway/bookings.html:47
+msgid ""
+"Epic coastlines, magnificent beaches and lofty mountain peaks, marvel at "
+"the epic scenery in County Galway. Visit the City of the Tribes, Discover"
+" History."
+msgstr ""
+"Episke kystlinjer, fantastiske strender og majestetiske fjelltopper, nyt "
+"den fantastiske naturen i County Galway. Besøk The City of the Tribes og oppdag historien."
+
+#: templates/norway/bookings.html:48
+msgid "Dingle"
+msgstr "Dingle"
+
+#: templates/norway/bookings.html:48
+msgid ""
+"Dingle is a beautiful coastal town in western Ireland that is most well-"
+"known for its beaches and prime location along the Dingle Peninsula, one "
+"of Ireland's most scenic areas."
+msgstr ""
+"Dingle er en vakker kystby i vestlige Irland, kjent for strendene og den fantastiske beliggenheten langs Dingle-halvøya, et av Irlands
+
+
+
+
+
+
+#: templates/norway/bookings.html:49
+msgid "Kilkenny"
+msgstr "Kilkenny"
+
+#: templates/norway/bookings.html:49
+msgid ""
+"Kilkenny is known as the Marble City because of its distinctive black "
+"marble. The city has a medieval feel with well-maintained and preserved "
+"old buildings. Kilkenny is also home to one of Ireland's premier comedy "
+"festivals, the Kilkenny Cat Laughs festival."
+msgstr ""
+"Kilkenny er kjent som Marble City på grunn av den karakteristiske svarte "
+"marmoren. Byen har en middelalderfølelse med velholdte og bevarte gamle bygninger. Kilkenny er også hjemsted for en av Irlands fremste komediefestivaler, Kilkenny Cat Laughs-festivalen."
+
+#: templates/norway/bookings.html:50
+msgid "Killarney"
+msgstr "Killarney"
+
+#: templates/norway/bookings.html:50
+msgid ""
+"Nestled in a valley surrounded by the magnificent McGillycuddy Reeks, "
+"Ireland's highest mountain range is the vibrant town of Killarney."
+msgstr ""
+"Plasert i en dal omgitt av de praktfulle McGillycuddy Reeks, "
+"Irlands høyeste fjellkjede, ligger den livlige byen Killarney."
+
+
+#: templates/norway/bookings.html:51
+msgid "Wicklow"
+msgstr "Wicklow"
+
+#: templates/norway/bookings.html:51
+msgid ""
+"Colloquially known as the Garden of Ireland for its scenery—which "
+"includes extensive woodlands, nature trails, beaches, and ancient ruins "
+"while allowing for a multitude of walking, hiking, and climbing options"
+msgstr ""
+"Kalt hagebyen på Irland på grunn av landskapet - som inkluderer omfattende skoger, naturstier, strender og gamle ruiner - og gir mange muligheter for spaserturer, fotturer og klatring."
+
+#: templates/norway/bookings.html:58
+msgid "Hostels"
+msgstr ""Kalt hagebyen på Irland på grunn av landskapet - som inkluderer omfattende skoger, naturstier, strender og gamle ruiner - og gir mange muligheter for spaserturer, fotturer og klatring.""
+
+#: templates/norway/bookings.html:58
+msgid "B&amp;Bs"
+msgstr "Bed and Breakfasts"
+
+#: templates/norway/bookings.html:86
+msgid "Temple Bar, Dublin"
+msgstr "Temple Bar, Dublin"
+
+#: templates/norway/bookings.html:120
+msgid "Killarney, Kerry"
+msgstr "Killarney, Kerry"
+
+#: templates/norway/bookings.html:137
+msgid "Camden Street, Dublin"
+msgstr "Camden Street, Dublin"
+
+#: templates/norway/bookings.html:154
+msgid "Cork City, Cork"
+msgstr "Cork City, Cork"
+
+#: templates/norway/bookings.html:171
+msgid "Grafton Street, Dublin"
+msgstr "Grafton Street, Dublin"
+
+#: templates/norway/bookings.html:188
+msgid "Thomastown, Kilkenny"
+msgstr "Thomastown, Kilkenny"
+
+#: templates/norway/bookings.html:205
+msgid "Limerick City, Limerick"
+msgstr "Limerick City, Limerick"
+
+#: templates/norway/bookings.html:219
+msgid "Curated Experiences"
+msgstr "Kurerte opplevelser"
+
+#: templates/norway/bookings.html:220
+msgid "Looking for something specific? Look no further."
+msgstr "Leter du etter noe spesifikt? Søk ikke lenger."
+
+#: templates/norway/bookings.html:228
+msgid "Best Hostels for Solo - Travelers"
+msgstr "Beste steder å reise alene"
+
+#: templates/norway/bookings.html:239
+msgid "Meet your new travel group at these B&amp;Bs"
+msgstr "Møt din nye reisegruppe på disse B&Bene"
+
+#: templates/norway/bookings.html:250
+msgid "Cheapest&nbsp; Hotels in Dublin"
+msgstr "Billigste hoteller i Dublin"
+
+#: templates/norway/guides.html:35
+msgid "Find your guides here......."
+msgstr "Finn guidene dine her......."
+
+#: templates/norway/guides.html:47
+msgid "Exploring Irelands Hiking Trails"
+msgstr "Utforsking av Irlands turløyper"
+
+#: templates/norway/guides.html:52
+msgid "Kayaking in Irelands Rivers And Lakes"
+msgstr "Padling på Irlands elver og innsjøer"
+
+#: templates/norway/guides.html:57
+msgid "Relaxing Escapes To Irelands Rural Retreats"
+msgstr "Avslappende opphold på Irlands landlige tilfluktssteder"
+
+#: templates/norway/guides.html:66 templates/norway/guides.html:71
+#: templates/norway/guides.html:76 templates/norway/guides.html:85
+#: templates/norway/guides.html:90 templates/norway/guides.html:95
+#: templates/norway/guides.html:138 templates/norway/guides.html:143
+#: templates/norway/guides.html:148 templates/norway/guides.html:157
+#: templates/norway/guides.html:162 templates/norway/guides.html:167
+msgid "Card title"
+msgstr "Korttittel"
+
+#: templates/norway/guides.html:104
+msgid "Familly Trips"
+msgstr "Familieturer"
+
+#: templates/norway/guides.html:109
+msgid "Family Fun"
+msgstr "Familie moro"
+
+#: templates/norway/guides.html:110
+msgid ""
+"Discover endless adventures for the whole family in Ireland, from "
+"amusement parks to interactive museums and beyond."
+msgstr ""
+"Opplev endeløse eventyr for hele familien i Irland, fra fornøyelsesparker"
+" til interaktive museer og mer."
+
+#: templates/norway/guides.html:119
+msgid "Discovering Irelands Wonders With Family"
+msgstr "Oppdage Irlands underverker med familien"
+
+#: templates/norway/guides.html:124
+msgid "Adventurous Activities for the Whole Family"
+msgstr "Eventyrlige aktiviteter for hele familien"
+
+#: templates/norway/guides.html:129
+msgid "Fun-filled Days Out for the Whole Family"
+msgstr "Morsomme dager ute for hele familien"
+
+#: templates/norway/index.html:29
+msgid "QUICK FIND SOMETHING TO DO&nbsp;"
+msgstr "FINN RASKT NOE Å GJØRE"
+
+#: templates/norway/index.html:111
+msgid "OUR ACTIVITES &amp; GUIDES"
+msgstr "VÅRE AKTIVITETER OG GUIDER"
+
+#: templates/norway/index.html:121
+msgid "MUSEUME"
+msgstr "Museum"
+
+#: templates/norway/index.html:190
+msgid "Previous"
+msgstr "Forrige"
+
+#: templates/norway/index.html:194
+msgid "Next"
+msgstr "Neste"
+
+#: templates/norway/index.html:214
+msgid "In our beating heart&nbsp;"
+msgstr "I vårt pulserende hjerte"
+
+#: templates/norway/index.html:229
+msgid "Top 10 places For Food &amp; Drink"
+msgstr "Topp 10 steder for mat og drikke"
+
+#: templates/norway/index.html:232
+msgid ""
+"Enjoy our melting pot of cultures foods and drinks. From our best chefs "
+"and world renowned dishes and cuisines&nbsp;"
+msgstr ""
+"Nyt vår smeltedigel av kulturmat og drikke. Fra våre beste kokker og "
+"verdenskjente retter og kjøkken "
+
+#: templates/norway/index.html:247
+msgid "In the Sunny city"
+msgstr "I den solfylte byen"
+
+#: templates/norway/index.html:271
+msgid "Safety Our Priority&nbsp;"
+msgstr "Sikkerhet er vår prioritet"
+
+#: templates/norway/index.html:314
+msgid "Link="
+msgstr "lenke="
+
+#: templates/norway/index.html:321
+msgid "Cottages"
+msgstr "Hytter"
+
+#: templates/norway/index.html:330
+msgid "Villa's"
+msgstr "Villaer"
+
+#: templates/norway/index.html:339
+msgid "Resorts &amp; Villa's&nbsp;"
+msgstr "Resorts og villaer"
+
+#: templates/norway/index.html:365
+msgid "Carlow, Portloaise&nbsp;"
+msgstr "Carlow, Portloaise"
+
+#: templates/norway/ttd.html:10
+msgid "Start your adventure here......."
+msgstr "Start eventyret ditt her ..."
+
+#: templates/norway/ttd.html:25
+msgid "Find out all the tasty resturants"
+msgstr "Finn ut om alle de smakfulle restaurantene"
+
+#: templates/norway/ttd.html:26
+msgid "Look For Tasty restaurants below."
+msgstr "Se etter smakfulle restauranter nedenfor."
+
+#: templates/norway/ttd.html:26 templates/norway/ttd.html:50
+msgid "Find oUT more"
+msgstr "Finn ut mer"
+
+#: templates/norway/ttd.html:37
+msgid "Find out about the historic sights"
+msgstr "Finn ut om de historiske severdighetene"
+
+#: templates/norway/ttd.html:38
+msgid "Look For Historic sights below."
+msgstr "Se etter historiske severdigheter nedenfor."
+
+#: templates/norway/ttd.html:38
+msgid "Find oUT more<"
+msgstr "Finn ut mer <"
+
+#: templates/norway/ttd.html:49
+msgid "Find out about all the Amazing museums"
+msgstr "Finn ut om alle de fantastiske museene"
+
+#: templates/norway/ttd.html:50
+msgid "Look For Museums below."
+msgstr "Se etter museer nedenfor."
+
+#: templates/norway/ttd.html:67
+msgid "Look For Things To Do"
+msgstr "Se etter ting å gjøre"
+
+#: templates/norway/ttd.html:76
+msgid "Top 10 Things to do in Ireland"
+msgstr "Topp 10 ting å gjøre i Irland"
+
+#: templates/norway/ttd.html:78 templates/norway/ttd.html:90
+#: templates/norway/ttd.html:102 templates/norway/ttd.html:118
+#: templates/norway/ttd.html:130 templates/norway/ttd.html:142
+msgid "Find out more below"
+msgstr "Finn ut mer nedenfor"
+
+#: templates/norway/ttd.html:88
+msgid "Whats On : Events in Ireland"
+msgstr "Hva skjer: Hendelser i Irland"
+
+#: templates/norway/ttd.html:100
+msgid "Art History And Culture"
+msgstr "Kunsthistorie og kultur"
+
+#: templates/norway/ttd.html:116
+msgid "Top 10 Things to do in Dublin"
+msgstr "Topp 10 ting å gjøre i Dublin"
+
+#: templates/norway/ttd.html:128
+msgid "Live shows"
+msgstr "Live show"
+
+#: templates/norway/ttd.html:140
+msgid "Best places to solo travel"
+msgstr "Beste steder å reise alene"
+
+#: templates/norway/ttd.html:155
+msgid "Learn about the history culture and language"
+msgstr "Lær om historie, kultur og språk"
+
+#: templates/norway/ttd.html:158
+msgid "Learn about the history"
+msgstr "Lær om historien"
+
+#: templates/norway/ttd.html:158
+msgid "Click here to Learn more..."
+msgstr "Klikk her for å lære mer..."
+
+#: templates/norway/ttd.html:159
+msgid "Learn About the Culture"
+msgstr "Lær om kulturen"
+
+#: templates/norway/ttd.html:159
+msgid "Click here to learn about the culture...."
+msgstr "Klikk her for å lære om kulturen..."
+
+#: templates/norway/ttd.html:160
+msgid "Learn about the language"
+msgstr "Lær om språket"
+
+#: templates/norway/ttd.html:160
+msgid "click here to learn about the language..."
+msgstr "Klikk her for å lære om språket..."
+
+#: templates/norway/ttd.html:175
+msgid "Get updates on up and coming events"
+msgstr "Få oppdateringer om kommende hendelser
